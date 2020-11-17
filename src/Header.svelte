@@ -35,8 +35,13 @@
 <style lang="scss" >
     @import 'style/theme.scss';
     
+    ul{
+        text-align: right;
+    }
+
     li{
         display: inline;
+        padding-right: 3%;
 
         a{
             font-size: $headerLi;
