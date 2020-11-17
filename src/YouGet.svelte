@@ -138,11 +138,6 @@
         .sixty__block{
             background-image: url(/img/bag_icon_youGet.svg);
         }
-
-
-        // .container__block{
-        //     margin-right: 20%;
-        // }
     }
 
 
