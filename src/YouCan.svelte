@@ -23,7 +23,18 @@
 <style lang="scss" >
     @import 'style/theme.scss';
 
+
+
+
+
+   
+
     .youCan__main{
+
+        border-bottom:10px solid $orange;
+        padding-bottom:100px;
+
+        
 
         background-image: url(/img/linear_img_youCan.jpg);
         background-size: cover;

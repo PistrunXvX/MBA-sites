@@ -69,13 +69,14 @@
                                 </span>
                             </div>
 
-                            <div class="social_icon">
-                                <li class="social_list"><a href="#" class="social_list__item"></a></li>
-                                <li class="social_list"><a href="#" class="social_list__item"></a></li>
-                                <li class="social_list"><a href="#" class="social_list__item"></a></li>
-                                <li class="social_list"><a href="#" class="social_list__item"></a></li>
-                                <li class="social_list"><a href="#" class="social_list__item"></a></li>
-                            </div>
+            
+                            <ul class="social__icon">
+                                <li><a class="fb__icon" href="#"></a></li>
+                                <li><a class="vk__icon" href="#"></a></li>
+                                <li><a class="inst__icon" href="#"></a></li>
+                                <li><a class="yt__icon" href="#"></a></li>
+                            </ul>
+                            
 
                         </div>
                     </div>
@@ -257,19 +258,74 @@
 
             .social{
                 padding-top: 35px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
             }
-        .social_icon{
-           
-            display: flex;
-            flex-direction: row;
-        }
+
+
+
+
+            .social__icon{
+
+                    
+                    padding-top: 34px;
+
+li{
+    display: block;
+    padding-top: 10%;
+    display: inline;
+}
+
+li:first-child{
+    padding-top: 0;
+}
+
+a{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    padding: 15px;
+    opacity: 1;
+
+    
+}
+
+
+
+.fb__icon{
+   
+    
+}
+
+.vk__icon{
+    
+}
+
+.inst__icon{
+    
+}
+
+.yt__icon{
+   
+}
+}
+
+
 
 
 
         .social_title__text{
             color: #0C2967;
-            font-size: 39px;
+            font-size: 42px;
             line-height: 109.6%;
         }
+
+
+
+        
 
 </style>

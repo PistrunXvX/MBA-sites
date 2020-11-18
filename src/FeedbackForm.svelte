@@ -61,6 +61,9 @@
 
 
 
+
+
+
     .form-container{
         display: flex;
         align-items:center;
@@ -71,7 +74,15 @@
         padding-right:80px;
 
 
+
+
+
+
+
+
+
         .text-block_content{
+           
             font-family: $fbck;
             font-size: 39px;
             color:$colorWhite;

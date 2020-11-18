@@ -72,8 +72,13 @@
 <style lang="scss" >
     @import 'style/theme.scss';
 
-    .youGet__block{
 
+
+   
+    
+
+    .youGet__block{
+                
         h2{
             font-size: $blockTitleSize;
             font-family: $fbck;
