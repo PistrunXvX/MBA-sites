@@ -150,7 +150,13 @@
                 color:$colorWhite;
                 text-decoration: none;
                 border-bottom: 3px solid $orange;
+                transition: .3s;
             }
+
+            .link:hover{
+                    color:$orange;
+                    transition: .3s;
+                }
 
            
            
