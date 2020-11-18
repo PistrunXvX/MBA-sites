@@ -125,8 +125,7 @@
     }
 
         .nav_footer{
-            display: flex;
-            flex-direction: row;
+            
             font-size: $headerLi;
             list-style:none;
             text-transform: uppercase;
@@ -135,6 +134,11 @@
             color:$darkBlue;
             padding-bottom:129px;
 
+        }
+
+
+        li{
+            display: inline;
         }
 
         .nav_footer a{
