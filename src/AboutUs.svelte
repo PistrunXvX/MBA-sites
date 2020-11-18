@@ -23,10 +23,9 @@
 
 
         </div>
-
+        <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-8">
-
                 <div class="about__block about__block-2">
                     <div class="about__block__title">
                         <h1 class="title__text end">
@@ -41,12 +40,14 @@
                         Вы повышеаете стоимость и статус компании для привлечения инвестиций
                         </p>
                     </div>
-                </div>
-
+                
+            </div>
             </div>
 
 
         </div>
+
+    </div>
 
         <div class="row justify-content-start">
             <div class="col-xl-7">
@@ -70,10 +71,10 @@
 
 
         </div>
-
+        <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-6">
-
+                <div class="container-fluid grey-color">
                 <div class="about__block about__block-4">
                     <div class="about__block__title">
                         <h1 class="title__text end">
@@ -87,16 +88,17 @@
 
                         </p>
                     </div>
+                
                 </div>
-
             </div>
 
 
         </div>
 
+            </div>
 
 
-
+                    </div>
 
 
     </div>
@@ -168,6 +170,10 @@
         
     }
 
+    .grey-color{
+        
+        background-color:#EEF0F2;
+    }
 
     .about__block-4::after{
         position: absolute;

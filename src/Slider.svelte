@@ -314,7 +314,7 @@
 
                 .form__btn:hover,.form__btn:active, .form__btn:focus{
                     transition: 0.6s;
-                    box-shadow:none;
+                    box-shadow:0px 0px 20px $colorWhite;
                     color:$orange;
                     background-color:$colorWhite;
                     

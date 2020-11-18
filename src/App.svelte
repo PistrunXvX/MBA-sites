@@ -9,6 +9,7 @@
 	import Advantage from './Advantage.svelte';
 	import Cooperative from './Cooperative.svelte';
 	import Sertificat from './Sertificat.svelte';
+	import FormFooter from './FormFooter.svelte';
 	import Footer from './Footer.svelte';
 </script>
 
@@ -22,6 +23,7 @@
 <Advantage/>
 <Cooperative/>
 <Sertificat/>
+<FormFooter/>
 <Footer/>
 
 <style>
