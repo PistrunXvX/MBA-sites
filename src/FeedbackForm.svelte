@@ -13,11 +13,11 @@
 
                 <div class="text-block">
 
-                    <h2 class="text-block_content">
+                    <p class="text-block_content">
                         Всегда важно понять, кто ведёт обучение и как проходят занятия - с радостью пришлём
                         вам один из модулей
 
-                    </h2>
+                    </p>
 
                 </div>
 
