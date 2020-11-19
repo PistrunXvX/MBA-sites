@@ -79,7 +79,7 @@
 
              border: 10px solid $darkBlue;
              margin-top: 5%;
-             padding-top: 20%;
+             padding-top: 200px;
 
              font-family: $fbck;
              text-align: center;

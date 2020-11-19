@@ -1,15 +1,18 @@
 <div class="advantage">
-    <div class="container-fluid">
+    <div class="container-fluid advantage__list">
         
 
         
-        <p class="title title__one">Преимущества</p>
-        <p class="title title__two">Корпоративного онлайн-университета</p>
+        <!-- <p class="title title__one">Преимущества</p>
+        <p class="title title__two">Корпоративного онлайн-университета</p> -->
+        <h2 class="title">
+            Преимущества <br> Корпоративного онлайн-университета
+        </h2>
 
 
 
         <div class="container">
-            <div class="advantage__list">
+            <div class="">
 
 
                 <div class="row justify-content-between">
@@ -195,18 +198,18 @@
            height:100%;
            font-family: $fbck;
            color:$darkBlue;
-           padding-top: 257px;
+        //    padding-top: 257px;
            
            
         }
 
 
-        .container{
+        // .container{
 
-            margin-top:440px;
+        //     margin-top:260px;
                 
            
-        }
+        // }
 
 
         
@@ -279,10 +282,15 @@
 
         .title{ 
             text-transform: uppercase;
-            line-height: 88.06%;
+            line-height: 200.06%;
             font-weight: normal;
             text-align: center;
 
+            margin-right: 10%;
+            margin-left: 10%;
+            margin-bottom: 260px;
+
+            font-size: 70px;
         }
 
         .title__one{

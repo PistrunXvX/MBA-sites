@@ -1,1 +1,31 @@
+/* Adaptive */
 
+@media screen and (max-width: 1199.98px) {
+   body.slider__container h1{
+        font-size: 45px !important;
+    }
+
+   .slider__container .carousel-control-next, .slider__container .carousel-control-prev{
+        display: none;
+    } 
+
+   .container-fluid .main__text h1{
+        font-size: 30px !important;
+    }
+
+    h1, h2{
+        font-size: 50px !important;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+
+}
+
+@media screen and (max-width: 1399.98px) {
+    .nav_footer a{
+        font-size: 12px;
+    }
+
+}
