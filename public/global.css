@@ -1,5 +1,20 @@
 /* Adaptive */
 
+/* // X-Small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) { 
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    
+}
+
 @media screen and (max-width: 1199.98px) {
    body.slider__container h1{
         font-size: 45px !important;
