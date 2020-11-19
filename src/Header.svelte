@@ -71,7 +71,6 @@
     
     ul{
         text-align: right;
-        
     }
 
     nav{
