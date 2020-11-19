@@ -1,6 +1,30 @@
 <div class="main__container">
+    <div class="mobile__nav">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+                <nav>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Подключиться</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">Преимущества</a></li>
+                        <li><a href="#">Лицензии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+    </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row dekstop__nav">
             <div class="col">
                 <nav>
                     <ul>
@@ -187,6 +211,10 @@
         .yt__icon{
             background-image: url(/img/soc_icon_yt.svg);
         }
+    }
+
+    .mobile__nav .navbar{
+        margin-top: 0;
     }
 
     //Animation

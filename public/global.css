@@ -1,46 +1,76 @@
 /* Adaptive */
 
 /* // X-Small devices (portrait phones, less than 576px) */
-@media screen and (max-width: 575.98px) { 
 
- }
-
-/* // Small devices (landscape phones, less than 768px) */
-@media screen and (max-width: 767.98px) { 
-
- }
-
-/* // Medium devices (tablets, less than 992px) */
-@media screen and (max-width: 991.98px) {
-    
-}
-
-@media screen and (max-width: 1199.98px) {
-   body.slider__container h1{
-        font-size: 45px !important;
-    }
-
-   .slider__container .carousel-control-next, .slider__container .carousel-control-prev{
-        display: none;
-    } 
-
-   .container-fluid .main__text h1{
-        font-size: 30px !important;
-    }
-
-    h1, h2{
-        font-size: 50px !important;
-    }
-
-    p{
-        font-size: 25px !important;
-    }
-
-}
 
 @media screen and (max-width: 1399.98px) {
     .nav_footer a{
         font-size: 12px;
     }
 
+
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    body.slider__container h1{
+         font-size: 45px !important;
+     }
+  
+    .slider__container .carousel-control-next, .slider__container .carousel-control-prev{
+         display: none;
+     } 
+  
+    .container-fluid .main__text h1{
+         font-size: 30px !important;
+     }
+  
+     h1, h2{
+         font-size: 50px !important;
+     }
+  
+     p{
+         font-size: 25px !important;
+     }
+  
+     /* YouCan */ 
+  
+     .youCan__main .youCan__block {
+         background-size: 120px !important;
+     }
+  
+  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    /*  */
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) { 
+    .dekstop__nav{
+        display: none !important;
+    }
+
+    nav{
+        background-position: 95% 0 !important;
+        background-image: url(/img/logo_RSHU_blue.png);
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+    /* YouCan */ 
+
+    .youCan__main .youCan__block {
+        background-size: 70px !important;
+    }
+
+    h1, h2{
+        font-size: px !important;
+    }
+
+    p{
+        font-size: 20px !important;
+    }
+    
 }
