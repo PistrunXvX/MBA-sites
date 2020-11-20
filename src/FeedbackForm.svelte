@@ -1,51 +1,31 @@
 
-
-
-
-    
-   
- 
     <div class="form-container">
     <div class="container-fluid">
         <div class="row align-items-center">
-
             <div class="col-xl-7">
-
                 <div class="text-block">
-
                     <p class="text-block_content">
                         Всегда важно понять, кто ведёт обучение и как проходят занятия - с радостью пришлём
                         вам один из модулей
-
                     </p>
-
                 </div>
-
             </div>
-
-
-
             <div class="col-xl-5">
                 <div class="form-block">
                     <div class="row align-items-center">
-                    <div class="col-xl-6">
-
-                    
+                    <div class="col-xl-6">      
                     <input type="text" class="form-control form__name" placeholder="Ваше имя" require>
                 </div>
                 <div class="col-xl-6">
                     <input type="text" class="form-control form__send__number" id="tel" placeholder="Ваш телефон" require>
                 </div>
-                 </div>
-
-                 
+                 </div> 
                     <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес" require>
                    <label class="label">
                     <input type="checkbox" class="checkbox">
                     <span class="fake"></span>
                     <span class="p">Я согласен с <a href="#" class="link"> политикой конфиденциальности</a></span>
-                   </label>
-                   
+                   </label>  
                 </div>
                 <button class=" form__btn" type="submit">Отправить</button>
             </div>

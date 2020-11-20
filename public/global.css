@@ -16,61 +16,434 @@
     body.slider__container h1{
          font-size: 45px !important;
      }
-  
+
     .slider__container .carousel-control-next, .slider__container .carousel-control-prev{
          display: none;
-     } 
-  
+     }
+
     .container-fluid .main__text h1{
          font-size: 30px !important;
      }
-  
+
      h1, h2{
          font-size: 50px !important;
      }
-  
+
      p{
          font-size: 25px !important;
      }
-  
-     /* YouCan */ 
-  
+
+     /* YouCan */
+
      .youCan__main .youCan__block {
          background-size: 120px !important;
      }
-  
+
+
+
+
+
+        /* Footer */
+
+
+
+        .footer_container{
+       
+
+        }
+    
+        .footer_container .nav_footer{
+            display: flex;
+            justify-content: start !important;
+            
+          
+            
+        }
+    
+    
+        .footer_container .nav_footer .nav_item{
+            padding-bottom: 10px;
+           
+    
+        }
+    
+    
+        .footer_container li a{
+            font-size: 16px;
+            
+          
+        }
+    
+    
+        .footer_container .contacts_block{
+           
+        }
+    
+        .footer_container .contacts_block .title{
+            font-size: 36px;
+            
+        }
+    
+    
+        .footer_container .contacts_block .desc{
+            font-size: 15px;
+          
+    
+        }
+    
+    
+        .footer_container .about_block .about_block__content .first__stroke .first__stroke_text{
+          
+        }
+    
+    
+        .footer_container .about_block .about_block__content .second-stroke .licenses{
+          
+        }
+        .footer_container .about_block .about_block__content .politics .politics_text{
+          
+        }
+    
+        .footer_container .about_block .about_block__content{
+          
+        }
+    
+        .footer_container .about_block {
+           
+        }
+        .footer_container .social .social_title .social_title__text{
+    
+            
+    
+
+
+
   }
 
 /* // Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
+
+
+
+            /* Footer */
+
+    .footer_container{
+       
+
+    }
+
+
+    .footer_container .nav_footer .navbar{
+        padding-bottom: 20px;
+       
+    }
+
+
+
+    .footer_container .container-fluid .nav_footer {
+     padding-bottom: 40px;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      
+      position: relative;
+        
+    }
+
+    .footer_container .nav_footer::before{
+        content:"";
+        width: 2px;
+        height: 86%;
+       top: 0;
+       right: 8%;
+        background-color: #EA8E02;
+        position: absolute;
+        
+
+
+    }
+
+
+    .footer_container .nav_footer .nav_item{
+        padding-bottom: 20px;
+       
+       
+    }
+
+
+    .footer_container li a{
+        font-size: 29px;
+        
+      
+    }
+
+
+    .footer_container .contacts_block{
+       
+      
+       
+    }
+
+    .footer_container .contacts_block .title{
+        font-size: 55px;
+        padding-bottom: 60px;
+        
+    }
+
+
+    .footer_container .contacts_block .desc{
+        font-size: 25px;
+      
+
+    }
+
+
+    .footer_container .about_block .about_block__content .first__stroke .first__stroke_text{
+        font-size: 15px;
+      
+    }
+
+
+    .footer_container .about_block .about_block__content .second-stroke .licenses{
+        font-size: 16px;
+      
+    }
+    .footer_container .about_block .about_block__content .politics .politics_text{
+        font-size: 24px;
+      
+    }
+
+    .footer_container .about_block .about_block__content{
+
+      
+    }
+
+    .footer_container .about_block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items:center;
+       
+    }
+    .footer_container .social .social_title .social_title__text{
+
+        
+
+    }
     /*  */
  }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media screen and (max-width: 767.98px) { 
+@media screen and (max-width: 767.98px) {
     .dekstop__nav{
         display: none !important;
+
     }
 
-    nav{
+    /* nav{
         background-position: 95% 0 !important;
         background-image: url(/img/logo_RSHU_blue.png);
+    } */
+
+
+
+
+
+
+        /* Footer */
+
+
+    .footer_container{
+        border-top: 5px solid #EA8E02;
+
     }
+
+    .footer_container .nav_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-bottom: 50px;
+        border-bottom:5px solid #EA8E02;
+    }
+
+
+    .footer_container .nav_footer .nav_item{
+        margin-bottom: 20px;
+        border-bottom: 1px solid  #2C467C;
+
+    }
+
+
+    .footer_container li a{
+        font-size: 32px;
+    }
+
+
+    .footer_container .contacts_block{
+        padding-top: 50px;
+    }
+
+    .footer_container .contacts_block .title{
+        font-size: 80px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+    .footer_container .contacts_block .desc{
+        font-size: 28px;
+        padding-bottom: 30px;
+
+    }
+
+
+    .footer_container .about_block .about_block__content .first__stroke .first__stroke_text{
+        font-size: 20px;
+    }
+
+
+    .footer_container .about_block .about_block__content .second-stroke .licenses{
+        font-size: 20px;
+    }
+    .footer_container .about_block .about_block__content .politics .politics_text{
+        padding-top: 30px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_container .about_block .about_block__content{
+        padding-top: 30px;
+    }
+
+
+
+    .footer_container .about_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .footer_container .social .social_title .social_title__text{
+
+        font-size:50px;
+
+    }
+
+
+    .footer_container .nav_footer::before{display: none;}
+
+
 }
 
-@media screen and (max-width: 575.98px) { 
-    /* YouCan */ 
+@media screen and (max-width: 575.98px) {
+    /* YouCan */
+
+
 
     .youCan__main .youCan__block {
         background-size: 70px !important;
     }
 
     h1, h2{
-        font-size: px !important;
+        font-size: 45px !important;
     }
 
     p{
         font-size: 20px !important;
     }
-    
+
+
+
+
+
+
+
+
+     /* Footer */
+
+
+    .footer_container{
+        border-top: 5px solid #EA8E02;
+
+    }
+
+    .footer_container .nav_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        border-bottom:5px solid #EA8E02;
+    }
+
+
+    .footer_container .nav_footer .nav_item{
+        margin-bottom: 25px;
+        border-bottom: 1px solid  #2C467C;
+
+    }
+
+
+    .footer_container li a{
+        font-size: 32px;
+    }
+
+
+    .footer_container .contacts_block{
+        padding-top: 50px;
+    }
+
+    .footer_container .contacts_block .title{
+        font-size: 80px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+    .footer_container .contacts_block .desc{
+        font-size: 28px;
+        padding-bottom: 30px;
+
+    }
+
+
+    .footer_container .about_block .about_block__content .first__stroke .first__stroke_text{
+        font-size: 20px;
+    }
+
+
+    .footer_container .about_block .about_block__content .second-stroke .licenses{
+        font-size: 20px;
+    }
+    .footer_container .about_block .about_block__content .politics .politics_text{
+        padding-top: 30px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_container .about_block .about_block__content{
+        padding-top: 30px;
+    }
+
+
+
+    .footer_container .about_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .footer_container .social .social_title .social_title__text{
+
+        font-size:50px;
+
+    }
 }

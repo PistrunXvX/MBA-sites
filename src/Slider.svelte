@@ -1,17 +1,9 @@
 
     <div class="slider__container">
         <div class="container-fluid">
-       
-      
-
                 <div class="row justify-content-center align-items-center">
-
                     <div class="col-xl-8">
-
-                        <h1 class="title">Как подключиться</h1>
-
-
-                            
+                        <h1 class="title">Как подключиться</h1>        
                         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -41,7 +33,6 @@
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100 " alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                            
                                   <p>Шаг 3. После оплаты, вы получите доступ в личный кабинет</p>
                                 </div>
                               </div>
@@ -91,60 +82,25 @@
                               <span class="sr-only">Next</span>
                             </a>
                           </div>
-
-
-
                     </div>
-
-
                 </div>
-                
-
-
-
                 <div class="access__block">
                     <div class="row justify-content-center align-items-center">
-
                         <div class="col-xl-8">
                             <div class="text_content">
-
                                 <p class="text_block__content">Получите временный доступ к личному кабинету, чтобы ознакомиться со всеми
                                     тонкостями процесса обучения, образовательными программами и внутренним
                                     устройством нашего онлайн-университета</p>
-
                             </div>
-
-
                         </div>
-
                         <div class="col-xl-4">
-
                             <div class="button_content">
-
                                 <button class=" form__btn" type="submit">Получить</button>
-
-
                         </div>
-
                         </div>
-
-
-
-
-
                     </div>
-
-
-
-
-
                 </div>
-
-
-
-    
     </div>
-
 </div>
 
 
