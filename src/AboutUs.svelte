@@ -1,10 +1,10 @@
 
-    <div class="aboutUs">
+    <div class="">
         <div class="container-fluid">
         <div class="row justify-content-start">
             <div class="col-xl-7">
 
-                <div class="about__block about__block-1">
+                <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
                             Что это
@@ -26,7 +26,7 @@
         <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-8">
-                <div class="about__block about__block-2">
+                <div class="about__block about__block-2 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text end">
                             Для чего 
@@ -52,7 +52,7 @@
         <div class="row justify-content-start">
             <div class="col-xl-7">
 
-                <div class="about__block about__block-1">
+                <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
                             Для кого
@@ -75,7 +75,7 @@
         <div class="row justify-content-end">
             <div class="col-xl-6">
                 <div class="container-fluid grey-color">
-                <div class="about__block about__block-4">
+                <div class="about__block about__block-4 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text end">
                             Выгода
@@ -127,47 +127,38 @@
         font-family: $fbck;
         padding:78px 100px 61px 100px;
 
+    }
         
     
     
     .about__block{
         margin-bottom:115px;
         position: relative;
-       
-        
-
     }
 
     .about__block-1::before{
         position: absolute;
         content:'';
         width:5px;
-        height:100%;
+        height:60%;
         background-color: $orange;
         margin-left:-23px;
-        
-        
-        
-        
-        
     }
 
 
 
-    .about__block-2::after{
+    .about__block-2::before{
         position: absolute;
         content:'';
         width:5px;
-        height:100%;
+        height:60%;
         background-color: $darkBlue;
        
-        margin-left: 102.5%;
-        top: 0;
-        left: 0;
-        
-        
-
-        
+        top: 25%;
+        right: 5%;        
+        // margin-left: 102.5%;
+        // top: 0;
+        // left: 0;
     }
 
     .grey-color{
@@ -175,20 +166,18 @@
         background-color:#EEF0F2;
     }
 
-    .about__block-4::after{
+    .about__block-4::before{
         position: absolute;
         content:'';
         width:5px;
-        height:100%;
+        height:60%;
         background-color: $darkBlue;
        
-        margin-left: 102.5%;
-        top: 0;
-        left: 0;
-        
-        
-
-        
+        // margin-left: 102.5%;
+        // top: 0;
+        // left: 0;
+        top: 25%;
+        right: 5%;   
     }
 
     .title__text{
@@ -209,5 +198,4 @@
                 color:$orange;
                 text-decoration: none;
             }
-    }
 </style>

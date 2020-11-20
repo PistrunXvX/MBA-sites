@@ -27,57 +27,57 @@
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 1. Направьте заявку и наш консультант свяжется с вами
                                 </p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100 slider_image" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 2. Подберем тариф и подпишем договор.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100 " alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                             
                                   <p>Шаг 3. После оплаты, вы получите доступ в личный кабинет</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 4. Подберем тариф и подпишем договор.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 5. Авторизуйтесь — и перед вами расписание занятий.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 6. Выберите тему и зарегистрируйте участника.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 7. Участники получают ссылку на онлайн трансляцию и уведомление о старте курса.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 8. В день занятий нужно просто пройти по ссылке.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-md-block">
                                   <p>Шаг 9. Все! Полезного обучения!</p>
                                 </div>
                               </div>
@@ -212,15 +212,17 @@
 
   .carousel-control-prev-icon {
                 
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-//  margin-left:-400px;
- transform:scale(3);
+    //  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;\
+    background-image: url(/img/next_icon_left_slider.svg);
+    //  margin-left:-400px;
+    transform:scale(3);
 }
 
 .carousel-control-next-icon {
     transform:scale(3);
     // margin-right:-400px;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    // background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url(/img/next_icon_right_slider.svg);
 }
 
             

@@ -1,7 +1,3 @@
-/* Adaptive */
-
-/* // X-Small devices (portrait phones, less than 576px) */
-
 
 @media screen and (max-width: 1399.98px) {
     .nav_footer a{
@@ -48,13 +44,39 @@
 
 /* // Small devices (landscape phones, less than 768px) */
 @media screen and (max-width: 767.98px) { 
+    /* Header */
+
+    .mobile__nav{
+        display: block !important;
+    }
+    
     .dekstop__nav{
         display: none !important;
     }
 
-    nav{
+   .main__container .navbar{
         background-position: 95% 0 !important;
-        background-image: url(/img/logo_RSHU_blue.png);
+        background-image: url(/img/logo_RSHU_blue.png) !important;
+        padding-left: 0 !important;
+    }
+
+   .main__container nav li a{
+        color: #2C467C !important;
+        font-size: 12px !important;
+    }
+
+    .main__container nav ul{
+        text-align: center !important;
+    }
+
+    .main__text{
+        padding-left: 0% !important;
+    }
+
+    /* Form */
+
+    .form-container .text-block{
+        padding-right: 0px !important;
     }
 }
 
@@ -65,12 +87,105 @@
         background-size: 70px !important;
     }
 
-    h1, h2{
-        font-size: px !important;
+    
+    body .slider__container h1{
+        font-size: 25px !important;
+    }
+
+    h1, h2, h3{
+        font-size: 20px !important;
     }
 
     p{
-        font-size: 20px !important;
+        font-size: 12px !important;
     }
-    
+
+    /* Header */
+
+    .container-fluid .main__text h1{
+        font-size: 22px !important;
+    }
+
+    .social__icon a{
+        padding: 10px !important;
+    }
+
+    .main__text a{
+        padding: 10px 30px !important;
+        font-size: 13px !important;
+    }
+
+    /* AboutUS */
+
+    .about__block{
+        margin-bottom: 0px !important;
+    }
+
+    .aboutUs{
+        padding: 50px !important;
+    }
+
+    .about__block-1::before, .about__block-2::before,
+    .about__block-3::before, .about__block-4::before{
+        width: 2px !important;
+        height: 40% !important;
+    }
+
+    /* Form */
+
+    .form-container{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .form-container .form-block .p{
+        font-size: 12px !important;
+    }
+
+    .form-container .form-control{
+        padding: 10px 20px !important;
+        border-width: 2px !important;
+        
+        font-size: 12px !important;
+    }
+
+    .form-container .form__name, .form-container .form_send__email,
+    .form-container .form__send__number{
+        margin-bottom: 20px !important;
+    }
+
+    .form-container .fake{
+        width: 20px !important;
+        height: 20px !important;
+
+        border-width: 2px !important;
+    }
+
+    .form-container .form__btn{
+        font-size: 14px !important;
+    }
+
+    /* youGet */
+
+    .youGet__block article{
+        background-size: 60px !important; 
+    }
+
+    /* Slider */
+
+    .carousel-item p{
+        font-size: 18px !important;
+        margin-top: 30px !important;
+    }
+
+    .button_content .form__btn{
+        padding: 14px 65px !important;
+        font-size: 12px !important;
+        margin-top: 20px !important;
+    }
+
+    .text_block__content{
+        margin-top: 50px !important;
+        padding-left: 20px !important;
+    }
 }
