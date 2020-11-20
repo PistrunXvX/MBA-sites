@@ -2,7 +2,7 @@
     <div class="mobile__nav">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-light p-4">
-                <nav>
+                <nav class="mobile__nav__menu">
                     <ul>
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">О нас</a></li>
@@ -20,6 +20,9 @@
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <div class="phone__nav">
+                <a href="tel:++7(495) 980-57-28">+7(495) 980-57-28</a>
+              </div>
             </div>
           </nav>
     </div>
@@ -39,8 +42,8 @@
                 </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col-2">
+        <div class="row ">
+            <div class="col-2 align-self-center">
                 <ul class="social__icon">
                     <li><a class="fb__icon" href="#"></a></li>
                     <li><a class="vk__icon" href="#"></a></li>
@@ -74,10 +77,6 @@
     }
 
     nav{
-        background-image: url(/img/Logo_RSHU.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 5% 0;
 
         padding-left: 5%;
         padding-bottom: 2%;
@@ -103,6 +102,13 @@
             animation: 0.2s ease-out 0s nav_color_to;
             color: $orange;
         }
+    }
+
+    .dekstop__nav{
+        background-image: url(/img/Logo_RSHU.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 5% 0;
     }
 
     .main__container{
@@ -164,11 +170,10 @@
     .social__icon{
 
         text-align: left;
-        margin-top: 50%;
 
         li{
             display: block;
-            padding-top: 10%;
+            padding-top: 20px;
         }
 
         li:first-child{
@@ -213,8 +218,25 @@
         }
     }
 
+    .mobile__nav{
+        display: none;
+    }
+
     .mobile__nav .navbar{
         margin-top: 0;
+    }
+
+    .phone__nav a{
+        padding-right: 200px;
+        color: $darkBlue;
+        font-family: $fbck;
+
+        font-size: 20px;
+    }
+
+    .main__container .navbar{
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     //Animation

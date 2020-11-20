@@ -1,8 +1,10 @@
-<div class="aboutUs">
-    <div class="container-fluid">
+
+    <div class="aboutUs">
+        <div class="container-fluid">
         <div class="row justify-content-start">
             <div class="col-xl-7">
-                <div class="about__block about__block-1">
+
+                <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
                             Что это
@@ -19,22 +21,13 @@
             </div>
         </div>
         <div class="container-fluid grey-color">
-            <div class="row justify-content-end">
-                <div class="col-xl-8">
-                    <div class="about__block about__block-2">
-                        <div class="about__block__title">
-                            <h1 class="title__text end">
-                                Для чего
-                            </h1>
-                        </div>
-                        <div class="about__block_description">
-                            <p class="description__text end">
-                                Вы создаете кадровый резерв для развития компании
-                                Растет результативность каждого сотрудника и компании в целом
-                                Обучение формирует корпоративную культуру и репутацию компании
-                                Вы повышеаете стоимость и статус компании для привлечения инвестиций
-                            </p>
-                        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-8">
+                <div class="about__block about__block-2 aboutUs">
+                    <div class="about__block__title">
+                        <h1 class="title__text end">
+                            Для чего 
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -42,7 +35,7 @@
         <div class="row justify-content-start">
             <div class="col-xl-7">
 
-                <div class="about__block about__block-1">
+                <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
                             Для кого
@@ -58,23 +51,14 @@
             </div>
         </div>
         <div class="container-fluid grey-color">
-            <div class="row justify-content-end">
-                <div class="col-xl-6">
-                    <div class="container-fluid grey-color">
-                        <div class="about__block about__block-4">
-                            <div class="about__block__title">
-                                <h1 class="title__text end">
-                                    Выгода
-                                </h1>
-                            </div>
-                            <div class="about__block_description">
-                                <p class="description__text end">
-                                    Покупать курсы отдельно не нужно: достаточно выбрать и оплатить подходящий тариф,
-                                    чтобы
-                                    <a href="#" class="des__link">получить доступ к более 1500 обучающих программ</a>
-                                </p>
-                            </div>
-                        </div>
+        <div class="row justify-content-end">
+            <div class="col-xl-6">
+                <div class="container-fluid grey-color">
+                <div class="about__block about__block-4 aboutUs">
+                    <div class="about__block__title">
+                        <h1 class="title__text end">
+                            Выгода
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -115,78 +99,66 @@
 
         }
 
-        .about__block-1::before {
-            position: absolute;
-            content: '';
-            width: 5px;
-            height: 100%;
-            background-color: $orange;
-            margin-left: -23px;
-
-
-
-
-
-        }
-
-
-
-        .about__block-2::after {
-            position: absolute;
-            content: '';
-            width: 5px;
-            height: 100%;
-            background-color: $darkBlue;
-
-            margin-left: 102.5%;
-            top: 0;
-            left: 0;
-
-
-
-
-        }
-
-        .grey-color {
-
-            background-color: #EEF0F2;
-        }
-
-        .about__block-4::after {
-            position: absolute;
-            content: '';
-            width: 5px;
-            height: 100%;
-            background-color: $darkBlue;
-
-            margin-left: 102.5%;
-            top: 0;
-            left: 0;
-
-
-
-
-        }
-
-        .title__text {
-            font-size: $blockTitleSize;
-
-
-
-
-        }
-
-        .description__text {
-            font-size: $description;
-        }
-
-        .end {
-            text-align: right;
-        }
-
-        .des__link {
-            color: $orange;
-            text-decoration: none;
-        }
     }
+        
+    
+    
+    .about__block{
+        margin-bottom:115px;
+        position: relative;
+    }
+
+    .about__block-1::before{
+        position: absolute;
+        content:'';
+        width:5px;
+        height:60%;
+        background-color: $orange;
+        margin-left:-23px;
+    }
+
+
+
+    .about__block-2::before{
+        position: absolute;
+        content:'';
+        width:5px;
+        height:60%;
+        background-color: $darkBlue;
+       
+        top: 25%;
+        right: 5%;        
+        // margin-left: 102.5%;
+        // top: 0;
+        // left: 0;
+    }
+
+
+    .about__block-4::before{
+        position: absolute;
+        content:'';
+        width:5px;
+        height:60%;
+        background-color: $darkBlue;
+       
+        // margin-left: 102.5%;
+        // top: 0;
+        // left: 0;
+        top: 25%;
+        right: 5%;   
+    }
+
+            margin-left: 102.5%;
+            top: 0;
+            left: 0;
+
+
+
+    .end{
+        text-align: right;
+    }
+            .des__link{
+                color:$orange;
+                text-decoration: none;
+            }
 </style>
