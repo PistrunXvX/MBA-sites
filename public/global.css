@@ -464,6 +464,10 @@
         margin-top: 30px !important;
     }
 
+    .slider__container .title{
+        padding-top: 60px !important;
+    }
+
     .button_content .form__btn{
         padding: 14px 65px !important;
         font-size: 12px !important;
@@ -475,6 +479,7 @@
         padding-left: 20px !important;
     }
 
+<<<<<<< Updated upstream
 
 
     /* Footer */
@@ -564,4 +569,9 @@
    
   
 
+=======
+    .slider__container .access__block{
+        margin-top: 20px !important;
+    }
+>>>>>>> Stashed changes
 }
