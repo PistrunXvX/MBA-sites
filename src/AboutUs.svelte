@@ -1,5 +1,5 @@
 
-    <div class="aboutUs">
+    <div class="`">
         <div class="container-fluid">
         <div class="row justify-content-start">
             <div class="col-xl-7">
@@ -50,6 +50,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        </div>
         <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-6">
@@ -65,8 +67,7 @@
         </div>
     </div>
 </div>
-
-
+</div>
 
 
 
@@ -128,9 +129,7 @@
        
         top: 25%;
         right: 5%;        
-        // margin-left: 102.5%;
-        // top: 0;
-        // left: 0;
+      
     }
 
 
@@ -148,10 +147,7 @@
         right: 5%;   
     }
 
-            margin-left: 102.5%;
-            top: 0;
-            left: 0;
-
+           
 
 
     .end{
