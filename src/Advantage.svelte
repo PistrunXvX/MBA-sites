@@ -5,8 +5,8 @@
         <div class="container">
             <div class="advantage__list">
                 <div class="row justify-content-between">
-                    <div class="col-xl-4">
-                        <div class="advantage__list-item">
+                    <div class="col-xl-4 col-xs-12 col-sm-12 ">
+                        <div class="advantage__list-item first_block">
                             <div class="list-item_title ">
                                 <p class="title_text first_number">Работаем с 2002 года</p>
                             </div>
@@ -17,8 +17,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="advantage__list-item">
+                    <div class="col-xl-4  col-xs-12 col-sm-12 ">
+                        <div class="advantage__list-item second_block">
                             <div class="list-item_title">
                                 <p class="title_text second_number">Широкая линейка программ</p>
                             </div>
@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-4">
-                        <div class="advantage__list-item">
+                    <div class="col-xl-4 col-xs-12  col-sm-12">
+                        <div class="advantage__list-item third_block">
                             <div class="list-item_title">
                                 <p class="title_text five_number">Гибкое расписание</p>
                             </div>
@@ -47,8 +47,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-xl-4">
-                        <div class="advantage__list-item">
+                    <div class="col-xl-4 col-xs-12 col-sm-12 ">
+                        <div class="advantage__list-item four_block">
                             <div class="list-item_title">
                                 <p class="title_text third_number">Гарантия качества</p>
                             </div>
@@ -61,8 +61,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
-                        <div class="advantage__list-item">
+                    <div class="col-xl-4 col-xs-12 col-sm-12 ">
+                        <div class="advantage__list-item five_block">
                             <div class="list-item_title">
                                 <p class="title_text four_number">Экономия бюджета</p>
                             </div>

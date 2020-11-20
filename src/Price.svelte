@@ -1,8 +1,10 @@
-<div class="container-fluid price__block">
-    <h2>Три тарифа</h2>
+<div class="container-fluid price__block row-flex">
+    <div class="container text-center">
+        <h2>Три тарифа</h2>
+    </div>
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-            <article class="first__price">
+            <article class="first__price ">
                 <h3>Базовый</h3>
                 <p class="text__price">
                     5 подключений* в день
@@ -60,6 +62,8 @@
     @import 'style/theme.scss';
 
     .price__block{
+        
+        flex-wrap: wrap;
 
          h2{
             font-size: $blockTitleSize;
@@ -73,6 +77,7 @@
          }
 
          .first__price, .second__price, .thirty__price{
+            height: 100%;
 
              background-repeat: no-repeat;
              background-size: 90px 90px;
@@ -80,7 +85,7 @@
              border: 10px solid $darkBlue;
              margin-top: 5%;
              padding-top: 200px;
-
+                
              font-family: $fbck;
              text-align: center;
 
@@ -119,6 +124,10 @@
          }
 
          .first__price{
+
+              
+
+
              background-image: url(/img/star_icon_price.svg);
              background-position: center 10%;
          }
@@ -148,6 +157,28 @@
     }
 
 
+       .row-flex {
+         display: -webkit-box;
+         display: -ms-flexbox;
+      display: flex;
+         -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+          }
+
+    [class*=”col-”] {
+    margin-bottom: 30px;
+    }
+    .content {
+    height: 100%;
+    padding: 20px 20px 10px;
+    color: #fff;
+    }
 
    
 </style>
+
+
+
+
+
+
