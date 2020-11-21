@@ -341,12 +341,9 @@
     }
 
 
-    .footer_container .nav_footer::before{display: none;}
-
-
-
-
-
+    .footer_container .nav_footer::before{
+        display: none;
+    }
 
             /* Footer */
 
@@ -553,6 +550,17 @@
     .main__text a{
         padding: 10px 30px !important;
         font-size: 13px !important;
+    }
+
+    .phone__nav a{
+        font-size: 12px !important;
+
+        padding-right: 120px !important;
+    }
+
+    .main__container .navbar{
+        background-position: 95% 50% !important;
+        background-size: 100px !important;
     }
 
     /* AboutUS */
@@ -839,9 +847,7 @@
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
-
-               
-
+                
                     /* Cooperative */
 
                     .coop__main{

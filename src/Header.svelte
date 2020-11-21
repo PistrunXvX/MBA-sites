@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-2 align-self-center">
+            <div class="col-3 align-self-center">
                 <ul class="social__icon">
                     <li><a class="fb__icon" href="#"></a></li>
                     <li><a class="vk__icon" href="#"></a></li>
@@ -51,7 +51,7 @@
                     <li><a class="yt__icon" href="#"></a></li>
                 </ul>
             </div>
-            <div class="col-10">
+            <div class="col-9">
                 <div class="main__text">
                     <h1>
                         Корпоративный онлайн-университет <br> на <span class="underline">аутсорсинг</span>
