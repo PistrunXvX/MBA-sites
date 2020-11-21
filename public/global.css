@@ -159,19 +159,10 @@
 
 
             /* Footer */
-
-    .footer_container{
-       
-
-    }
-
-
     .footer_container .nav_footer .navbar{
         padding-bottom: 20px;
        
     }
-
-
 
     .footer_container .container-fluid .nav_footer {
      padding-bottom: 40px;
@@ -192,64 +183,35 @@
        right: 8%;
         background-color: #EA8E02;
         position: absolute;
-        
-
-
     }
-
 
     .footer_container .nav_footer .nav_item{
         padding-bottom: 20px;
-       
-       
     }
-
 
     .footer_container li a{
         font-size: 29px;
-        
-      
-    }
-
-
-    .footer_container .contacts_block{
-       
-      
-       
     }
 
     .footer_container .contacts_block .title{
         font-size: 55px;
-        padding-bottom: 60px;
-        
+        padding-bottom: 60px;        
     }
-
 
     .footer_container .contacts_block .desc{
         font-size: 25px;
-      
-
     }
-
 
     .footer_container .about_block .about_block__content .first__stroke .first__stroke_text{
-        font-size: 15px;
-      
+        font-size: 15px;      
     }
-
 
     .footer_container .about_block .about_block__content .second-stroke .licenses{
-        font-size: 16px;
-      
+        font-size: 16px;      
     }
+
     .footer_container .about_block .about_block__content .politics .politics_text{
-        font-size: 24px;
-      
-    }
-
-    .footer_container .about_block .about_block__content{
-
-      
+        font-size: 24px;  
     }
 
     .footer_container .about_block {
@@ -259,12 +221,6 @@
         align-items:center;
        
     }
-    .footer_container .social .social_title .social_title__text{
-
-        
-
-    }
-    /*  */
 
           /* Price */     
 
@@ -274,11 +230,17 @@
           {
   
               font-size: 20px !important ;
-              
-  
+          }
+
+          .first__price, .second__price, .thirty__price{
+            border-width: 5px !important;
           }
   
-  
+          .price__block .price__wrapper{
+              margin-bottom: 10%;
+          }
+
+
          
   
           .price__block h2{
@@ -746,30 +708,32 @@
         .price__block .row .second__price .month__price,
         .price__block .row .thirty__price  .month__price
         {
-
-            font-size: 20px !important ;
-            
-
+            font-size: 16px !important ;
         }
 
+        .first__price, .second__price, .thirty__price{
+            padding-top: 110px !important;
 
-       
+            background-size: 60px 60px !important;
+        }
 
         .price__block h2{
-            font-size: 40px !important;
+            font-size: 25px !important;
               
         }
          .price__block h3{
-             font-size: 40px !important;
+             font-size: 18px !important;
          }
         
                 .price__block .text__price{
-                    font-size: 25px !important;
+                    font-size: 12px !important;
                 }
 
                 .price__block .salary__price{
-                    font-size: 30px !important;
+                    font-size: 20px !important;
                 }
+
+
                 .price__block .remark{
                     font-size: 20px !;
                 }

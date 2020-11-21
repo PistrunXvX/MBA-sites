@@ -2,8 +2,8 @@
     <div class="container text-center">
         <h2>Три тарифа</h2>
     </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="row justify-content-evenly">
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 price__wrapper">
             <article class="first__price ">
                 <h3>Базовый</h3>
                 <p class="text__price">
@@ -19,7 +19,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 price__wrapper"> 
             <article class="second__price">
                 <h3>Расширенный</h3>
                 <p class="text__price">
@@ -35,7 +35,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 price__wrapper">
             <article class="thirty__price">
                 <h3>Безлимитный</h3>
                 <p class="text__price">
@@ -52,10 +52,10 @@
                 </p>
             </article>
         </div>
+        <p class="remark">
+            *Всего 5 подключений в день к платформе онлайн-трансляции
+        </p>
     </div>
-    <p class="remark">
-        *Всего 5 подключений в день к платформе онлайн-трансляции
-    </p>
 </div>
 
 <style lang="scss" >
@@ -124,10 +124,6 @@
          }
 
          .first__price{
-
-              
-
-
              background-image: url(/img/star_icon_price.svg);
              background-position: center 10%;
          }
@@ -160,7 +156,7 @@
        .row-flex {
          display: -webkit-box;
          display: -ms-flexbox;
-      display: flex;
+            display: flex;
          -ms-flex-wrap: wrap;
             flex-wrap: wrap;
           }
@@ -169,9 +165,9 @@
     margin-bottom: 30px;
     }
     .content {
-    height: 100%;
-    padding: 20px 20px 10px;
-    color: #fff;
+        height: 100%;
+        padding: 20px 20px 10px;
+        color: #fff;
     }
 
    

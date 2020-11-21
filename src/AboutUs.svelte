@@ -20,6 +20,7 @@
                 </div>
             </div>
         </div>
+    </div>
         <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-8">
@@ -29,12 +30,20 @@
                             Для чего 
                         </h1>
                     </div>
+                    <div class="about__block_description ">
+                        <p class="description__text">
+                            Вы создаете кадровый резерв для развития компании
+                            Растет результативность каждого сотрудника и компании в целом
+                            Обучение формирует корпоративную культуру и репутацию компании
+                            Вы повышеаете стоимость и статус компании для привлечения инвестиций
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
         <div class="row justify-content-start">
             <div class="col-xl-7">
-
                 <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
@@ -51,7 +60,6 @@
             </div>
         </div>
         </div>
-        </div>
         <div class="container-fluid grey-color">
         <div class="row justify-content-end">
             <div class="col-xl-6">
@@ -62,11 +70,16 @@
                             Выгода
                         </h1>
                     </div>
+                    <div class="about__block_description">
+                        <p class="description__text">
+                            Наши услуги ориентированы на собственников, топ-менеджмент, HR-специалистов и руководителей
+                            функциональных подразделений
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 
@@ -82,6 +95,10 @@
         margin: 0;
     }
 
+    .grey-color{
+        background-color: $grey;
+    }
+
 
 
     .aboutUs {
@@ -89,15 +106,9 @@
         font-family: $fbck;
         padding: 78px 100px 61px 100px;
 
-
-
-
         .about__block {
             margin-bottom: 115px;
             position: relative;
-
-
-
         }
 
     }
@@ -107,6 +118,18 @@
     .about__block{
         margin-bottom:115px;
         position: relative;
+    }
+
+    .about__block-2 p, .about__block-4 p{
+        text-align: right;
+    }
+
+    .description__text{
+        font-size: $description;
+    }
+
+    .title__text{
+        font-size: $blockTitleSize;
     }
 
     .about__block-1::before{
