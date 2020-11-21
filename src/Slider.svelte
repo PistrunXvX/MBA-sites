@@ -114,6 +114,7 @@
 
     .slider__container{
         font-family: $fbck;
+        margin-bottom:171px;
     }
 
 
@@ -142,7 +143,7 @@
 //      transform: scale(1, 1);
 //   }
 //   to {
-//     transform: scale(1.5, 1.5);
+//     transform: scale(1.2, 1.2);
 //   }
 // }
 

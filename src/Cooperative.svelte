@@ -54,7 +54,8 @@
     @import 'style/theme.scss';
 
     .coop__main{
-        
+            margin-bottom: 129px;
+
         h2{
             font-size: $blockTitleSize;
             font-family: $fbck;
@@ -63,8 +64,8 @@
             text-transform: uppercase;
             text-align: center;
 
-            margin-top: 5%;
-            margin-bottom: 5%;
+            
+            margin-bottom: 175px;
         }
     }
 

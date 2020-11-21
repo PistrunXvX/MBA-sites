@@ -62,6 +62,7 @@
     @import 'style/theme.scss';
 
     .price__block{
+       
         
         flex-wrap: wrap;
 
@@ -74,6 +75,7 @@
             text-align: center;
 
             margin-top: 5%;
+            margin-bottom:95px;
          }
 
          .first__price, .second__price, .thirty__price{

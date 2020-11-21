@@ -39,6 +39,7 @@
             text-transform: uppercase;
 
             padding-top: 5%;
+            margin-bottom: 57px;
         }
 
         img{

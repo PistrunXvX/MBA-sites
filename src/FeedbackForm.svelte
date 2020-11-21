@@ -52,6 +52,7 @@
         padding-bottom:90px;
         padding-left:80px;
         padding-right:80px;
+        margin-bottom: 200px;
 
 
 

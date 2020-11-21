@@ -354,6 +354,7 @@
             /* Footer */
 
             .footer_container{
+                padding-top: 10px !important;
        
       
             }
@@ -460,6 +461,8 @@
                  .advantage{
                     
                     padding-top: 100px !important;
+                    margin-top: 60px !important;
+                    margin-bottom: 80px !important;
                 }
 
                 .advantage__list{
@@ -495,6 +498,24 @@
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
+
+                /* FeedbackForm */
+
+                .form-container{
+                    margin-bottom: 80px !important;
+                }
+
+
+                 /* Slider */
+
+                 .slider__container{
+                     margin-bottom: 70px !important;
+                 }
+
+                
+
+
+                
 
 
 }
@@ -557,6 +578,7 @@
     .form-container{
         padding-left: 10px !important;
         padding-right: 10px !important;
+        margin-bottom: 50px !important;
     }
 
     .form-container .form-block .p{
@@ -588,11 +610,18 @@
 
     /* youGet */
 
+    .youGet__block{
+        padding-bottom: 50px !important;
+    }
+
     .youGet__block article{
         background-size: 60px !important; 
     }
 
     /* Slider */
+    .slider__container{
+        margin-bottom: 50px !important;
+    }
 
     .carousel-item p{
         font-size: 18px !important;
@@ -619,6 +648,7 @@
     /* Footer */
 
     .footer_container{
+        padding-top: 10px !important;
        
       
     }
@@ -702,7 +732,10 @@
     }
 
    
-        /* Price */     
+        /* Price */    
+        
+        
+        
 
         .price__block .row .first__price .month__price,
         .price__block .row .second__price .month__price,
@@ -719,6 +752,7 @@
 
         .price__block h2{
             font-size: 25px !important;
+            margin-bottom: 50px !important;
               
         }
          .price__block h3{
@@ -743,8 +777,9 @@
                 /* Advantage */
 
                 .advantage{
-                    
-                    padding-top: 100px !important;
+                    margin-top: 50px !important;
+                    margin-bottom: 50px !important;
+                    padding-top: 60px !important;
                     padding-bottom: 0px !important;
                 }
 
@@ -809,6 +844,20 @@
 
                
 
-                
+                    /* Cooperative */
+
+                    .coop__main{
+                        margin-bottom: 50px !important;
+                    }
+
+                    .coop__main h2{
+                        margin-bottom: 50px !important;
+                    }
+
+                    /* Sertificat */
+
+                    .sertificat__container h2{
+                        margin-bottom: 10px !important;
+                    }
                 
 }

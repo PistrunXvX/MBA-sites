@@ -78,6 +78,7 @@
     
 
     .youGet__block{
+        padding-bottom: 131px;
                 
         h2{
             font-size: $blockTitleSize;

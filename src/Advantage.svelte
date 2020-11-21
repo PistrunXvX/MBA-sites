@@ -102,8 +102,8 @@
         height: 100%;
         font-family: $fbck;
         color: $darkBlue;
-        padding-top: 207px;
-        padding-bottom: 187px;
+        margin-top: 257px;
+        margin-bottom: 187px;
 
 
 
@@ -194,6 +194,7 @@
 
         margin-right: 10%;
         margin-left: 10%;
+        
 
         font-size: 70px;
     }
@@ -206,7 +207,8 @@
 
     .title__two {
         font-size: 60px;
-        padding-bottom: 520px;
+        margin-bottom: 520px;
 
     }
+    
 </style>
