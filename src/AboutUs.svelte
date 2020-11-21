@@ -1,9 +1,7 @@
 
-    <div class="`">
-        <div class="container-fluid">
+    <div class="container-fluid">
         <div class="row justify-content-start">
             <div class="col-xl-7">
-
                 <div class="about__block about__block-1 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text">
@@ -20,9 +18,7 @@
                 </div>
             </div>
         </div>
-    </div>
-        <div class="container-fluid grey-color">
-        <div class="row justify-content-end">
+        <div class="row justify-content-end grey-color">
             <div class="col-xl-8">
                 <div class="about__block about__block-2 aboutUs">
                     <div class="about__block__title">
@@ -41,7 +37,6 @@
                 </div>
             </div>
         </div>
-    </div>
         <div class="row justify-content-start">
             <div class="col-xl-7">
                 <div class="about__block about__block-1 aboutUs">
@@ -59,11 +54,8 @@
                 </div>
             </div>
         </div>
-        </div>
-        <div class="container-fluid grey-color">
-        <div class="row justify-content-end">
+        <div class="row justify-content-end grey-color">
             <div class="col-xl-6">
-                <div class="container-fluid grey-color">
                 <div class="about__block about__block-4 aboutUs">
                     <div class="about__block__title">
                         <h1 class="title__text end">
@@ -80,7 +72,6 @@
             </div>
         </div>
     </div>
-</div>
 
 
 
@@ -90,10 +81,10 @@
     @import 'style/theme.scss';
 
 
-    .container-fluid {
-        padding: 0;
-        margin: 0;
-    }
+    // .container-fluid {
+    //     padding: 0;
+    //     margin: 0;
+    // }
 
     .grey-color{
         background-color: $grey;

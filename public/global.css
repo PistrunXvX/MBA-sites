@@ -3,13 +3,6 @@
     .nav_footer a{
         font-size: 12px;
     }
-
-
-
-
-
-
-
             /* Footer */
             .footer_container li a{
                 font-size: 18px;
@@ -24,7 +17,12 @@
                 font-size: 15px;
                
             }
-        
+    
+    /* Advantage */
+     
+    .advantage{
+        background-size: cover !important;
+    }
 }
 
 
@@ -54,11 +52,6 @@
      .youCan__main .youCan__block {
          background-size: 120px !important;
      }
-
-
-
-
-
         /* Footer */
 
 
@@ -110,8 +103,15 @@
           /* Advantage */
 
           .advantage{
-                    
             padding-top: 100px !important;
+            
+            background-image: none !important;
+            background-color: #2C467C;
+            color: #FFFF !important;
+        }
+
+        .advantage .title_text::before{
+            border-color: #FFFF;
         }
 
         .advantage__list{
@@ -119,7 +119,6 @@
             flex-direction:column !important;
             align-items: center !important;
             justify-content:center !important;
-            text-align: center;
            
         }
 
@@ -745,6 +744,7 @@
                 .advantage{
                     
                     padding-top: 100px !important;
+                    padding-bottom: 0px !important;
                 }
 
                 .advantage__list{
@@ -759,24 +759,49 @@
                     margin-bottom: 79px !important;
                 }
 
-
                 .advantage .title_text{
-                    font-size: 35px !important;
+                    font-size: 18px !important;
+                }
+
+                .advantage .title_text::before{
+                    font-size: 25px !important;
+                    padding-right: 0px !important;
+
+                    position: absolute !important;
+                    left: 0;
+
+                    border-width: 2px !important;
+                }
+
+                .advantage .first_block .list-item_desc,
+                .advantage .third_block .list-item_desc,
+                .advantage .five_block .list-item_desc{
+                    text-align: center !important;
+                }
+
+                .advantage .second_block .list-item_desc,
+                .advantage .four_block .list-item_desc{
+                    text-align: center !important;
+                }
+
+                .advantage .second_block .title_text::before,
+                .advantage .four_block .title_text::before{
+                    left: 92% !important;
                 }
 
                .advantage .desc_text{
-                   font-size: 28px !important;
+                   font-size: 12px !important;
                }
 
 
                 .advantage h2{
                     padding: 0px !important;
-                    font-size: 35px !important;
+                    font-size: 25px !important;
                     
                 }
 
                 .advantage .container-fluid .title__two{
-                    font-size: 35px !important;
+                    font-size: 25px !important;
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
