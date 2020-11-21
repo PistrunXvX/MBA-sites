@@ -231,10 +231,16 @@
             display: block;
             padding-top: 10%;
             display: inline;
+
+            padding-right: 30px;
         }
 
         li:first-child {
             padding-top: 0;
+        }
+
+        li:last-child{
+            padding-right: 0px;
         }
 
         a {
@@ -246,27 +252,58 @@
             padding: 15px;
             opacity: 1;
 
-
+            animation: 0.3s ease-out social_icon_back;
         }
 
 
 
-        .fb__icon {}
+        .fb__icon {
+            background-image: url(/img/soc_icon_blue_fb.svg);
+        }
 
-        .vk__icon {}
+        .vk__icon {
+            background-image: url(/img/soc_icon_blue_vk.png);
+        }
 
-        .inst__icon {}
+        .inst__icon {
+            background-image: url(/img/soc_icon_blue_inst.svg);
+        }
 
-        .yt__icon {}
+        .yt__icon { 
+            background-image: url(/img/soc_icon_blue_yt.png);
+        }
     }
-
-
-
-
 
     .social_title__text {
         color: #0C2967;
         font-size: 42px;
         line-height: 109.6%;
     }
+
+    .social__icon a:hover{
+        animation: 0.3s ease-in social_icon_to;
+        opacity: 0.5;
+    }
+
+    .social__icon a:active{
+        opacity: 0.7;
+    }
+
+    @keyframes social_icon_to{
+            from{
+                opacity: 1; 
+            }
+            to{
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes social_icon_back{
+            from{
+                opacity: 0.5; 
+            }
+            to{
+                opacity: 1;
+            }
+        }
 </style>
