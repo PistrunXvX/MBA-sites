@@ -56,10 +56,7 @@
 
 
 
-        .footer_container{
        
-
-        }
     
         .footer_container .nav_footer{
             display: flex;
@@ -479,11 +476,11 @@
 
 
                 .advantage .title_text{
-                    font-size: 35px !important;
+                    font-size: 25px !important;
                 }
 
                .advantage .desc_text{
-                   font-size: 28px !important;
+                   font-size: 21px !important;
                }
 
 
@@ -498,6 +495,7 @@
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
+               
 
                 /* FeedbackForm */
 

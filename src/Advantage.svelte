@@ -53,7 +53,7 @@
                                 <p class="title_text third_number">Гарантия качества</p>
                             </div>
                             <div class="list-item_desc">
-                                <ul class="item-desc_content">
+                                <ul class="item-desc_content third_item-desc_content">
                                     <li class="desc_text"> - Более 30 направлений</li>
                                     <li class="desc_text"> - 1500 программ обучения
                                     <li class="desc_text"> - Постоянное развитие знаний и навыков</li>

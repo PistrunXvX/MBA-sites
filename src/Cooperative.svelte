@@ -1,6 +1,6 @@
 <div class="container-fluid coop__main">
     <h2>Мы сотрудничаем</h2>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
         <!-- <div class="col-12">
             <div class="cooperative__container">
                 <ul>
@@ -16,7 +16,7 @@
         <div class="col-3"><img class="img-fluid mx-auto d-block" src="/img/cooperative_img_3.png" alt=""></div>
         <div class="col-3"><img class="img-fluid mx-auto d-block" src="/img/cooperative_img_4.png" alt=""></div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
         <!-- <div class="col-12">
             <div class="cooperative__container">
                 <ul>
@@ -32,7 +32,7 @@
         <div class="col-3"><img class="img-fluid mx-auto d-block" src="/img/cooperative_img_7.png" alt=""></div>
         <div class="col-3"><img class="img-fluid mx-auto d-block" src="/img/cooperative_img_8.png" alt=""></div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
         <!-- <div class="col-12">
             <div class="cooperative__container">
                 <ul>
