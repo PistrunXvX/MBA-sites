@@ -1,4 +1,4 @@
-<div class="advantage">
+<div class="advantage" id="advantage">
     <div class="container-fluid">
         <h2 class="title title__one">Преимущества</h2>
         <p class="title title__two">Корпоративного онлайн-университета</p>

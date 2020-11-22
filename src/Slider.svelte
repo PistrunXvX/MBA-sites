@@ -1,5 +1,5 @@
 
-    <div class="slider__container">
+    <div class="slider__container" id="connect_us">
         <div class="container-fluid">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-8">

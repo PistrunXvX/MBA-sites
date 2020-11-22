@@ -21,23 +21,23 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="phone__nav">
-                <a href="tel:++7(495) 980-57-28">+7(495) 980-57-28</a>
+                <a href="tel:+74959805728">+7(495) 980-57-28</a>
               </div>
             </div>
           </nav>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="main">
         <div class="row dekstop__nav">
             <div class="col">
                 <nav>
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Подключиться</a></li>
-                        <li><a href="#">Тарифы</a></li>
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Лицензии</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#about_Us">О нас</a></li>
+                        <li><a href="#connect_us">Подключиться</a></li>
+                        <li><a href="#price">Тарифы</a></li>
+                        <li><a href="#advantage">Преимущества</a></li>
+                        <li><a href="#sertificats">Лицензии</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

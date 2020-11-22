@@ -1,4 +1,4 @@
-<div class="container-fluid price__block row-flex">
+<div class="container-fluid price__block row-flex" id="price">
     <div class="container text-center">
         <h2>Три тарифа</h2>
     </div>

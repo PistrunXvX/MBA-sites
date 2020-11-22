@@ -1,4 +1,4 @@
-<div class="container-fluid sertificat__container">
+<div class="container-fluid sertificat__container" id="sertificats">
     <!-- <div class="container"> -->
         <h2>Лицензии</h2>
         <div class="row justify-content-start">

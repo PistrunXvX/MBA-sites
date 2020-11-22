@@ -1,15 +1,15 @@
-<div class="footer_container">
+<div class="footer_container" id="contacts">
     <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col-xl-7 col-xs-12 col-md-6 col-lg-8">
                 <nav class="nav_footer navbar justify-content-center ">
-                    <li class="nav_item"><a href="#">Главная</a></li>
-                    <li class="nav_item"><a href="#">О нас</a></li>
-                    <li class="nav_item"><a href="#">Подключиться</a></li>
-                    <li class="nav_item"><a href="#">Тарифы</a></li>
-                    <li class="nav_item"><a href="#">Преимущества</a></li>
-                    <li class="nav_item"><a href="#">Лицензии</a></li>
-                    <li class="nav_item"><a href="#">Контакты</a></li>
+                    <li class="nav_item"><a href="#main">Главная</a></li>
+                    <li class="nav_item"><a href="#about_Us">О нас</a></li>
+                    <li class="nav_item"><a href="#connect_us">Подключиться</a></li>
+                    <li class="nav_item"><a href="#price">Тарифы</a></li>
+                    <li class="nav_item"><a href="#advantage">Преимущества</a></li>
+                    <li class="nav_item"><a href="#sertificats">Лицензии</a></li>
+                    <li class="nav_item"><a href="#contacts">Контакты</a></li>
                 </nav>
             </div>
             <div class="col-xl-3 col-xs-12 col-md-6 col-lg-4">
@@ -19,7 +19,7 @@
                     </span>
                     <span class="desc">г. Москва, м.Ботанический сад/м.ВДНХ,
                         ул. Сельскохозяйственная, д.17, к. 5
-                        тел.: <a href="#" class="desc_number">+7(495) 980-57-28</a></span>
+                        тел.: <a href="tel:+74959805728" class="desc_number">+7(495) 980-57-28</a></span>
                 </div>
             </div>
         </div>

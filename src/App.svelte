@@ -11,6 +11,8 @@
 	import Sertificat from './Sertificat.svelte';
 	import FormFooter from './FormFooter.svelte';
 	import Footer from './Footer.svelte';
+
+	
 </script>
 
 <Header/>
