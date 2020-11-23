@@ -106,6 +106,7 @@
         color: $colorWhite;
         outline: 0;
         outline-offset: 0;
+        background-color: #223661;
     }
 
 

@@ -116,6 +116,7 @@
 
         .form-control:focus, .form-control:active{
             color:$colorWhite;
+            background-color: #223661;
         }
 
 
