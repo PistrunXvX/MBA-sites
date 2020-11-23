@@ -873,5 +873,20 @@ html{
                     .sertificat__container h2{
                         margin-bottom: 10px !important;
                     }
+
+
+                    /* ModalPopup */
+                    .modal .modal-body{
+                       
+                       text-align: center !important;
+                
+                       
+
+                    }
+
+                    .modal .modal-body input{
+                        margin: 0px;
+                        margin-bottom:20px; 
+                    }
                 
 }

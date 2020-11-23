@@ -200,11 +200,8 @@
             position: relative;
             left: 50%;
             transform: translate(-50%, 0);
-
-
-
-
         }
+
 
         .form__btn:hover,
         .form__btn:active,
@@ -213,7 +210,8 @@
             box-shadow: 0px 0px 20px $colorWhite;
             color: $orange;
             background-color: $colorWhite;
-
+            outline: 0;
+            outline-offset: 0;
         }
 
 
