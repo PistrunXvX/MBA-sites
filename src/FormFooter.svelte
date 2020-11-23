@@ -1,4 +1,4 @@
-<div class="form-container">
+<div class="form-container form__footer">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-xl-7">
@@ -211,7 +211,6 @@
         .form__btn:focus {
             transition: 0.6s;
             box-shadow: 0px 0px 20px $colorWhite;
-            ;
             color: $orange;
             background-color: $colorWhite;
 

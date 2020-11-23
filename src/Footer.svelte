@@ -54,10 +54,10 @@
                         </span>
                     </div>
                     <ul class="social__icon">
-                        <li><a class="fb__icon" href="#"></a></li>
-                        <li><a class="vk__icon" href="#"></a></li>
-                        <li><a class="inst__icon" href="#"></a></li>
-                        <li><a class="yt__icon" href="#"></a></li>
+                        <li><a class="fb__icon" href="https://www.facebook.com/uprav" target="_blank"></a></li>
+                        <li><a class="vk__icon" href="https://vk.com/rusuprav" target="_blank"></a></li>
+                        <li><a class="inst__icon" href="https://www.instagram.com/rusuprav/" target="_blank"></a></li>
+                        <li><a class="yt__icon" href="https://www.youtube.com/channel/UClo5l1QmtS2PhkCcgQS8pDQ" target="_blank"></a></li>
                     </ul>
                 </div>
             </div>

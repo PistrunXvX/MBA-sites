@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="phone__nav">
-                <a href="tel:+74959805728">+7(495) 980-57-28</a>
+                <a href="tel:+88001000203">+8(800)-100-02-03</a>
               </div>
             </div>
           </nav>
@@ -30,6 +30,7 @@
         <div class="row dekstop__nav">
             <div class="col">
                 <nav>
+                    <a href="tel:+88001000203" class="desc_number">8(800)-100-02-03</a>
                     <ul>
                         <li><a href="#main">Главная</a></li>
                         <li><a href="#about_Us">О нас</a></li>
@@ -45,10 +46,10 @@
         <div class="row ">
             <div class="col-3 align-self-center">
                 <ul class="social__icon">
-                    <li><a class="fb__icon" href="#"></a></li>
-                    <li><a class="vk__icon" href="#"></a></li>
-                    <li><a class="inst__icon" href="#"></a></li>
-                    <li><a class="yt__icon" href="#"></a></li>
+                    <li><a class="fb__icon" href="https://www.facebook.com/uprav" target="_blank"></a></li>
+                    <li><a class="vk__icon" href="https://vk.com/rusuprav" target="_blank"></a></li>
+                    <li><a class="inst__icon" href="https://www.instagram.com/rusuprav/" target="_blank"></a></li>
+                    <li><a class="yt__icon" href="https://www.youtube.com/channel/UClo5l1QmtS2PhkCcgQS8pDQ" target="_blank"></a></li>
                 </ul>
             </div>
             <div class="col-9">
@@ -60,7 +61,7 @@
                         <p>
                             Доступ к 35 направлениям и 5000 тем для успешного ведения бизнеса
                         </p>
-                        <a href="#">Подать заявку</a>
+                        <a type="button" data-toggle="modal" data-target="#modal__header">Подать заявку</a>
                     </div>
                 </div>
             </div>
@@ -81,6 +82,26 @@
         padding-left: 5%;
         padding-bottom: 2%;
         margin-top: 1%;
+
+        .desc_number {
+        text-decoration: none;
+        color: $colorWhite;
+        border-bottom: 1px solid $orange;
+        transition: .3s;
+
+        margin-left: 10%;
+
+        float: left;
+
+        font-size: 20px;
+        font-family: $fbck;
+
+        }
+
+        .desc_number:hover {
+            color: $orange;
+            transition: .3s;
+        }
 
             li{
             display: inline;

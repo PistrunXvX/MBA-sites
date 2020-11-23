@@ -11,7 +11,7 @@
 	import Sertificat from './Sertificat.svelte';
 	import FormFooter from './FormFooter.svelte';
 	import Footer from './Footer.svelte';
-
+	import Modal from './ModalPopup.svelte';
 	
 </script>
 
@@ -27,6 +27,7 @@
 <Sertificat/>
 <FormFooter/>
 <Footer/>
+<Modal/>
 
 <style>
 

@@ -499,10 +499,10 @@ html{
                
 
                 /* FeedbackForm */
-
+/* 
                 .form-container{
                     margin-bottom: 80px !important;
-                }
+                } */
 
 
                  /* Slider */
@@ -618,6 +618,10 @@ html{
 
     .form-container .form__btn{
         font-size: 14px !important;
+    }
+
+    .form__footer{
+        margin-bottom: 0px !important;
     }
 
     /* youGet */
