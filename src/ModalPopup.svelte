@@ -94,7 +94,7 @@
         
 
     input[type="text"] {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     input::placeholder {
