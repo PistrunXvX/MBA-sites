@@ -224,6 +224,7 @@
 
     .social__icon {
 
+        padding-left: 0px;
 
         padding-top: 34px;
 
@@ -244,6 +245,7 @@
         }
 
         a {
+            
             text-decoration: none;
             background-repeat: no-repeat;
             background-size: contain;
