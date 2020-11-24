@@ -97,7 +97,7 @@
                         <div class="col-xl-4">
                             <div class="button_content">
                                 <button class=" form__btn" type="submit">Получить</button>
-                        </div>
+                            </div>
                         </div>
                     </div>
                 </div>

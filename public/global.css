@@ -512,8 +512,11 @@ html{
                  }
 
                 
+/* Sertificat */
 
-
+.sertificat__container img{
+    width: 150px !important;
+}
                 
 
 
