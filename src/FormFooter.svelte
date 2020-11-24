@@ -13,15 +13,14 @@
                 <div class="form-block">
                     <div class="row align-items-center">
                         <div class="col-xl-6">
-                            <input type="text" class="form-control form__name" placeholder="Ваше имя" require>
+                            <input type="text" class="form-control form__name" placeholder="Ваше имя" required>
                         </div>
                         <div class="col-xl-6">
-                            <input type="text" class="form-control form__send__number" id="tel"
-                                placeholder="Ваш телефон" require>
+                            <input  value=""  name="phone" id="tel" class="form-control form__send__number"  placeholder="Ваш телефон"required>
                         </div>
                     </div>
                     <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес"
-                        require>
+                        required>
                     <label class="label">
                         <input type="checkbox" class="checkbox">
                         <span class="fake"></span>
@@ -40,6 +39,11 @@
 <style lang="scss">
     @import 'style/theme.scss';
 
+
+    input:invalid {border-color: red;}
+    input:valid {border-color: green;}
+    input:invalid:not(:placeholder-shown) {border-color: red;}
+    input:valid:not(:placeholder-shown) {border-color: green;}
 
 
     .form-container {
@@ -106,6 +110,7 @@
         .form-control:focus,
         .form-control:active {
             color: $colorWhite;
+            background-color: #081d4a;
         }
 
 
@@ -200,11 +205,8 @@
             position: relative;
             left: 50%;
             transform: translate(-50%, 0);
-
-
-
-
         }
+
 
         .form__btn:hover,
         .form__btn:active,
@@ -213,7 +215,8 @@
             box-shadow: 0px 0px 20px $colorWhite;
             color: $orange;
             background-color: $colorWhite;
-
+            outline: 0;
+            outline-offset: 0;
         }
 
 

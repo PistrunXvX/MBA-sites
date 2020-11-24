@@ -1,3 +1,5 @@
+
+
 <div class="modal fade" id="modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -9,62 +11,148 @@
             </div>
             <form action="post">
                 <div class="modal-body">
-                    <input type="text" placeholder="Ваше имя" required>
-                    <input type="text" placeholder="Ваша фамилия" required>
-                    <input type="tel" placeholder="Ващ номер телефона" required>
-                    <input type="email" placeholder="Ваша электронная почта" required>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="text" placeholder="Ваша фамилия" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="tel" id="tel" placeholder="Ваш номер телефона" required>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="email" placeholder="Ваша электронная почта" required>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit">Отправить заявку</button>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <button type="submit">Отправить заявку</button>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
 
-<style lang="scss" >
+<style lang="scss">
     @import 'style/theme.scss';
 
-    .modal-content{
+
+    input:invalid {border-color: red;}
+    input:valid {border-color: green;}
+    input:invalid:not(:placeholder-shown) {border-color: red;}
+    input:valid:not(:placeholder-shown) {border-color: green;}
+
+    .modal-content {
         background-color: $darkBlue;
 
-        .modal-title{
+        .modal-title {
             font-family: $fbck;
             color: $colorWhite;
+            font-size: 25px;
         }
 
-        .close{
+        .close {
             text-shadow: none;
+        }  
+
+        .modal-footer{
+            text-align: center;
+            
+           
+            
         }
 
-        .modal-header, .modal-footer{
+        .modal-header,
+        .modal-footer {
             border-color: $orange;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
     }
 
-   .modal-footer button{
-            font-size: 18px;
-            font-family: $fbck;
-            color: $colorWhite;
+    .modal-footer button {
+        font-size: 24px;
+        font-family: $fbck;
+        color: $colorWhite;
+        text-decoration: none;
+        background-color: $orange;
+        filter: drop-shadow(0px 0px 10px $orange);
+        padding: 20px 40px 20px 40px;
+        animation: 0.3s ease-in 0s button_color_back;
+        border: none;
+        transition: 0.6s;
+        
+        
 
-            text-decoration: none;
+    }
 
-            background-color: $orange;
-            filter: drop-shadow(0px 0px 10px $orange);
+    .modal-footer button:hover {
+        animation: 0.3s ease-in 0s button_color_to;
+        color: $orange;
+        background-color: $colorWhite;
+        filter: drop-shadow(0px 0px 10px $colorWhite);
+    }
 
-            padding: 10px 20px;
-            animation: 0.3s ease-in 0s button_color_back;
+    input {
+        padding: 20px 60px 20px 20px;
+        background-color: #2C467C;
+        border: 4px solid $colorWhite;
+        font-size: 19px;
+        color: $colorWhite;
+        
+    }
 
-            border: none;
+        
 
+    input[type="text"] {
+        margin-bottom: 40px;
+    }
+
+    input::placeholder {
+        color: #D3D3D3;
+    }
+
+    input:focus,
+    input:active {
+        color: $colorWhite;
+        outline: 0;
+        outline-offset: 0;
+        background-color: #223661;
+    }
+
+
+
+    button:hover,
+    button:active,
+    button:focus {
+        transition: 0.6s;
+        box-shadow: 0px 0px 20px $colorWhite;
+        color: $orange;
+        background-color: $colorWhite;
+        outline: 0;
+        outline-offset: 0;
+    }
+
+
+
+
+        .modal-dialog{
+            max-width: 850px;
+           
         }
-
-    .modal-footer button:hover{
-            animation: 0.3s ease-in 0s button_color_to;
-            color: $orange;
-            background-color: $colorWhite;
-            filter: drop-shadow(0px 0px 10px $colorWhite);
-        }
+  
+            .modal-body{
+                text-align: center;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
 
     //     @keyframes button_modal_color_to{
     //     from{

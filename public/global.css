@@ -511,6 +511,21 @@ html{
                      margin-bottom: 70px !important;
                  }
 
+                   /* ModalPopup */
+                   .modal .modal-body{
+                       
+                    text-align: center !important;
+                    padding-bottom: 0px !important;
+             
+                    
+
+                 }
+
+                 .modal .modal-body input{
+                     margin: 0px;
+                     margin-bottom:40px; 
+                     font-size: 15px;
+                 }
                 
 /* Sertificat */
 
@@ -875,6 +890,22 @@ html{
 
                     .sertificat__container h2{
                         margin-bottom: 10px !important;
+                    }
+
+
+                    /* ModalPopup */
+                    .modal .modal-body{
+                       
+                       text-align: center !important;
+                       padding-bottom: 0px !important;
+                
+                       
+
+                    }
+
+                    .modal .modal-body input{
+                        margin: 0px;
+                        margin-bottom:40px; 
                     }
                 
 }
