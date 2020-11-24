@@ -511,6 +511,21 @@ html{
                      margin-bottom: 70px !important;
                  }
 
+                   /* ModalPopup */
+                   .modal .modal-body{
+                       
+                    text-align: center !important;
+                    padding-bottom: 0px !important;
+             
+                    
+
+                 }
+
+                 .modal .modal-body input{
+                     margin: 0px;
+                     margin-bottom:40px; 
+                     font-size: 15px;
+                 }
                 
 
 
@@ -879,6 +894,7 @@ html{
                     .modal .modal-body{
                        
                        text-align: center !important;
+                       padding-bottom: 0px !important;
                 
                        
 
@@ -886,7 +902,7 @@ html{
 
                     .modal .modal-body input{
                         margin: 0px;
-                        margin-bottom:20px; 
+                        margin-bottom:40px; 
                     }
                 
 }

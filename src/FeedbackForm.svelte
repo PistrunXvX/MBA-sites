@@ -1,3 +1,41 @@
+<script>
+    window.addEventListener("DOMContentLoaded", function() {
+    function setCursorPosition(pos, elem) {
+        elem.focus();
+        if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+        else if (elem.createTextRange) {
+            let range = elem.createTextRange();
+            range.collapse(true);
+            range.moveEnd("character", pos);
+            range.moveStart("character", pos);
+            range.select()
+        }
+    }
+    
+    function mask(event) {
+        let matrix = "+7 (___) ___ __ __",
+            i = 0,
+            def = matrix.replace(/\D/g, ""),
+            val = this.value.replace(/\D/g, "");
+        if (def.length >= val.length) val = def;
+        this.value = matrix.replace(/./g, function(a) {
+            return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a
+        });
+        if (event.type == "blur") {
+            if (this.value.length == 2) this.value = ""
+        } else setCursorPosition(this.value.length, this)
+    };
+        let input = document.querySelector("#tel");
+        input.addEventListener("input", mask, false);
+        input.addEventListener("focus", mask, false);
+        input.addEventListener("blur", mask, false);
+    });
+
+    // /Маска телефона
+    
+        
+      </script>
+
 
     <div class="form-container">
     <div class="container-fluid">
@@ -14,13 +52,13 @@
                 <div class="form-block">
                     <div class="row align-items-center">
                     <div class="col-xl-6">      
-                    <input type="text" class="form-control form__name" placeholder="Ваше имя" require>
+                    <input type="text" class="form-control form__name" placeholder="Ваше имя" required>
                 </div>
                 <div class="col-xl-6">
-                    <input type="text" class="form-control form__send__number" id="tel" placeholder="Ваш телефон" require>
+                    <input  value=""  name="phone" id="tel" class="form-control form__send__number"  placeholder="Ваш телефон"required>
                 </div>
-                 </div> 
-                    <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес" require>
+                 </div>
+                    <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес" required>
                    <label class="label">
                     <input type="checkbox" class="checkbox">
                     <span class="fake"></span>
@@ -39,9 +77,10 @@
 <style lang="scss">
     @import 'style/theme.scss';
 
-
-
-
+    input:invalid {border-color: red;}
+    input:valid {border-color: green;}
+    input:invalid:not(:placeholder-shown) {border-color: red;}
+    input:valid:not(:placeholder-shown) {border-color: green;}
 
 
     .form-container{
@@ -53,12 +92,6 @@
         padding-left:80px;
         padding-right:80px;
         margin-bottom: 200px;
-
-
-
-
-
-
 
 
 
