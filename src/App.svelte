@@ -13,9 +13,6 @@
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
 	
-
-
-	
     window.addEventListener("DOMContentLoaded", function() {
     function setCursorPosition(pos, elem) {
         elem.focus();
@@ -42,10 +39,12 @@
             if (this.value.length == 2) this.value = ""
         } else setCursorPosition(this.value.length, this)
     };
-        let input = document.querySelector("#tel2");
-        input.addEventListener("input", mask, false);
-        input.addEventListener("focus", mask, false);
-        input.addEventListener("blur", mask, false);
+        let input = document.querySelectorAll("#tel");
+		for (let elements of input) {
+			elements.addEventListener("input", mask, false);
+			elements.addEventListener("focus", mask, false);
+			elements.addEventListener("blur", mask, false);
+		}
     });
 
 
