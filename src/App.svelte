@@ -1,4 +1,4 @@
-<>
+<script>
 	import Header from './Header.svelte';
 	import About from './AboutUs.svelte';
 	import YouCan from './YouCan.svelte';
@@ -42,14 +42,14 @@
             if (this.value.length == 2) this.value = ""
         } else setCursorPosition(this.value.length, this)
     };
-        let input = document.querySelector("#tel");
+        let input = document.querySelector("#tel2");
         input.addEventListener("input", mask, false);
         input.addEventListener("focus", mask, false);
         input.addEventListener("blur", mask, false);
     });
 
 
-</>
+</script>
 
 
 
