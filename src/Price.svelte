@@ -152,20 +152,20 @@
          }
 
          .first__price{
-             background-image: url(/img/star_icon_price.svg);
+             background-image: url(/img/star_icon_price.png);
              background-position: center 10%;
          }
 
          .second__price{
-            background-image: url(/img/star_icon_price.svg),
-                              url(/img/star_icon_price.svg);
+            background-image: url(/img/star_icon_price.png),
+                              url(/img/star_icon_price.png);
             background-position: 40% 10%, 60% 10%;
          }
 
          .thirty__price{
-            background-image: url(/img/star_icon_price.svg),
-                              url(/img/star_icon_price.svg),
-                              url(/img/star_icon_price.svg);
+            background-image: url(/img/star_icon_price.png),
+                              url(/img/star_icon_price.png),
+                              url(/img/star_icon_price.png);
             background-position: 35% 10%, 50% 5%, 65% 10%;
          }
     }
