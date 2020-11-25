@@ -44,10 +44,21 @@
     @import 'style/theme.scss';
 
 
-    input:invalid {border-color: red;}
-    input:valid {border-color: green;}
-    input:invalid:not(:placeholder-shown) {border-color: red;}
-    input:valid:not(:placeholder-shown) {border-color: green;}
+    input:invalid {
+        border-color: #ff6e5e;
+    }
+
+    input:valid {
+        border-color: #76c27b;
+    }
+
+    input:invalid:not(:placeholder-shown) {
+        border-color: #ff6e5e;
+    }
+
+    input:valid:not(:placeholder-shown) {
+        border-color: #79d980;
+    }
 
     .modal-content {
         background-color: $darkBlue;

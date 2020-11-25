@@ -41,27 +41,20 @@
 
     
 
-   
-
-
-
-
-
-
     input:invalid {
-        border-color: red;
+        border-color: #ff6e5e;
     }
 
     input:valid {
-        border-color: green;
+        border-color: #76c27b;
     }
 
     input:invalid:not(:placeholder-shown) {
-        border-color: red;
+        border-color: #ff6e5e;
     }
 
     input:valid:not(:placeholder-shown) {
-        border-color: green;
+        border-color: #79d980;
     }
 
 
