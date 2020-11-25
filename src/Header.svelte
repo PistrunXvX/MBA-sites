@@ -53,15 +53,15 @@
                 </ul>
             </div>
             <div class="col-9">
-                <div class="main__text">
+                <div class="main__text emergence">
                     <h1>
                         Корпоративный онлайн-университет <br> на <span class="underline">аутсорсинг</span>
                     </h1>
-                    <div class="sub__text">
+                    <div class="sub__text emergence">
                         <p>
                             Доступ к 35 направлениям и 5000 тем для успешного ведения бизнеса
                         </p>
-                        <a type="button" data-toggle="modal" data-target="#modal__header">Подать заявку</a>
+                        <a type="button" class="emergence" data-toggle="modal" data-target="#modal__header">Подать заявку</a>
                     </div>
                 </div>
             </div>
@@ -72,6 +72,25 @@
 
 <style lang="scss" >
     @import 'style/theme.scss';
+
+
+    .emergence{
+        animation: 2.1s ease-in-out 0s 1 alternate opacity;
+    }
+    @keyframes opacity{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+
+
+    .main__container{
+        height: 100vh;
+    }
     
     ul{
         text-align: right;

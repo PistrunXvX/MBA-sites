@@ -2,7 +2,7 @@
     <div class="container-fluid" id="about_Us">
         <div class="row justify-content-start">
             <div class="col-xl-7">
-                <div class="about__block about__block-1 aboutUs">
+                <div class="about__block about__block-1 aboutUs animation-left_block">
                     <div class="about__block__title">
                         <h1 class="title__text">
                             Что это
@@ -20,7 +20,7 @@
         </div>
         <div class="row justify-content-end grey-color">
             <div class="col-xl-8">
-                <div class="about__block about__block-2 aboutUs">
+                <div class="about__block about__block-2 aboutUs animation-right_block">
                     <div class="about__block__title">
                         <h1 class="title__text end">
                             Для чего 
@@ -39,9 +39,9 @@
         </div>
         <div class="row justify-content-start">
             <div class="col-xl-7">
-                <div class="about__block about__block-1 aboutUs">
+                <div class="about__block about__block-1 aboutUs animation-left_block">
                     <div class="about__block__title">
-                        <h1 class="title__text">
+                        <h1 class="title__text animation">
                             Для кого
                         </h1>
                     </div>
@@ -56,7 +56,7 @@
         </div>
         <div class="row justify-content-end grey-color">
             <div class="col-xl-6">
-                <div class="about__block about__block-4 aboutUs">
+                <div class="about__block about__block-4 aboutUs animation-right_block">
                     <div class="about__block__title">
                         <h1 class="title__text end">
                             Выгода
@@ -79,6 +79,46 @@
 
 <style lang="scss">
     @import 'style/theme.scss';
+
+      
+    .about__block__title, .about__block_description{
+        overflow: hidden;
+        
+    }
+
+    .animation-left_block{
+        animation: 2s ease-in-out 0s 1 alternate transforml; 
+    }
+
+    
+    .animation-right_block{
+        animation: 2.3s ease-in-out 0s 1 alternate transformr; 
+    }
+
+    @keyframes transforml{
+        from{
+            opacity: 0;
+            transform:translateX(-100%);
+        }
+        to{
+            opacity: 1;
+            transform:translateX(0%);
+
+        }
+    }
+    @keyframes transformr{
+        from{
+            opacity: 0;
+            transform:translateX(100%);
+        }
+        to{
+            opacity: 1;
+            transform:translateX(0%);
+        }
+    }
+  
+
+
 
 
     // .container-fluid {

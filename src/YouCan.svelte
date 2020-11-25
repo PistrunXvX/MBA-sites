@@ -1,18 +1,18 @@
 <div class="container-fluid youCan__main">
     <h2>Вы сможете</h2>
     <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12 first__block youCan__block">
+        <div class="col-lg-4 col-md-12 col-sm-12 first__block youCan__block second_animation">
             <p>
                 Не тратить время на поиск <br> провайдера образовательных <br> услуг
             </p>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 second__block youCan__block">
+        <div class="col-lg-4 col-md-12 col-sm-12 second__block youCan__block first_animation">
             <p>
                 Обеспечить непрерывное обучение
                 и развитие персонала <br> самостоятельно составив график
             </p>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 thirty__block youCan__block">
+        <div class="col-lg-4 col-md-12 col-sm-12 thirty__block youCan__block third_animation">
             <p>
                 Всегда получать актуальные <br> знания, которые используют на <br> практике более 300 экспертов
             </p>
@@ -23,10 +23,25 @@
 <style lang="scss" >
     @import 'style/theme.scss';
 
+    .first_animation{
+        animation: 2.1s ease-in-out 0s 1 alternate opacity;
+    }
+    .second_animation{
+        animation: 3.1s ease-in-out 0s 1 alternate opacity;
+    }
+    .third_animation{
+        animation: 4.1s ease-in-out 0s 1 alternate opacity;
+    }
 
 
-
-
+@keyframes opacity{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
    
 
     .youCan__main{

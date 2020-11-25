@@ -16,7 +16,7 @@
 
 
 	
-    window.addEventListener("DOMContentLoaded", function() {
+	window.addEventListener("DOMContentLoaded", function() {
     function setCursorPosition(pos, elem) {
         elem.focus();
         if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
@@ -42,12 +42,13 @@
             if (this.value.length == 2) this.value = ""
         } else setCursorPosition(this.value.length, this)
     };
-        let input = document.querySelector("#tel2");
+        let input = document.querySelector("#tel");
         input.addEventListener("input", mask, false);
         input.addEventListener("focus", mask, false);
         input.addEventListener("blur", mask, false);
     });
 
+    // /Маска телефона
 
 </script>
 
