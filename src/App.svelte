@@ -13,6 +13,8 @@
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
 	
+	// Musk phone 
+
     window.addEventListener("DOMContentLoaded", function() {
     function setCursorPosition(pos, elem) {
         elem.focus();
@@ -48,6 +50,56 @@
     });
 
 
+// Создание анимаций
+
+window.addEventListener('DOMContentLoaded', function() {
+
+	// Двумерный массив
+	// 1 - значение, блок к которму будет применяться класс анимации
+	// 2 - значение, класс анимации
+	let elemAnimation = [
+		['.about__block-1', 'test_1'],
+		['.about__block-2', 'test_2'],
+		['.about__block-4', 'test_3'],
+	];
+
+	// Проверяет, если элемент в поле зрения - true, инчае - false
+	function isVisible(elem) {
+		let windowHeight = document.documentElement.clientHeight;
+
+		let coords = elem.getBoundingClientRect();
+		if (coords.top > 0 && coords.top < windowHeight) {
+			return true;
+		} else {
+			return false;
+		}
+	};
+
+	// Генерирует массив с выделенными элементами
+	function makeDocumentArray(array) {
+		let documentElemArray = [];
+		for (let i = 0; i < array.length; i++) {
+			let docTime = document.querySelector(array[i][0]);
+			documentElemArray.push(docTime);
+		}
+
+		return documentElemArray;
+	};
+
+	let arrayElement = makeDocumentArray(elemAnimation);
+
+	window.addEventListener('scroll', function() {
+
+		// Проверяет массив с элементами при каждом скролле
+		let i = 0;
+		for (let elements of arrayElement) {
+			if (isVisible(elements)) {
+				elements.classList.add(elemAnimation[i][1]);
+			}
+			i++;
+		}
+	});
+});
 </script>
 
 

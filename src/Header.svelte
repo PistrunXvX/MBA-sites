@@ -73,6 +73,10 @@
 
 <style lang="scss" >
     @import 'style/theme.scss';
+
+    .main__container{
+        height: 100vh;
+    }
     
     ul{
         text-align: right;

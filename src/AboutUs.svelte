@@ -79,13 +79,7 @@
 
 <style lang="scss">
     @import 'style/theme.scss';
-
-
-    // .container-fluid {
-    //     padding: 0;
-    //     margin: 0;
-    // }
-
+    
     .grey-color{
         background-color: $grey;
     }
