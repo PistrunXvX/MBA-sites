@@ -49,7 +49,8 @@
                     <li><a class="fb__icon" href="https://www.facebook.com/uprav" target="_blank"></a></li>
                     <li><a class="vk__icon" href="https://vk.com/rusuprav" target="_blank"></a></li>
                     <li><a class="inst__icon" href="https://www.instagram.com/rusuprav/" target="_blank"></a></li>
-                    <li><a class="yt__icon" href="https://www.youtube.com/channel/UClo5l1QmtS2PhkCcgQS8pDQ" target="_blank"></a></li>
+                    <li><a class="yt__icon" href="https://www.youtube.com/user/TheRSManagement" target="_blank"></a></li>
+                    <li><a class="tg__icon" href=" https://web.telegram.org/#/im?p=@rusuprav" target="_blank"></a></li>
                 </ul>
             </div>
             <div class="col-9">
@@ -255,6 +256,10 @@
 
         .yt__icon{
             background-image: url(/img/soc_icon_yt.svg);
+        }
+
+        .tg__icon{
+            background-image: url(/img/soc_icon_tg.svg);
         }
     }
 

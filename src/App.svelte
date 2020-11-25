@@ -13,6 +13,7 @@
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
 	
+	// Musk phone 
 
 
 	
@@ -49,6 +50,82 @@
     });
 
     // /Маска телефона
+
+// Создание анимаций
+
+window.addEventListener('DOMContentLoaded', function() {
+
+	// Двумерный массив
+	// 1 - значение, блок к которму будет применяться класс анимации
+	// 2 - значение, класс анимации
+	let elemAnimation = [
+		['.about__block-1', 'test_1'],
+		['.about__block-2', 'test_2'],
+		['.about__block-4', 'test_3'],
+	];
+
+	// Проверяет, если элемент в поле зрения - true, инчае - false
+	function isVisible(elem) {
+		let windowHeight = document.documentElement.clientHeight;
+
+		let coords = elem.getBoundingClientRect();
+		if (coords.top > 0 && coords.top < windowHeight) {
+			return true;
+		} else {
+			return false;
+		}
+	};
+
+	// Генерирует массив с выделенными элементами
+	function makeDocumentArray(array) {
+		let documentElemArray = [];
+		for (let i = 0; i < array.length; i++) {
+			let docTime = document.querySelector(array[i][0]);
+			documentElemArray.push(docTime);
+		}
+
+		return documentElemArray;
+	};
+
+	let arrayElement = makeDocumentArray(elemAnimation);
+
+	window.addEventListener('scroll', function() {
+
+		// Проверяет массив с элементами при каждом скролле
+		let i = 0;
+		for (let elements of arrayElement) {
+			if (isVisible(elements)) {
+				elements.classList.add(elemAnimation[i][1]);
+			}
+			i++;
+		}
+	});
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+	let formModule = document.querySelector('.form__send__module');
+
+	formModule.addEventListener('submit', function(evt) {
+		evt.preventDefault();
+
+		let formData = {
+			name: document.querySelector('input[name="name"]').value,
+			phone: document.querySelector('input[name="phone"]').value,
+			email: document.querySelector('input[name="email"]').value,
+		}
+
+		let request = new XMLHttpRequest();
+
+		request.addEventListener('load', function() {
+			console.log(request.response);
+		});
+
+		request.open('POST', '/send.php', true);
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+		request.send('name= ' + encodeURIComponent(formData.name) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
+	});
+
+});
 
 </script>
 

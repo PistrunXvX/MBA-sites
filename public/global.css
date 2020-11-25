@@ -299,6 +299,12 @@ html{
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
+
+    /* Header */
+
+    .main__container{
+        height: auto !important;
+    }
  }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -527,8 +533,11 @@ html{
                      font-size: 15px;
                  }
                 
+/* Sertificat */
 
-
+.sertificat__container img{
+    width: 150px !important;
+}
                 
 
 
