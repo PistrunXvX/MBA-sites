@@ -915,3 +915,63 @@ html{
                     }
                 
 }
+
+
+
+      
+.about__block__title, .about__block_description{
+    overflow: hidden;
+    
+}
+
+.animation-left_block{
+    animation: 2s ease-in-out 0s 1 alternate transforml; 
+}
+
+
+.animation-right_block{
+    animation: 2.3s ease-in-out 0s 1 alternate transformr; 
+}
+
+@keyframes transforml{
+    from{
+        opacity: 0;
+        transform:translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0%);
+
+    }
+}
+@keyframes transformr{
+    from{
+        opacity: 0;
+        transform:translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform:translateX(0%);
+    }
+}
+
+
+.first_animation{
+    animation: 2.1s ease-in-out 0s 1 alternate opacity;
+}
+.second_animation{
+    animation: 3.1s ease-in-out 0s 1 alternate opacity;
+}
+.third_animation{
+    animation: 4.1s ease-in-out 0s 1 alternate opacity;
+}
+
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

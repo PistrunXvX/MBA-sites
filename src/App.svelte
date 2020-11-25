@@ -59,9 +59,13 @@ window.addEventListener('DOMContentLoaded', function() {
 	// 1 - значение, блок к которму будет применяться класс анимации
 	// 2 - значение, класс анимации
 	let elemAnimation = [
-		['.about__block-1', 'test_1'],
-		['.about__block-2', 'test_2'],
-		['.about__block-4', 'test_3'],
+		['.about__block-1', 'animation-left_block'],
+		['.about__block-2', 'animation-right_block'],
+		['.about__animation-3', 'animation-left_block'],
+		['.about__block-4', 'animation-right_block'],
+		['.first__block', 'second_animation'],
+		['.second__block', 'first_animation'],
+		['.thirty__block', 'third_animation'],
 	];
 
 	// Проверяет, если элемент в поле зрения - true, инчае - false

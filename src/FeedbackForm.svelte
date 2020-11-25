@@ -10,26 +10,28 @@
                 </div>
             </div>
             <div class="col-xl-5">
-                <div class="form-block">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6">
-                            <input type="text" class="form-control form__name" placeholder="Ваше имя" required>
+                <form action="send.php" method="post" class="form__send__module">
+                    <div class="form-block">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <input type="text" class="form-control form__name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="col-xl-6">
+                                <input value="" name="phone" id="tel" class="form-control form__send__number"
+                                    placeholder="Ваш телефон" required>
+                            </div>
                         </div>
-                        <div class="col-xl-6">
-                            <input value="" name="phone" id="tel" class="form-control form__send__number"
-                                placeholder="Ваш телефон" required>
-                        </div>
+                        <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес"
+                            required>
+                        <label class="label">
+                            <input type="checkbox" class="checkbox">
+                            <span class="fake"></span>
+                            <span class="p">Я согласен с <a href="#" class="link"> политикой
+                                    конфиденциальности</a></span>
+                        </label>
                     </div>
-                    <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес"
-                        required>
-                    <label class="label">
-                        <input type="checkbox" class="checkbox">
-                        <span class="fake"></span>
-                        <span class="p">Я согласен с <a href="#" class="link"> политикой
-                                конфиденциальности</a></span>
-                    </label>
-                </div>
-                <button class=" form__btn" type="submit">Отправить</button>
+                    <button class=" form__btn" type="submit">Отправить</button>
+                </form>
             </div>
         </div>
     </div>
