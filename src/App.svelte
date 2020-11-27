@@ -72,6 +72,12 @@ window.addEventListener('DOMContentLoaded', function() {
 		['.title_text_anim_3', 'anim_3'],
 		['.title_text_anim_4', 'anim_4'],
 		['.title_text_anim_5', 'anim_5'],
+		['.first__block_anim', 'animation__youGet'],
+		['.second__block_anim', 'animation__youGet'],
+		['.thirty__block_anim', 'animation__youGet'],
+		['.fouty__block_anim', 'animation__youGet'],
+		['.fifty__block_anim', 'animation__youGet'],
+		['.sixty__block_anim', 'animation__youGet'],
 	];
 
 	// Проверяет, если элемент в поле зрения - true, инчае - false
