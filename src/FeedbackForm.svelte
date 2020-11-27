@@ -1,4 +1,4 @@
-<div class="form-container">
+<div class="form-container first__form">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-xl-7">
