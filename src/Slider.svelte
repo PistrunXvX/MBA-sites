@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-xl-4">
                             <div class="button_content">
-                                <button class=" form__btn" type="submit">Получить</button>
+                                <button class=" form__btn"  data-toggle="modal" data-target="#modal__header">Получить</button>
                             </div>
                         </div>
                     </div>

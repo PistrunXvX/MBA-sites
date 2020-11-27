@@ -2,8 +2,8 @@
     <div class="container text-center">
         <h2>Три тарифа</h2>
     </div>
-    <div class="row justify-content-evenly card_container animation_price">
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8">
+    <div class="row justify-content-evenly card_container">
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="first__price price-card_animation">
                 <h3>Базовый</h3>
                 <p class="text__price">
@@ -19,7 +19,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8"> 
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price"> 
             <article class="second__price price-card_animation">
                 <h3>Расширенный</h3>
                 <p class="text__price">
@@ -35,7 +35,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8">
+        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="thirty__price price-card_animation">
                 <h3>Безлимитный</h3>
                 <p class="text__price">
@@ -60,22 +60,6 @@
 
 <style lang="scss" >
     @import 'style/theme.scss';
-
-
-    .animation_price{
-        animation: 2s ease-in-out 0s 1 alternate transform;
-    }
-        @keyframes transform{
-            from{
-                opacity:0;
-                transform:translateX(-100%);
-            }
-            to{
-                opacity:1;
-                transform:translateX(0%);
-
-            }
-        }
 
         .price-card_animation{
             transition:transform 0.3s ease-in-out;

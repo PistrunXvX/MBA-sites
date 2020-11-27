@@ -240,8 +240,11 @@ html{
               margin-bottom: 10%;
           }
 
+          .wrapper__price{
+              margin-bottom: 10%;
+          }
 
-         
+          
   
           .price__block h2{
               font-size: 40px !important;
@@ -974,5 +977,47 @@ html{
         opacity: 1;
     }
 }
+
+
+.animation_price{
+    animation: 2s ease-in-out 0s 1 alternate transform;
+}
+    @keyframes transform{
+        from{
+            opacity:0;
+            transform:translateX(-100%);
+        }
+        to{
+            opacity:1;
+            transform:translateX(0%);
+
+        }
+    }
+
+
+    .anim_1{
+        animation:1s ease-in-out 0.5s 1 backwards opacity;
+    }
+    .anim_2{
+        animation:1s ease-in-out 1s 1 backwards opacity;
+    }
+    .anim_3{
+        animation:1s ease-in-out 1.5s 1 backwards opacity;
+    }
+    .anim_4{
+        animation:1s ease-in-out 2s 1 backwards opacity;
+    }
+    .anim_5{
+        animation:1s ease-in-out 2.5s 1 backwards opacity;
+    }
+ 
+     @keyframes opacity{
+         from{
+             opacity: 0;
+         }
+         to{
+             opacity:1;
+         }
+     }
 
 

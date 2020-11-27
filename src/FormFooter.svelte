@@ -25,7 +25,7 @@
                         <label class="label">
                             <input type="checkbox" class="checkbox">
                             <span class="fake"></span>
-                            <span class="p">Я согласен с <a href="#" class="link"> политикой конфиденциальности</a></span>
+                            <span class="p">Я согласен с <a href="/img/politika_peda.pdf" target="_blank" class="link"> политикой конфиденциальности</a></span>
                         </label>
                     </div>
                     <button class=" form__btn" type="submit">Отправить</button>

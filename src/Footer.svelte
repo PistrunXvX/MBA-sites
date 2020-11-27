@@ -41,7 +41,7 @@
                             </span>
                         </div>
                         <div class="politics">
-                            <span class="politics_text"><a href="#"> Политика конфиденциальности</a></span>
+                            <span class="politics_text"><a href="/img/politika_peda.pdf" target="_blank"> Политика конфиденциальности</a></span>
                         </div>
                     </div>
                 </div>

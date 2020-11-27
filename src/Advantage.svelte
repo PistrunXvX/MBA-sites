@@ -8,7 +8,7 @@
                     <div class="col-xl-4 col-xs-10 col-sm-6 ">
                         <div class="advantage__list-item first_block">
                             <div class="list-item_title ">
-                                <p class="title_text"><span class="title_text_number anim_1">01</span>Работаем с 2002 года</p>
+                                <p class="title_text"><span class="title_text_number title_text_anim_1">01</span>Работаем с 2002 года</p>
                             </div>
                             <div class="list-item_desc">
                                 <p class="desc_text">У нас более 150 000 выпускников, мы сотрудничали более, чем с 15
@@ -20,8 +20,8 @@
                     <div class="col-xl-4  col-xs-10 col-sm-6 ">
                         <div class="advantage__list-item second_block">
                             <div class="list-item_title">
-                                <p class="title_text"><span class="title_text_number anim_2">02</span>Широкая линейка программ</p>
-                            </div>
+                                <p class="title_text"><span class="title_text_number title_text_anim_2">02</span>Широкая линейка программ</p>
+                            </div> 
                             <div class="list-item_desc">
                                 <ul class="item-desc_content">
                                     <li class="desc_text"> - Более 30 направлений</li>
@@ -36,7 +36,7 @@
                     <div class="col-xl-4 col-xs-10 col-sm-6">
                         <div class="advantage__list-item third_block">
                             <div class="list-item_title">
-                                <p class="title_text five_number"><span class="title_text_number anim_5">05</span>Гибкое расписание</p>
+                                <p class="title_text five_number"><span class="title_text_number title_text_anim_5">05</span>Гибкое расписание</p>
                             </div>
                             <div class="list-item_desc">
                                 <p class="desc_text">Частота программ позволит обучать разных
@@ -50,7 +50,7 @@
                     <div class="col-xl-4 col-xs-10 col-sm-6 ">
                         <div class="advantage__list-item four_block">
                             <div class="list-item_title">
-                                <p class="title_text third_number"><span class="title_text_number anim_3">03</span>Гарантия качества</p>
+                                <p class="title_text third_number"><span class="title_text_number title_text_anim_3">03</span>Гарантия качества</p>
                             </div>
                             <div class="list-item_desc">
                                 <ul class="item-desc_content third_item-desc_content">
@@ -64,7 +64,7 @@
                     <div class="col-xl-4 col-xs-10 col-sm-6 ">
                         <div class="advantage__list-item five_block">
                             <div class="list-item_title">
-                                <p class="title_text four_number"><span class="title_text_number anim_4">04</span>Экономия бюджета</p>
+                                <p class="title_text four_number"><span class="title_text_number title_text_anim_4">04</span>Экономия бюджета</p>
                             </div>
                             <div class="list-item_desc ">
                                 <p class="desc_text">
@@ -84,32 +84,6 @@
 <style lang="scss">
     @import 'style/theme.scss';
 
-    
-
-   .anim_1{
-       animation:1s ease-in-out 0s 1 alternate opacity;
-   }
-   .anim_2{
-       animation:3s ease-in-out 0s 1 alternate opacity;
-   }
-   .anim_3{
-       animation:4s ease-in-out 0s 1 alternate opacity;
-   }
-   .anim_4{
-       animation:5s ease-in-out 0s 1 alternate opacity;
-   }
-   .anim_5{
-       animation:6s ease-in-out 0s 1 alternate opacity;
-   }
-
-    @keyframes opacity{
-        from{
-            opacity: 0;
-        }
-        to{
-            opacity:1;
-        }
-    }
 
     .advantage {
         background-image: url("/img/main_img_advantage.jpg");

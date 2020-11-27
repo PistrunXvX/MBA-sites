@@ -43,15 +43,6 @@
 <style lang="scss">
     @import 'style/theme.scss';
 
-
-    input:invalid {
-        border-color: #ff6e5e;
-    }
-
-    input:valid {
-        border-color: #76c27b;
-    }
-
     input:invalid:not(:placeholder-shown) {
         border-color: #ff6e5e;
     }
