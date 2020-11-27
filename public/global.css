@@ -73,6 +73,7 @@ html{
     
         .footer_container .nav_footer .nav_item{
             padding-bottom: 10px;
+            
            
     
         }
@@ -157,8 +158,9 @@ html{
 @media screen and (max-width: 991.98px) {
 
 
-
             /* Footer */
+
+           
     .footer_container .nav_footer .navbar{
         padding-bottom: 20px;
        
@@ -187,6 +189,7 @@ html{
 
     .footer_container .nav_footer .nav_item{
         padding-bottom: 20px;
+        
     }
 
     .footer_container li a{
@@ -221,6 +224,15 @@ html{
         align-items:center;
        
     }
+
+            /* FormFooter */
+
+            .form__footer{
+                
+                    margin-bottom: 0px !important;
+                    
+                
+            }
 
           /* Price */     
 
@@ -266,7 +278,8 @@ html{
 
                  .advantage{
                     
-                    padding-top: 100px !important;
+                    margin-top: 100px !important;
+                    margin-bottom:  20px !important;
                 }
 
                 .advantage__list{
@@ -308,6 +321,28 @@ html{
     .main__container{
         height: auto !important;
     }
+
+    /* feedbackform */
+        .first__form{
+        margin-bottom: 100px !important;
+    }
+
+      /* Slider */
+
+    .slider__container{
+        margin-bottom: 100px !important;
+        
+    }
+
+
+        /* cooperative */
+    
+        .coop__main{
+            padding-top: 100px !important;
+        }
+        .coop__main h2 {
+            margin-bottom: 100px !important;
+        }
  }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -389,7 +424,7 @@ html{
           
             .footer_container .nav_footer .nav_item{
                 margin-bottom: 20px;
-        
+                padding-right:0 !important;
                 border-bottom: 2px solid #2C467C;
                 
                
@@ -542,8 +577,11 @@ html{
     width: 150px !important;
 }
                 
+        /* feedbackform */
 
-
+        .form-container{
+            margin-bottom: 70px !important;
+        }
 }
 
 @media screen and (max-width: 575.98px) {
@@ -719,7 +757,7 @@ html{
   
     .footer_container .nav_footer .nav_item{
         margin-bottom: 20px;
-
+        padding-right:0 !important;
         border-bottom: 2px solid #2C467C;
         
        
@@ -772,6 +810,10 @@ html{
 
     .footer_container .social .social_title .social_title__text{
         font-size: 25px;
+    }
+
+    .form__btn{
+        padding: 14px 65px 14px 65px !important;
     }
 
    
