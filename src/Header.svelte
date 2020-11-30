@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="phone__nav">
-                <a href="tel:+88001000203">+8(800)-100-02-03</a>
+                <a href="tel:+88001000203">+8 800-100-02-03</a>
               </div>
             </div>
           </nav>
@@ -30,7 +30,7 @@
         <div class="row dekstop__nav">
             <div class="col">
                 <nav>
-                    <a href="tel:+88001000203" class="desc_number">8(800)-100-02-03</a>
+                    <a href="tel:+88001000203" class="desc_number">8 800-100-02-03</a>
                     <ul>
                         <li><a href="#main">Главная</a></li>
                         <li><a href="#about_Us">О нас</a></li>
@@ -148,8 +148,9 @@
 
     .main__container{
         background-image: url(/img/header_img.jpg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .main__text{

@@ -100,6 +100,8 @@
             border-radius: 50px;
 
         }
+
+
                 
         h2{
             font-size: $blockTitleSize;

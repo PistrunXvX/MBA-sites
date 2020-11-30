@@ -714,16 +714,20 @@ html{
     }
 
     .youGet__block article{
-        background-size: 0px !important;
         padding-right: 0% !important;
         padding-left: 0% !important; 
+        margin-top: 0% !important;
+
+        padding-top: 20% !important;
     }
 
-    .first__block, .thirty__block, .fifty__block,
-    .second__block, .fouty__block, .sixty__block{
+    .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block,
+    .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
         text-align: center !important;
+        background-image: url(/img/plus_mobile_icon.svg) !important;
+        background-position: 50% 5% !important;
+        background-size: 30px 30px !important;
     }
-
 
 
     /* Slider */
@@ -996,12 +1000,12 @@ html{
 }
 
 .animation-left_block{
-    animation: 2s ease-in-out 0s 1 alternate transforml; 
+    animation: 2s ease-in-out 0.1s 1 backwards transforml; 
 }
 
 
 .animation-right_block{
-    animation: 2.3s ease-in-out 0s 1 alternate transformr; 
+    animation: 2.3s ease-in-out 0.1s 1 backwards transformr; 
 }
 
 @keyframes transforml{
@@ -1028,13 +1032,13 @@ html{
 
 
 .first_animation{
-    animation: 2.1s ease-in-out 0s 1 alternate opacity;
+    animation: 0.7s ease-in-out 0s 1 backwards opacity;
 }
 .second_animation{
-    animation: 3.1s ease-in-out 0s 1 alternate opacity;
+    animation: 0.7s ease-in-out 0.7s 1 backwards opacity;
 }
 .third_animation{
-    animation: 4.1s ease-in-out 0s 1 alternate opacity;
+    animation: 0.7s ease-in-out 1.4s 1 backwards opacity;
 }
 
 

@@ -4,13 +4,18 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal__header__label">Заполните анкету</h5>
+                <h5 class="modal-title" id="modal__header__label">Форма обратной свзяи</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <form action="post">
                 <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <p class="modal__text">Мы свяжемся с вами в течении 15 минут! Ждите звонка</p>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <input type="text" placeholder="Ваше имя" required>
@@ -52,9 +57,15 @@
     }
 
     .modal-content {
-        background-color: $darkBlue;
+        background-color: rgba(44, 70, 124, 0.8);
 
         .modal-title {
+            font-family: $fbck;
+            color: $colorWhite;
+            font-size: 25px;
+        }
+
+        .modal__text{
             font-family: $fbck;
             color: $colorWhite;
             font-size: 25px;
