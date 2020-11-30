@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="row ">
-            <div class="col-3 align-self-center">
+            <div class="col-3 remove__sm align-self-center">
                 <ul class="social__icon">
                     <li><a class="fb__icon" href="https://www.facebook.com/uprav" target="_blank"></a></li>
                     <li><a class="vk__icon" href="https://vk.com/rusuprav" target="_blank"></a></li>
@@ -86,12 +86,6 @@
             opacity: 1;
         }
     }
-
-
-
-    .main__container{
-        height: 100vh;
-    }
     
     ul{
         text-align: right;
@@ -109,7 +103,7 @@
         border-bottom: 1px solid $orange;
         transition: .3s;
 
-        margin-left: 10%;
+        margin-left: 7%;
 
         float: left;
 
@@ -165,7 +159,7 @@
         padding-left: 40%;
 
         h1{
-            font-size: $mainText;
+            font-size: 41px;
             font-family: $fbck;
             color: $colorWhite;
             line-height: 127%;

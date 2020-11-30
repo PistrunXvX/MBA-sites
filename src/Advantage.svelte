@@ -1,3 +1,20 @@
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        let widthWindow = window.innerWidth;
+        console.log(typeof(widthWindow));
+
+        let numberTo3 = document.querySelector('.title_text_anim_5');
+        let numberTo4 = document.querySelector('.title_text_anim_3');
+        let numberTo5 = document.querySelector('.title_text_anim_4');
+
+        if (widthWindow < 576) {
+            numberTo3.textContent = "03";
+            numberTo4.textContent = "04";
+            numberTo5.textContent = "05";
+        }
+    });
+</script>
+
 <div class="advantage" id="advantage">
     <div class="container-fluid">
         <h2 class="title title__one">Преимущества</h2>

@@ -336,13 +336,23 @@ html{
 
 
         /* cooperative */
-    
+/*     
         .coop__main{
             padding-top: 100px !important;
-        }
+        } */
         .coop__main h2 {
             margin-bottom: 100px !important;
         }
+
+    /* youGet */
+
+    .first__block, .thirty__block, .fifty__block{
+        margin-left: 0% !important;
+    }
+
+    .second__block, .fouty__block, .sixty__block{
+        margin-right: 0% !important;
+    }
  }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -632,6 +642,14 @@ html{
         background-size: 100px !important;
     }
 
+    .social__icon a{
+        background-size: 15px !important;
+    }
+
+    .remove__sm{
+        display: none !important;
+    }
+
     /* AboutUS */
 
     .about__block{
@@ -696,8 +714,17 @@ html{
     }
 
     .youGet__block article{
-        background-size: 60px !important; 
+        background-size: 0px !important;
+        padding-right: 0% !important;
+        padding-left: 0% !important; 
     }
+
+    .first__block, .thirty__block, .fifty__block,
+    .second__block, .fouty__block, .sixty__block{
+        text-align: center !important;
+    }
+
+
 
     /* Slider */
     .slider__container{

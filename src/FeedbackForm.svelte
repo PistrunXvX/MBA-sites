@@ -1,3 +1,7 @@
+<script>
+    let yes = false;
+</script>
+
 <div class="form-container first__form">
     <div class="container-fluid">
         <div class="row align-items-center">
@@ -24,13 +28,13 @@
                         <input type="email" class="form-control  form_send__email" placeholder="Ваш электронный адрес"
                             required>
                         <label class="label">
-                            <input type="checkbox" class="checkbox">
+                            <input type="checkbox" bind:checked={yes} class="checkbox">
                             <span class="fake"></span>
                             <span class="p">Я согласен с <a href="/img/politika_peda.pdf" target="_blank" class="link"> политикой
                                     конфиденциальности</a></span>
                         </label>
                     </div>
-                    <button class=" form__btn" type="submit">Отправить</button>
+                    <button class="form__btn" disabled={!yes} type="submit">Отправить</button>
                 </form>
             </div>
         </div>
@@ -222,10 +226,6 @@
             position: relative;
             left: 50%;
             transform: translate(-50%, 0);
-
-
-
-
         }
 
         .form__btn:hover,
@@ -238,7 +238,15 @@
             background-color: $colorWhite;
             outline: 0;
             outline-offset: 0;
+        }
 
+        .form__btn:disabled{
+            opacity: 0.5;
+        }
+
+        .form__btn:disabled:hover{
+            background-color: $orange;
+            color: $colorWhite;
         }
 
 

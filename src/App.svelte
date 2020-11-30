@@ -12,6 +12,7 @@
 	import FormFooter from './FormFooter.svelte';
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
+	import ModalVertical from './ModalPopupVertical.svelte';
 	
 	// Musk phone 
 
@@ -66,7 +67,6 @@ window.addEventListener('DOMContentLoaded', function() {
 		['.first__block', 'second_animation'],
 		['.second__block', 'first_animation'],
 		['.thirty__block', 'third_animation'],
-		['.card_container', 'animation_price'],
 		['.title_text_anim_1', 'anim_1'],
 		['.title_text_anim_2', 'anim_2'],
 		['.title_text_anim_3', 'anim_3'],
@@ -145,8 +145,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
-
-
 <Header/>
 <About/>
 <YouCan/>
@@ -160,6 +158,7 @@ window.addEventListener('DOMContentLoaded', function() {
 <FormFooter/>
 <Footer/>
 <Modal/>
+<ModalVertical/>
 
 <style>
 

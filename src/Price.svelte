@@ -11,9 +11,9 @@
                     к платформе онлайн-
                     трансляции
                 </p>
-                <span class="month__price">
+                <button type="button" data-toggle="modal" data-target="#first__vertical__popup" class="month__price">
                     3 месяца
-                </span>
+                </button>
                 <p class="salary__price">
                     150 000 р.
                 </p>
@@ -27,9 +27,9 @@
                     к платформе онлайн-
                     трансляции
                 </p>
-                <span class="month__price">
+                <button type="button" data-toggle="modal" data-target="#second__vertical__popup" class="month__price">
                     6 месяцев
-                </span>
+                </button>
                 <p class="salary__price">
                     300 000 р.
                 </p>
@@ -44,9 +44,9 @@
                     к платформе онлайн-
                     трансляции
                 </p>
-                <span class="month__price">
+                <button type="button" data-toggle="modal" data-target="#third__vertical__popup" class="month__price">
                     12 месяцев
-                </span>
+                </button>
                 <p class="salary__price">
                     1 500 000 р.
                 </p>
@@ -70,6 +70,7 @@
             transform:scale(1.05) translateY(-5%);
             transition:transform 0.3s ease-in-out;
         }
+
 
     .price__block{
        
@@ -118,6 +119,7 @@
              .month__price{
                  font-size: $description;
                  color: $colorWhite;
+                 transition: 0.3s;
                 
                  text-transform: uppercase;
 
@@ -125,7 +127,16 @@
 
                  background-color: $darkBlue;
                  border-radius: 50px;
+                 border: none;
+                 box-shadow: none;
              }
+
+             
+                .month__price:hover{
+                    background-color: $orange;
+                    box-shadow: 0px 0px 20px $orange;
+                    transition: 0.3s;
+                }
 
              .salary__price{
                  font-size: $description;
