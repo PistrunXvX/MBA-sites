@@ -1,7 +1,7 @@
 <div class="container-fluid sertificat__container" id="sertificats">
     <!-- <div class="container"> -->
-        <h2>Лицензии</h2>
-        <div class="row justify-content-start">
+        <h2>Лицензии и Сертификаты</h2>
+        <div class="row justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="first__sertificat">
                     <a href="https://uprav.ru/about/#lg=1&slide=15"><img src="img/sertificat_img_1.jpg" class="img-fluid mx-auto d-block" alt="Лицензия на право ведения образовательной деятельности"></a>
