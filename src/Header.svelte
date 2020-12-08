@@ -148,9 +148,9 @@
 
     .main__container{
         background-image: url(/img/header_img.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+      //  background-attachment: fixed;
     }
 
     .main__text{
