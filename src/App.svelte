@@ -152,21 +152,27 @@ window.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
-<Header/>
-<About/>
-<YouCan/>
-<Form/>
-<YouGet/>
-<Slider/>
-<Price/>
-<Advantage/>
-<Cooperative/>
-<Sertificat/>
-<FormFooter/>
-<Footer/>
-<Modal/>
-<ModalVertical/>
+<div class="container__fixed__width">
+	<Header/>
+	<About/>
+	<YouCan/>
+	<Form/>
+	<YouGet/>
+	<Slider/>
+	<Price/>
+	<Advantage/>
+	<Cooperative/>
+	<Sertificat/>
+	<FormFooter/>
+	<Footer/>
+	<Modal/>
+	<ModalVertical/>
+</div>
 
 <style>
+	.container__fixed__width{
+		max-width: 1920px;
+		margin: auto;
+	}
 
 </style>

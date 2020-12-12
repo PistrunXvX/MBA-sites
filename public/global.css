@@ -27,6 +27,13 @@ html{
     .advantage{
         background-size: cover !important;
     }
+
+    /* YouGet */
+
+    .icon__yellow:after,
+    .icon__blue:after{
+        display: none !important;
+    }
 }
 
 
@@ -850,9 +857,6 @@ html{
    
         /* Price */    
         
-        
-        
-
         .price__block .row .first__price .month__price,
         .price__block .row .second__price .month__price,
         .price__block .row .thirty__price  .month__price

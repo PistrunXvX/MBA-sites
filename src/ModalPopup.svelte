@@ -1,6 +1,6 @@
 
 
-<div class="modal fade" id="modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
+<div class="modal fade" id="first__modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -45,6 +45,52 @@
     </div>
 </div>
 
+<div class="modal fade" id="second__modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal__header__label">Форма обратной свзяи</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="post">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <p class="modal__text">Мы свяжемся с вами в течении 15 минут! Ждите звонка</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="text" placeholder="Ваша фамилия" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="tel" id="tel" placeholder="Ваш номер телефона" required>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <input type="email" placeholder="Ваша электронная почта" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <button type="submit">Отправить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <style lang="scss">
     @import 'style/theme.scss';
 
@@ -57,8 +103,7 @@
     }
 
     .modal-content {
-        background-color: rgba(44, 70, 124, 0.8);
-
+        
         .modal-title {
             font-family: $fbck;
             color: $colorWhite;
@@ -122,8 +167,6 @@
         
     }
 
-        
-
     input[type="text"] {
         margin-bottom: 40px;
     }
@@ -140,8 +183,6 @@
         background-color: #223661;
     }
 
-
-
     button:hover,
     button:active,
     button:focus {
@@ -153,9 +194,6 @@
         outline-offset: 0;
     }
 
-
-
-
         .modal-dialog{
             max-width: 850px;
            
@@ -166,4 +204,12 @@
                 padding-top: 30px;
                 padding-bottom: 30px;
             }
+
+    #first__modal__header .modal-content{
+        background-color: rgba(44, 70, 124, 0.8);
+    }
+
+    #second__modal__header .modal-content{
+        background-color: $darkBlue;
+    }
 </style>

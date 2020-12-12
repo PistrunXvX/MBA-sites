@@ -10,15 +10,15 @@
     // let arrayButton = document.querySelectorAll('.month__price');
 
         function setName_1(){
-            document.querySelector('.first__month').textContent = 'Узнайте больше';
+            document.querySelector('.first__month').textContent = 'Подробнее';
         };
 
         function setName_2() {
-            document.querySelector('.second__month').textContent = 'Узнайте больше';
+            document.querySelector('.second__month').textContent = 'Подробнее';
         };
 
         function setName_3() {
-            document.querySelector('.third__month').textContent = 'Узнайте больше';
+            document.querySelector('.third__month').textContent = 'Подробнее';
         };
 
         

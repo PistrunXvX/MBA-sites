@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-xl-4">
                             <div class="button_content">
-                                <button class=" form__btn"  data-toggle="modal" data-target="#modal__header">Получить</button>
+                                <button class=" form__btn"  data-toggle="modal" data-target="#second__modal__header">Получить</button>
                             </div>
                         </div>
                     </div>
@@ -130,30 +130,6 @@
                 }
             }
 
-          
-   
-            
-//    .carousel-inner .carousel-item > img {
-//   -webkit-animation: thing 20s;
-//   -o-animation: thing 20s;
-//   animation: thing 20s; 
-// }
-// @keyframes thing {
-//   from {
-//      transform: scale(1, 1);
-//   }
-//   to {
-//     transform: scale(1.2, 1.2);
-//   }
-// }
-
-
-
-                
-
-
-
-
 
 .carousel-control-prev{
   left: -15%;
@@ -162,11 +138,6 @@
 .carousel-control-next{
   right: -15%;
 }
-
-
-
-
-
 
   .carousel-control-prev-icon {
                 
@@ -212,8 +183,6 @@
 
 }
 
-
-
     .slider__container{
         background-color:$darkBlue;
     }
@@ -229,8 +198,6 @@
     
 }
 
-
-
 .text_block__content{
     margin-top:92px;
     color:$colorWhite;
@@ -240,9 +207,6 @@
     line-height: 128.56%;
     padding-left:80px;
 }
-
-
-
 
     .form__btn{
         margin-top:92px;

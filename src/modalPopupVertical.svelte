@@ -1,4 +1,4 @@
-<div class="modal fade style__popup" id="first__vertical__popup style__popup"  tabindex="-1" aria-labelledby="first__vertical__popupLabel" aria-hidden="true">
+  <div class="modal fade style__popup" id="first__vertical__popup"  tabindex="-1" aria-labelledby="first__vertical__popupLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
         <div class="modal-header">

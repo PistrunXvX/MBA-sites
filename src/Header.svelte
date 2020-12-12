@@ -62,7 +62,7 @@
                         <p>
                             Доступ к 35 направлениям и 5000 тем для успешного ведения бизнеса
                         </p>
-                        <a type="button" class="emergence" data-toggle="modal" data-target="#modal__header">Подать заявку</a>
+                        <a type="button" class="emergence" data-toggle="modal" data-target="#first__modal__header">Подать заявку</a>
                     </div>
                 </div>
             </div>
@@ -148,9 +148,9 @@
 
     .main__container{
         background-image: url(/img/header_img.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        // background-attachment: fixed;
     }
 
     .main__text{

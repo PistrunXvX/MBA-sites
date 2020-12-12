@@ -4,12 +4,14 @@
         <div class="row">
             <div class="col">
                 <article class="first__block container__block">
-                    <div class="bg__color first__block_anim">
-                        <h3>Единый стандарт обучения</h3>
-                        <p>
-                            Ваши сотрудники формируют единый понятный аппарат, что позволяет сэкономить время
-                            на неэффективных коммуникациях
-                        </p>
+                    <div class="icon__yellow">
+                        <div class="bg__color first__block_anim">
+                            <h3>Единый стандарт обучения</h3>
+                            <p>
+                                Ваши сотрудники формируют единый понятный аппарат, что позволяет сэкономить время
+                                на неэффективных коммуникациях
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -17,12 +19,14 @@
         <div class="row">
             <div class="col">
                 <article class="second__block container__block">
-                    <div class="bg__color second__block_anim">
-                        <h3>Широкая линейка программ</h3>
-                        <p>
-                            Благодаря большому количеству программ вы можете «закрыть» потребности обучения на
-                            любом бизнес-направлении
-                        </p>
+                    <div class="icon__blue">
+                        <div class="bg__color second__block_anim">
+                            <h3>Широкая линейка программ</h3>
+                            <p>
+                                Благодаря большому количеству программ вы можете «закрыть» потребности обучения на
+                                любом бизнес-направлении
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -30,11 +34,13 @@
         <div class="row">
             <div class="col">
                 <article class="thirty__block container__block">
-                    <div class="bg__color thirty__block_anim">
-                        <h3>Эксперты-практики</h3>
-                        <p>
-                            Более 300 опытных преподавателей, прошедших внутреннюю сертификацию
-                        </p>
+                    <div class="icon__yellow">
+                        <div class="bg__color thirty__block_anim">
+                            <h3>Эксперты-практики</h3>
+                            <p>
+                                Более 300 опытных преподавателей, прошедших внутреннюю сертификацию
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -42,13 +48,15 @@
         <div class="row">
             <div class="col">
                 <article class="fouty__block container__block">
-                    <div class="bg__color fouty__block_anim">
-                        <h3>Гибкое расписание</h3>
-                        <p>
-                            Частота программ позволит обучать разных сотрудников 
-                            по одной и той же тематике с регулярностью 
-                            один раз в два месяца
-                        </p>
+                    <div class="icon__blue">
+                        <div class="bg__color fouty__block_anim">
+                            <h3>Гибкое расписание</h3>
+                            <p>
+                                Частота программ позволит обучать разных сотрудников 
+                                по одной и той же тематике с регулярностью 
+                                один раз в два месяца
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -56,11 +64,13 @@
         <div class="row">
             <div class="col">
                 <article class="fifty__block container__block">
-                    <div class="bg__color fifty__block_anim">
-                        <h3>Экономия бюджета</h3>
-                        <p>
-                            Свыше 50% вашего бюджета может остаться на развитие важных бизнес-целей
-                        </p>
+                    <div class="icon__yellow">
+                        <div class="bg__color fifty__block_anim">
+                            <h3>Экономия бюджета</h3>
+                            <p>
+                                Свыше 50% вашего бюджета может остаться на развитие важных бизнес-целей
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -68,11 +78,13 @@
         <div class="row">
             <div class="col">
                 <article class="sixty__block container__block">
-                    <div class="bg__color sixty__block_anim">
-                        <h3>Багаж практических инструментов</h3>
-                        <p>
-                            Электронная версия презентаций и дополнительных материалов, с возможностью делиться и использовать в работе в постоянном режиме
-                        </p>
+                    <div class="icon__blue">
+                        <div class="bg__color sixty__block_anim">
+                            <h3>Багаж практических инструментов</h3>
+                            <p>
+                                Электронная версия презентаций и дополнительных материалов, с возможностью делиться и использовать в работе в постоянном режиме
+                            </p>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -84,11 +96,6 @@
 <style lang="scss" >
     @import 'style/theme.scss';
 
-
-
-   
-    
-
     .youGet__block{
         padding-bottom: 131px;
 
@@ -98,10 +105,31 @@
             padding: 50px 30px;
 
             border-radius: 50px;
-
         }
 
+        .icon__yellow:after{
+            display: block;
+            position: absolute;
+            content: ' ';
+            background-image: url(/img/yellow_elips.svg);
+            background-size: 80px 80px;
+            height: 80px;
+            width: 80px;
+            left: 45%;
+            top: 40%;
+        }
 
+        .icon__blue:after{
+            display: block;
+            position: absolute;
+            content: ' ';
+            background-image: url(/img/blue_ellips.svg);
+            background-size: 80px 80px;
+            height: 80px;
+            width: 80px;
+            right: 45%;
+            top: 40%;
+        }
                 
         h2{
             font-size: $blockTitleSize;
@@ -123,6 +151,8 @@
             background-repeat: no-repeat;
             background-size: 150px;
 
+            position: relative;
+
             h3{
                 font-size: 56px;
             }
@@ -138,7 +168,7 @@
 
         .first__block, .thirty__block, .fifty__block{
             text-align: left;
-            padding-right: 45%;
+            padding-right: 55%;
             background-position: 80% 50%;
 
             margin-left: 5%;
@@ -146,7 +176,7 @@
 
         .second__block, .fouty__block, .sixty__block{
             text-align: right;
-            padding-left: 45%;
+            padding-left: 55%;
             background-position: 20% 50%;
 
             margin-right: 5%;
