@@ -220,7 +220,7 @@
             border: none;
             font-size: $orangeButton;
             text-align: center;
-            padding: 14px 65px 20px 65px;
+            padding: 20px 65px 20px 65px;
             box-shadow: 0px 0px 20px $orange;
             transition: 0.6s;
             position: relative;

@@ -218,7 +218,7 @@
                     border:none;
                     font-size: $orangeButton;
                     text-align: center;
-                    padding:14px 95px 22px 95px;
+                    padding:22px 95px 22px 95px;
                     box-shadow: 0px 0px 20px $orange;
                     transition: 0.6s;
                     position: relative;

@@ -1,3 +1,13 @@
+<script>
+import { tweened } from 'svelte/motion';
+import { cubicOut } from 'svelte/easing';
+
+const progress = tweened(0, {
+    duration: 400,
+    easing: cubicOut
+});
+</script>
+
 <div class="container-fluid youGet__block">
     <h2>Что вы получаете</h2>
     <div class="container-fluid">
