@@ -7,7 +7,7 @@
         let numberTo4 = document.querySelector('.title_text_anim_3');
         let numberTo5 = document.querySelector('.title_text_anim_4');
 
-        if (widthWindow < 576) {
+        if (widthWindow < 960) {
             numberTo3.textContent = "03";
             numberTo4.textContent = "04";
             numberTo5.textContent = "05";
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="advantage__list">
                 <div class="row justify-content-between">
-                    <div class="col-xl-4 col-xs-10 col-sm-6 ">
+                    <div class="col-xl-4 col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item first_block">
                             <div class="list-item_title ">
                                 <p class="title_text"><span class="title_text_number title_text_anim_1">01</span>Работаем с 2002 года</p>
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4  col-xs-10 col-sm-6 ">
+                    <div class="col-xl-4  col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item second_block">
                             <div class="list-item_title">
                                 <p class="title_text"><span class="title_text_number title_text_anim_2">02</span>Широкая линейка программ</p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-4 col-xs-10 col-sm-6">
+                    <div class="col-xl-4 col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item third_block">
                             <div class="list-item_title">
                                 <p class="title_text five_number"><span class="title_text_number title_text_anim_5">05</span>Гибкое расписание</p>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-xl-4 col-xs-10 col-sm-6 ">
+                    <div class="col-xl-4 col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item four_block">
                             <div class="list-item_title">
                                 <p class="title_text third_number"><span class="title_text_number title_text_anim_3">03</span>Гарантия качества</p>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-xs-10 col-sm-6 ">
+                    <div class="col-xl-4 col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item five_block">
                             <div class="list-item_title">
                                 <p class="title_text four_number"><span class="title_text_number title_text_anim_4">04</span>Экономия бюджета</p>

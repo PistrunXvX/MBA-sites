@@ -34,7 +34,7 @@
         background-image: url(/img/linear_img_youCan.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        // background-attachment: fixed;
+        background-attachment: fixed;
 
         h2{
             font-size:$blockTitleSize;

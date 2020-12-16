@@ -1,10 +1,56 @@
 <script>
-import { tweened } from 'svelte/motion';
-import { cubicOut } from 'svelte/easing';
+import { draw } from 'svelte/transition';
 
-const progress = tweened(0, {
-    duration: 400,
-    easing: cubicOut
+let duration = 3000;
+let delay = 200;
+
+// Размещать в строгом порядке с воспроизведением анимаций
+let elemAnimation = [
+    ['.blue__line__1', false],
+    ['.yellow__line__1', false],
+    ['.blue__line__2', false],
+    ['.yellow__line__2', false],
+    ['.blue__line__3', false],
+];
+
+window.addEventListener('DOMContentLoaded', function() {
+
+
+function isVisible(elem) {
+		let windowHeight = document.documentElement.clientHeight;
+
+		let coords = elem.getBoundingClientRect();
+		if (coords.top > 0 && coords.top < windowHeight) {
+			return true;
+		} else {
+			return false;
+		}
+	};
+
+	// Генерирует массив с выделенными элементами
+	function makeDocumentArray(array) {
+		let documentElemArray = [];
+		for (let i = 0; i < array.length; i++) {
+			let docTime = document.querySelector(array[i][0]);
+			documentElemArray.push(docTime);
+		}
+
+		return documentElemArray;
+	};
+
+	let arrayElement = makeDocumentArray(elemAnimation);
+
+	window.addEventListener('scroll', function() {
+
+		// Проверяет массив с элементами при каждом скролле
+		let i = 0;
+		for (let elements of arrayElement) {
+			if (isVisible(elements)) {
+				elemAnimation[i][1] = true;
+			}
+			i++;
+		}
+	});
 });
 </script>
 
@@ -26,6 +72,13 @@ const progress = tweened(0, {
                 </article>
             </div>
         </div>
+        <div class="line__to blue__line__1">
+            {#if elemAnimation[0][1]}
+            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3 H 34 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
+            </svg>
+            {/if}
+        </div>
         <div class="row">
             <div class="col">
                 <article class="second__block container__block">
@@ -41,6 +94,13 @@ const progress = tweened(0, {
                 </article>
             </div>
         </div>
+        <div class="line__to yellow__line__1">
+            {#if elemAnimation[1][1]}
+            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3 H 32.5 Z" stroke="#EA8E02" transition:draw="{{duration, delay}}"/>
+            </svg>
+            {/if}
+        </div>
         <div class="row">
             <div class="col">
                 <article class="thirty__block container__block">
@@ -54,6 +114,13 @@ const progress = tweened(0, {
                     </div>
                 </article>
             </div>
+        </div>
+        <div class="line__to blue__line__2">
+            {#if elemAnimation[2][1]}
+            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3 H 32 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
+            </svg>
+            {/if}
         </div>
         <div class="row">
             <div class="col">
@@ -71,6 +138,13 @@ const progress = tweened(0, {
                 </article>
             </div>
         </div>
+        <div class="line__to yellow__line__2">
+            {#if elemAnimation[3][1]}
+            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3 H 32.6 Z" stroke="#EA8E02" transition:draw="{{duration, delay}}"/>
+            </svg>
+            {/if}
+        </div>
         <div class="row">
             <div class="col">
                 <article class="fifty__block container__block">
@@ -84,6 +158,13 @@ const progress = tweened(0, {
                     </div>
                 </article>
             </div>
+        </div>
+        <div class="line__to blue__line__3">
+            {#if elemAnimation[4][1]}
+            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3 H 34.6 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
+            </svg>
+            {/if}
         </div>
         <div class="row">
             <div class="col">
@@ -108,6 +189,7 @@ const progress = tweened(0, {
 
     .youGet__block{
         padding-bottom: 131px;
+        position: relative;
 
         .bg__color{
             background-color: $grey;
@@ -215,5 +297,37 @@ const progress = tweened(0, {
         .sixty__block{
             background-image: url(/img/bag_icon_youGet.svg);
         }
+
+        .line__to{
+            position: absolute;
+            width: 98%;
+            transform: rotate(90deg);
+        }
+
+        .line__to svg{
+            margin-bottom: 1%;
+        }
+
+        .blue__line__1{
+            // position: fixed;
+            top: 32.3%;
+        }
+
+        .yellow__line__1{
+            top: 48.8%;
+        }
+
+        .blue__line__2{
+            top: 64.8%;
+        }
+
+        .yellow__line__2{
+            top: 80.5%;
+        }
+
+        .blue__line__3{
+            top: calc(100% - (100% - 96.5%));
+        }
+
     }
 </style>

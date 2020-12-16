@@ -2,6 +2,27 @@ html{
     scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 1898.98px) {
+    /* YouGet */
+    .icon__yellow:after,
+    .icon__blue:after{
+        display: none !important;
+    }
+
+    .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
+        padding-right: 40% !important;
+
+    }
+
+    .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
+        padding-left: 40% !important;
+    }
+
+    .blue__line__1, .blue__line__2, .blue__line__3,
+    .yellow__line__1, .yellow__line__2 {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1399.98px) {
     .nav_footer a{
@@ -26,13 +47,42 @@ html{
      
     .advantage{
         background-size: cover !important;
+
+        margin-bottom: 50px !important;
     }
 
     /* YouGet */
 
-    .icon__yellow:after,
-    .icon__blue:after{
+
+    .line__to{
         display: none !important;
+    }
+
+    /* Price */
+
+    .first__price, .second__price, .thirty__price{
+        background-size: 70px 70px !important;
+    }
+
+    /* Slider */
+
+    .carousel-item p {
+        font-size: 30px !important;
+    }
+
+    .slider__container{
+        margin-bottom: 0px !important;
+    }
+
+    /* AboutUs */
+    .about__block{
+        margin-bottom: 0% !important;
+    }
+
+    /* Form */
+
+    .form-container{
+        margin-bottom: 0% !important;
     }
 }
 
@@ -163,6 +213,37 @@ html{
 
 /* // Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
+
+
+    /* Header */
+
+    .mobile__nav{
+        display: block !important;
+    }
+    
+    .dekstop__nav{
+        display: none !important;
+
+    }
+
+   .main__container .navbar{
+        background-position: 95% 0 !important;
+        background-image: url(/img/logo_RSHU_blue.png) !important;
+        padding-left: 0 !important;
+    }
+
+   .main__container nav li a{
+        color: #2C467C !important;
+        font-size: 12px !important;
+    }
+
+    .main__container nav ul{
+        text-align: center !important;
+    }
+
+    .main__text{
+        padding-left: 0% !important;
+    }
 
 
             /* Footer */
@@ -364,35 +445,32 @@ html{
 
 /* // Small devices (landscape phones, less than 768px) */
 @media screen and (max-width: 767.98px) { 
-    /* Header */
 
-    .mobile__nav{
-        display: block !important;
-    }
-    
-    .dekstop__nav{
-        display: none !important;
+    /* You Get */
 
+    .youGet__block{
+        padding-bottom: 50px !important;
     }
 
-   .main__container .navbar{
-        background-position: 95% 0 !important;
-        background-image: url(/img/logo_RSHU_blue.png) !important;
-        padding-left: 0 !important;
+    .youGet__block article{
+        padding-right: 0% !important;
+        padding-left: 0% !important; 
+        margin-top: 0% !important;
+
+        padding-top: 20% !important;
     }
 
-   .main__container nav li a{
-        color: #2C467C !important;
-        font-size: 12px !important;
-    }
-
-    .main__container nav ul{
+    .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block,
+    .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
         text-align: center !important;
-    }
-
-    .main__text{
+        background-image: url(/img/plus_mobile_icon.svg) !important;
+        background-position: 50% 5% !important;
+        background-size: 60px 60px !important;
+        padding-right: 0% !important;
         padding-left: 0% !important;
     }
+
+    /* Header */
 
     /* Form */
 
@@ -685,6 +763,7 @@ html{
 
     .form-container .form-block .p{
         font-size: 12px !important;
+        padding-bottom: 30px !important;
     }
 
     .form-container .form-control{
@@ -714,25 +793,14 @@ html{
         margin-bottom: 0px !important;
     }
 
+    .access__block{
+        margin-top: 20px !important;
+    }
+
     /* youGet */
-
-    .youGet__block{
-        padding-bottom: 50px !important;
-    }
-
-    .youGet__block article{
-        padding-right: 0% !important;
-        padding-left: 0% !important; 
-        margin-top: 0% !important;
-
-        padding-top: 20% !important;
-    }
 
     .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block,
     .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
-        text-align: center !important;
-        background-image: url(/img/plus_mobile_icon.svg) !important;
-        background-position: 50% 5% !important;
         background-size: 30px 30px !important;
     }
 
@@ -743,7 +811,7 @@ html{
     }
 
     .carousel-item p{
-        font-size: 18px !important;
+        font-size: 16px !important;
         margin-top: 30px !important;
     }
 
@@ -776,10 +844,8 @@ html{
     .footer_container .nav_footer .navbar{
         padding-bottom: 20px;
         
-       
     }
-
-
+    
 
     .footer_container .container-fluid .nav_footer {
      padding-bottom: 40px;

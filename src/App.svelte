@@ -119,10 +119,10 @@ window.addEventListener('DOMContentLoaded', function() {
 		}
 	});
 
-	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
-	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-	return new bootstrap.Tooltip(tooltipTriggerEl)
-		});
+	// var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+	// var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	// return new bootstrap.Tooltip(tooltipTriggerEl)
+	// 	});
 });
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -171,7 +171,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
 <style>
 	.container__fixed__width{
-		max-width: 1920px;
+		max-width: 1900px;
+		min-width: 320px;
 		margin: auto;
 	}
 

@@ -10,7 +10,7 @@
                     </div>
                     <div class="about__block_description ">
                         <p class="description__text">
-                            Образовательный проект РШУ для компаний с <br> далекоидущими бизнес-планами. Вы сами
+                            Образовательный проект РШУ для компаний с далекоидущими бизнес-планами. Вы сами
                             регулируете
                             процесс обучения своих сотрудников
                         </p>
@@ -98,7 +98,7 @@
     .aboutUs {
         color: $darkBlue;
         font-family: $fbck;
-        padding: 78px 100px 61px 100px;
+        padding: 78px 100px 78px 100px;
 
         .about__block {
             margin-bottom: 115px;

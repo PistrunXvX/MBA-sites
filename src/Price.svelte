@@ -41,7 +41,7 @@
         <h2>Три тарифа</h2>
     </div>
     <div class="row justify-content-evenly card_container">
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price">
+        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="first__price price-card_animation" on:mouseover={setName_1} on:mouseout={returnName_1}>
                 <h3>Базовый</h3>
                 <p class="text__price">
@@ -57,7 +57,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price"> 
+        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price"> 
             <article class="second__price price-card_animation" on:mouseover={setName_2} on:mouseout={returnName_2}>
                 <h3>Расширенный</h3>
                 <p class="text__price">
@@ -73,14 +73,14 @@
                 </p>
             </article>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-7 col-sm-8 wrapper__price">
+        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="thirty__price price-card_animation" on:mouseover={setName_3} on:mouseout={returnName_3}>
                 <h3>Безлимитный</h3>
                 <p class="text__price">
                     неограниченное количество
                     подключений в день
-                    к платформе онлайн-
-                    трансляции
+                    <!-- к платформе онлайн-
+                    трансляции -->
                 </p>
                 <button type="button" data-toggle="modal" data-target="#third__vertical__popup" class="month__price third__month">
                     12 месяцев
@@ -131,7 +131,7 @@
             height: 100%;
 
              background-repeat: no-repeat;
-             background-size: 90px 90px;
+             background-size: 80px 80px;
 
              border: 10px solid $darkBlue;
              margin-top: 5%;
