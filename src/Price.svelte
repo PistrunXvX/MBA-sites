@@ -36,12 +36,12 @@
 
 </script>
 
-<div class="container-fluid price__block row-flex" id="price">
+<div class="container price__block row-flex" id="price">
     <div class="container text-center">
         <h2>Три тарифа</h2>
     </div>
     <div class="row justify-content-evenly card_container">
-        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="first__price price-card_animation" on:mouseover={setName_1} on:mouseout={returnName_1}>
                 <h3>Базовый</h3>
                 <p class="text__price">
@@ -57,7 +57,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price"> 
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price"> 
             <article class="second__price price-card_animation" on:mouseover={setName_2} on:mouseout={returnName_2}>
                 <h3>Расширенный</h3>
                 <p class="text__price">
@@ -73,7 +73,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-7 col-sm-8 wrapper__price">
             <article class="thirty__price price-card_animation" on:mouseover={setName_3} on:mouseout={returnName_3}>
                 <h3>Безлимитный</h3>
                 <p class="text__price">

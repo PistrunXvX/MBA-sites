@@ -3,8 +3,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="first__vertical__popupLabel">Базовый тариф</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
           </button>
         </div>
         <div class="modal-body">
@@ -60,8 +60,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title" id="second__vertical__popupLabel">Расширенный тариф</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
           </button>
         </div>
         <div class="modal-body">
@@ -117,8 +117,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="third__vertical__popupLabel">Безлимитный тариф</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"></span>
           </button>
         </div>
         <div class="modal-body">
@@ -201,6 +201,13 @@
 
                  margin: auto;
                 }
+
+                
+    .btn-close:hover{
+        box-shadow: none;
+        background-color: none;
+        // color: $colorWhite;
+    }
 
                 button:hover{
                     background-color: $colorWhite;

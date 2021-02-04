@@ -1,10 +1,10 @@
 <div class="footer_container" id="contacts">
     <div class="container-fluid">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between align-items-center">
             <div class="col-xl-7 col-xs-12 col-md-6 col-lg-8">
                 <nav class="nav_footer navbar justify-content-center ">
-                    <li class="nav_item"><a href="#main">Главная</a></li>
-                    <li class="nav_item"><a href="#about_Us">О нас</a></li>
+                    <li class="nav_item"><a href="#about_Us">О проекте</a></li>
+                    <li class="nav_item"><a href="#youGet">Вы получите</a></li>
                     <li class="nav_item"><a href="#connect_us">Подключиться</a></li>
                     <li class="nav_item"><a href="#price">Тарифы</a></li>
                     <li class="nav_item"><a href="#advantage">Преимущества</a></li>
@@ -26,7 +26,7 @@
         <div class="row justify-content-between">
             <div class="col-xl-6">
                 <div class="about_block">
-                    <img src="/img/Logo_RSHU_footer.png" alt="Logo" class="img-fluid logo" />
+                    <!-- <img src="/img/Logo_RSHU_footer.png" alt="Logo" class="img-fluid logo" /> -->
                     <div class="about_block__content">
                         <div class="first__stroke">
                             <span class="first__stroke_text">© Русская Школа Управления, 2002-2020. Все права защищены и

@@ -2,7 +2,6 @@
 	import Header from './Header.svelte';
 	import About from './AboutUs.svelte';
 	import YouCan from './YouCan.svelte';
-	import YouGet from './YouGet.svelte';
 	import Form from './FeedbackForm.svelte';
 	import Slider from './Slider.svelte';
 	import Price from './Price.svelte';
@@ -13,7 +12,10 @@
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
 	import ModalVertical from './ModalPopupVertical.svelte';
+
+	// Test
 	
+	import YouGetTest from './YouGet_test.svelte';
 	// Musk phone 
 
 
@@ -118,17 +120,12 @@ window.addEventListener('DOMContentLoaded', function() {
 			i++;
 		}
 	});
-
-	// var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
-	// var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-	// return new bootstrap.Tooltip(tooltipTriggerEl)
-	// 	});
 });
 
 window.addEventListener('DOMContentLoaded', function() {
-	let formModule = document.querySelector('.form__send__module');
+	let formModule = document.querySelectorAll('.form__btn');
 
-	formModule.addEventListener('submit', function(evt) {
+	formModule.addEventListener('click', function(evt) {
 		evt.preventDefault();
 
 		let formData = {
@@ -143,9 +140,35 @@ window.addEventListener('DOMContentLoaded', function() {
 			console.log(request.response);
 		});
 
-		request.open('POST', '/send.php', true);
+		request.open('POST', '/send.php');
 		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 		request.send('name= ' + encodeURIComponent(formData.name) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
+	});
+
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+	let formModule = document.querySelectorAll('.form_btn_popup');
+
+	formModule.addEventListener('click', function(evt) {
+		evt.preventDefault();
+
+		let formData = {
+			name: document.querySelector('input[name="name"]').value,
+			secondName: document.querySelector('input[name="secondName"]').value,
+			phone: document.querySelector('input[name="phone"]').value,
+			email: document.querySelector('input[name="email"]').value,
+		}
+
+		let request = new XMLHttpRequest();
+
+		request.addEventListener('load', function() {
+			console.log(request.response);
+		});
+
+		request.open('POST', '/send_popup.php');
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+		request.send('name= ' + encodeURIComponent(formData.name) + 'secondName= ' + encodeURIComponent(formData.secondName) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
 	});
 
 });
@@ -153,11 +176,12 @@ window.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <div class="container__fixed__width">
+
 	<Header/>
 	<About/>
 	<YouCan/>
 	<Form/>
-	<YouGet/>
+	<YouGetTest/>
 	<Slider/>
 	<Price/>
 	<Advantage/>

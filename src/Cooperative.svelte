@@ -1,4 +1,4 @@
-<div class="container-fluid coop__main">
+<div class="container coop__main">
     <h2>Мы сотрудничаем</h2>
     <div class="row justify-content-center align-items-center">
         <!-- <div class="col-12">
@@ -65,7 +65,7 @@
             text-align: center;
 
             
-            margin-bottom: 175px;
+            margin-bottom: 50px;
         }
     }
 

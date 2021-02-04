@@ -1,5 +1,5 @@
 
-    <div class="slider__container" id="connect_us">
+    <div class="container slider__container" id="connect_us">
         <div class="container-fluid">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-8">
@@ -40,7 +40,8 @@
                               <div class="carousel-item">
                                 <img src="/img/drex_lichnyj_kabinet_screen.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-md-block">
-                                  <p>Шаг 4. Подберем тариф и подпишем договор.</p>
+                                  <p>Шаг 4.Авторизуйтесь — и перед вами расписание занятий.
+                                  </p>
                                 </div>
                               </div>
                               <div class="carousel-item">
@@ -76,16 +77,19 @@
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
+                              <span class="sr-only"></span>
                             </a>
                             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
+                              <span class="sr-only"></span>
                             </a>
                           </div>
                     </div>
                 </div>
-                <div class="access__block">
+                <div class="line__slider">
+                  
+                </div>
+                <div class="access__block container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-xl-8">
                             <div class="text_content">
@@ -114,7 +118,7 @@
 
     .slider__container{
         font-family: $fbck;
-        margin-bottom:171px;
+        // margin-bottom:171px;
     }
 
 
@@ -122,7 +126,7 @@
                 margin-bottom:100px;
                 p{
                     color:$colorWhite;
-                    font-size: 40px;
+                    font-size: $description;
                     line-height: 99.56%;
                     letter-spacing: -0.045em;
                     font-weight: normal;
@@ -156,7 +160,7 @@
 
             
     .title{
-        padding-top:123px;
+        padding-top:30px;
     }
 
     .access__block{
@@ -201,7 +205,7 @@
 .text_block__content{
     margin-top:92px;
     color:$colorWhite;
-    font-size: 35px;
+    font-size: $description;
     font-weight: normal;
     letter-spacing: -0.01em;
     line-height: 128.56%;
@@ -216,7 +220,7 @@
                     letter-spacing: 0.06em;
                     border-radius:50px;
                     border:none;
-                    font-size: $orangeButton;
+                    font-size: $description;
                     text-align: center;
                     padding:22px 95px 22px 95px;
                     box-shadow: 0px 0px 20px $orange;

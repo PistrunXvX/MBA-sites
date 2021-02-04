@@ -12,7 +12,18 @@
             numberTo4.textContent = "04";
             numberTo5.textContent = "05";
         }
+
+    
+        let windowHWidth = document.documentElement.clientWidth;
+    console.log(windowHWidth);
+    if (windowHWidth < 1400 ) {
+        let elem = document.querySelector('.advantage');
+        elem.classList.add('container');
+    } else {
+        elem.classList.remove('container');
+    }
     });
+
 </script>
 
 <div class="advantage" id="advantage">
@@ -28,23 +39,32 @@
                                 <p class="title_text"><span class="title_text_number title_text_anim_1">01</span>Работаем с 2002 года</p>
                             </div>
                             <div class="list-item_desc">
-                                <p class="desc_text">У нас более 150 000 выпускников, мы сотрудничали более, чем с 15
+                                <p class="desc_text">
+                                    <!-- У нас более 150 000 выпускников, мы сотрудничали более, чем с 15
                                     000 компаний, что
-                                    показывает доверие клиентов к нам и профессионализм наших педагогов</p>
+                                    показывает доверие клиентов к нам и профессионализм наших педагогов -->
+                                    Более 150 000 выпускников и 15 000 компаний
+                                    доверяют нам и профессионализму наших экспертов
+
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4  col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item second_block">
                             <div class="list-item_title">
-                                <p class="title_text"><span class="title_text_number title_text_anim_2">02</span>Широкая линейка программ</p>
+                                <p class="title_text"><span class="title_text_number title_text_anim_2">02</span>Системный подход</p>
                             </div> 
                             <div class="list-item_desc">
-                                <ul class="item-desc_content">
-                                    <li class="desc_text"> - Более 30 направлений</li>
-                                    <li class="desc_text"> - 1500 программ обучения
-                                    <li class="desc_text"> - Постоянное развитие знаний и навыков</li>
-                                </ul>
+                                <!-- <ul class="item-desc_content">
+                                    <li class="desc_text"> Более 30 направлений</li>
+                                    <li class="desc_text"> 1500 программ обучения
+                                    <li class="desc_text"> Постоянное развитие знаний и навыков</li>
+                                </ul> -->
+                                <p class="desc_text">
+                                    Планирование, организация и контроль
+                                    - определяющие факторы эффективности обучения
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -53,12 +73,16 @@
                     <div class="col-xl-4 col-xs-10 col-sm-10 ">
                         <div class="advantage__list-item third_block">
                             <div class="list-item_title">
-                                <p class="title_text five_number"><span class="title_text_number title_text_anim_5">05</span>Гибкое расписание</p>
+                                <p class="title_text five_number"><span class="title_text_number title_text_anim_5">05</span>Стабильность обучения</p>
                             </div>
                             <div class="list-item_desc">
-                                <p class="desc_text">Частота программ позволит обучать разных
+                                <p class="desc_text">
+                                    <!-- Частота программ позволит обучать разных
                                     сотрудников по одной и той же тематике
-                                    с регулярностью один раз в два месяца</p>
+                                    с регулярностью один раз в два месяца -->
+                                    Непрерывное обучение в течение 
+                                    календарного года 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -71,23 +95,25 @@
                             </div>
                             <div class="list-item_desc">
                                 <ul class="item-desc_content third_item-desc_content">
-                                    <li class="desc_text"> - Более 30 направлений</li>
-                                    <li class="desc_text"> - 1500 программ обучения
-                                    <li class="desc_text"> - Постоянное развитие знаний и навыков</li>
+                                    <li class="desc_text">Сертификат ГОСТ Р ИСО 9001-2015</li>
+                                    <li class="desc_text"> Лицензия на образовательную деятельность</li>
+                                    <li class="desc_text">Постоянная актуализация информации</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-xs-10 col-sm-10 ">
+                    <div class="col-xl-4 col-xs-10 col-sm-10  ">
                         <div class="advantage__list-item five_block">
                             <div class="list-item_title">
-                                <p class="title_text four_number"><span class="title_text_number title_text_anim_4">04</span>Экономия бюджета</p>
+                                <p class="title_text four_number"><span class="title_text_number title_text_anim_4">04</span>Доступность обучения</p>
                             </div>
                             <div class="list-item_desc ">
                                 <p class="desc_text">
-                                    Наши цены за тарифы значительно ниже,
+                                    <!-- Наши цены за тарифы значительно ниже,
                                     чем цены на курсы в образовательных центрах, при этом вы получаете в разы больше
-                                    информации
+                                    информации -->
+                                    Линейка программ для всех уровней и 
+                                    категорий сотрудников компании
                                 </p>
                             </div>
                         </div>
@@ -111,25 +137,12 @@
         height: 100%;
         font-family: $fbck;
         color: $darkBlue;
-        margin-top: 257px;
-        margin-bottom: 187px;
+        // margin-top: 157px;
+        margin-bottom: 50px;
 
 
 
     }
-
-
-    // .container{
-
-    //     margin-top:260px;
-
-
-    // }
-
-
-
-
-
 
     .title_text {
         font-size: $description;
@@ -150,18 +163,6 @@
         border-top: 3px solid $darkBlue;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     .desc_text {
         font-size: 24px;
@@ -190,12 +191,13 @@
     .title__one {
         font-size: $blockTitleSize;
         padding-bottom: 13px;
+        padding-top: 100px;
 
     }
 
     .title__two {
-        font-size: 60px;
-        margin-bottom: 520px;
+        font-size: 55px;
+        margin-bottom: 420px;
 
     }
     

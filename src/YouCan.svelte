@@ -1,5 +1,7 @@
-<div class="container-fluid youCan__main">
+<div class="container youCan__main">
     <h2>Вы сможете</h2>
+    <div class="container">
+
     <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-12 first__block youCan__block">
             <p>
@@ -14,10 +16,11 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 thirty__block youCan__block">
             <p>
-                Всегда получать актуальные <br> знания, которые используют на <br> практике более 300 экспертов
+                Всегда получать актуальные <br> знания, которые применяют <br>  в своей работе более 300 экспертов
             </p>
         </div>
     </div>
+</div>
 </div>
 
 <style lang="scss" >
@@ -57,7 +60,7 @@
             margin-top: 5%;
 
             background-repeat: no-repeat;
-            background-size: 170px;
+            background-size: 120px;
             background-position: top center;
 
             p{

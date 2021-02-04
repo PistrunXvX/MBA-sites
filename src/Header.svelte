@@ -4,13 +4,13 @@
             <div class="bg-light p-4">
                 <nav class="mobile__nav__menu">
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Подключиться</a></li>
-                        <li><a href="#">Тарифы</a></li>
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Лицензии</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#about_us">О проекте</a></li>
+                        <li><a href="#youGet">Вы получите</a></li>
+                        <li><a href="#connect_us">Подключиться</a></li>
+                        <li><a href="#price">Тарифы</a></li>
+                        <li><a href="#advantage">Преимущества</a></li>
+                        <li><a href="#sertificats">Лицензии</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,8 +32,8 @@
                 <nav>
                     <a href="tel:+88001000203" class="desc_number">8 800-100-02-03</a>
                     <ul>
-                        <li><a href="#main">Главная</a></li>
-                        <li><a href="#about_Us">О нас</a></li>
+                        <li><a href="#about_Us">О проекте</a></li>
+                        <li><a href="#youGet">Вы получите</a></li>
                         <li><a href="#connect_us">Подключиться</a></li>
                         <li><a href="#price">Тарифы</a></li>
                         <li><a href="#advantage">Преимущества</a></li>
@@ -59,10 +59,13 @@
                         Корпоративный онлайн-университет <br> на <span class="underline">аутсорсинг</span>
                     </h1>
                     <div class="sub__text emergence">
-                        <p>
-                            Доступ к 35 направлениям и 5000 тем для успешного ведения бизнеса
+                        <p class="first_margin">
+                            Система обучения персонала компании: планирование, обучение, контроль
                         </p>
                         <a type="button" class="emergence" data-toggle="modal" data-target="#first__modal__header">Подать заявку</a>
+                        <p class="second_margin">
+                            Доступ к 30 направлениям и 5000 модулей
+                        </p>
                     </div>
                 </div>
             </div>
@@ -172,17 +175,31 @@
             border-bottom: solid 2px $orange;
         }
 
+        .sub__text {
+            // margin-top: 20px; 
+        }
+
         p{
             font-size: $formInputSize;
             font-family: $fbck;
             color: $colorWhite;
             line-height: 164%;
 
-            padding-bottom: 5%;
+            // padding-bottom: 5%;
+
+            // margin-top: 20px;
+        }
+
+        .first_margin{
+            margin-bottom: 20px;
+        }
+
+        .second_margin{
+            margin-top: 20px;
         }
 
         a{
-            font-size: 18px;
+            font-size: 16px;
             font-family: $fbck;
             color: $colorWhite;
 
@@ -191,8 +208,10 @@
             background-color: $orange;
             filter: drop-shadow(0px 0px 10px $orange);
 
-            padding: 20px 40px;
+            padding: 10px 40px;
             animation: 0.3s ease-in 0s button_color_back;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         a:hover{

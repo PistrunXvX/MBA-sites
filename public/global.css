@@ -1,27 +1,24 @@
 html{
     scroll-behavior: smooth;
+
+    overflow-x: hidden;
 }
 
-@media screen and (max-width: 1898.98px) {
-    /* YouGet */
-    .icon__yellow:after,
-    .icon__blue:after{
-        display: none !important;
-    }
+@media screen and (max-width: 4000px) {
 
     .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
-        padding-right: 40% !important;
+        padding-right: 10% !important;
 
     }
 
     .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
-        padding-left: 40% !important;
+        padding-left: 10% !important;
     }
 
-    .blue__line__1, .blue__line__2, .blue__line__3,
+    /* .blue__line__1, .blue__line__2, .blue__line__3,
     .yellow__line__1, .yellow__line__2 {
         display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 1399.98px) {
@@ -30,48 +27,192 @@ html{
     }
             /* Footer */
             .footer_container li a{
-                font-size: 18px;
+                font-size: 10px;
                   
             }
             .footer_container .contacts_block .title{
-                font-size: 32px;
+                font-size: 18px;
                 
             }
 
             .footer_container .contacts_block .desc{
-                font-size: 15px;
+                font-size: 12px;
                
+            }
+
+            .footer_container .social_title__text {
+                font-size: 18px !important;
+            }
+
+            .footer_container .social__icon a{
+                padding: 10px !important;
+            }
+
+            .footer_container{
+                padding-top: 20px !important;
+            }
+
+            .footer_container .nav_footer{
+                padding-bottom: 0px !important;
             }
     
     /* Advantage */
      
     .advantage{
         background-size: cover !important;
+        background-attachment: fixed;
+        /* background-color: #EEF0F2 !important; */
+        background-image: url(img/Laptop_bg.jpg) !important;
+        /* background-image: none !important; */
+        color: #fff !important;
+        margin-bottom: 50px !important;
+        margin-top: 50px !important;
+    }
 
+    .desc_text{
+        font-size: 18px !important;
+    }
+
+    .title__one{
+        font-size: 32px !important;
+        padding-top: 30px !important;
+
+        padding-bottom: 0px !important;
+        line-height: 50% !important;
+    }
+
+    .title__two{
+        font-size: 32px !important;
         margin-bottom: 50px !important;
     }
 
-    /* YouGet */
+    .title_text_number{
+        border-color: #fff !important;
+    }
 
+    .advantage__list{
+        padding-bottom: 30px !important;
+    }
+
+    /* YouGet */
 
     .line__to{
         display: none !important;
     }
 
+    .youGet__block article p{
+        font-size: 18px !important;
+    }
+
+    .youGet__block .first__block, .youGet__block .thirty__block, .youGet__block .fifty__block {
+        padding-right: 10% !important;
+        background-position: 90% 50% !important;
+    }
+
+    .youGet__block .second__block, .youGet__block .fouty__block, .youGet__block .sixty__block{
+        padding-left: 10% !important;
+        background-position: 10% 50% !important;
+    }
+
+    .youGet__block .test_vector svg{
+        width: 100px !important;
+    }
+
+    .youGet__block article h3{
+        font-size: 32px !important;
+    }
+
+    .youGet__block h2{
+        font-size: 32px !important;
+    }
+
+    .youGet__block .svg_bg svg{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    /* Blue line YouGet*/
+
+    .row:nth-child(1) .ellips_yellow:after{
+        height: 295px !important;
+    }
+
+    .row:nth-child(3) .ellips_yellow:after{
+        height: 260px !important;
+    }
+
+    .row:nth-child(5) .ellips_yellow:after{
+        height: 235px !important;
+    }
+
+    /* Yellow line YouGet */
+    
+    .row:nth-child(2) .ellips_blue:after{
+        height: 260px !important;
+    }
+
+    .row:nth-child(4) .ellips_blue:after{
+        height: 235px !important;
+    }
+
+    .row:nth-child(6) .ellips_blue:after{
+        height: 250px !important;
+    }
+
+    /* YouCan */
+    .youCan__main .youCan__block{
+        background-size: 120px !important;
+        font-size: 18px !important;
+    }
+
+    .youCan__main h2 {
+        font-size: 32px !important;
+    }
+
     /* Price */
 
     .first__price, .second__price, .thirty__price{
-        background-size: 70px 70px !important;
+        background-size: 50px 50px !important;
+        padding-top: 100px !important;
+    }
+
+    .price__block h3{
+        font-size: 32px !important;
+    }
+
+    .price__block .text__price{
+        font-size: 18px !important;
+    }
+
+    .price__block .month__price{
+        font-size: 18px !important;
+    }
+
+    .price__block .remark{
+        font-size: 16px !important;
+    }
+
+    .price__block h2{
+        margin-bottom: 40px !important;
+        font-size: 32px !important;
     }
 
     /* Slider */
 
     .carousel-item p {
-        font-size: 30px !important;
+        font-size: 18px !important;
     }
 
     .slider__container{
         margin-bottom: 0px !important;
+    }
+
+    .slider__container .title{
+        padding-top: 40px !important;
+    }
+
+    .slider__container .access__block{
+        margin-top: 0px !important;
     }
 
     /* AboutUs */
@@ -79,10 +220,114 @@ html{
         margin-bottom: 0% !important;
     }
 
+    .description__text{
+        font-size: 18px !important;
+    }
+
+    .title__text{
+        font-size: 32px !important;
+    }
+
+    .slider__container .title {
+        font-size: 32px !important;
+    }
+
+    .slider__container .text_block__content {
+        font-size: 18px !important;
+    }
+
+    .slider__container .form__btn{
+        font-size: 18px !important;
+    }
+
+    .aboutUs{
+        padding: 40px 100px 40px 100px !important;
+    }
+
     /* Form */
 
-    .form-container{
+    /* .form-container{
         margin-bottom: 0% !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .form-container .form-control{
+        padding: 10px 30px !important;
+        border-width: 1px !important;
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .form-container .fake{
+        width: 20px !important;
+        height: 20px !important;
+        border-width: 2px !important;
+    }
+
+    .form-container .link{
+        border-width: 1px !important;
+    }
+
+    .form-container .form-block .p{
+        padding-bottom: 20px !important;
+        font-size: 12px !important;
+    }
+
+    .form__btn {
+        font-size: 24px !important;
+    }
+
+    .form-container .form__btn{
+        padding: 10px 30px 10px 30px !important;
+        font-size: 16px !important;
+    }
+
+    .text_block__content{
+        font-size: 24px !important;
+    }
+
+    .form-container .text-block{
+        padding-right: 0px !important;
+    }
+
+    .form-container .text-block_content{
+        font-size: 24px !important;
+    } */
+
+    .form-container .text-block_content{
+        font-size: 18px !important;
+    }
+
+    /* Cooperative */
+
+    .coop__main h2{
+        margin-bottom: 75px !important;
+        font-size: 32px !important;
+    }
+
+    .coop__main img {
+        width: 100px !important;
+    }
+
+    .coop__main .row{
+        margin-bottom: 0% !important;
+    }
+
+    /* Header */
+
+    .main__text p{
+        font-size: 20px !important;
+    }
+
+    .main__text h1 {
+        font-size: 28px !important;
+    }
+
+    /* Sertificat */
+
+    .sertificat__container h2 {
+        font-size: 32px !important;
     }
 }
 
@@ -104,9 +349,9 @@ html{
          font-size: 50px !important;
      }
 
-     p{
+     /* p{
          font-size: 25px !important;
-     }
+     } */
 
      /* YouCan */
 
@@ -143,9 +388,9 @@ html{
         }
     
     
-        .footer_container .contacts_block{
+        /* .footer_container .contacts_block{
            
-        }
+        } */
     
         .footer_container .contacts_block .title{
             font-size: 36px;
@@ -205,6 +450,57 @@ html{
             font-size: 35px !important;
             margin-bottom: 0px;
             padding-bottom: 50px;
+        }
+
+        
+        /* Blue line YouGet */
+
+      .ellips_yellow:after, .ellips_blue:after{
+          left: 40% !important;
+      }
+
+        .row:nth-child(1) .ellips_yellow:after{
+            height: 310px !important;
+        }
+    
+        .row:nth-child(3) .ellips_yellow:after{
+            height: 270px !important;
+        }
+    
+        .row:nth-child(5) .ellips_yellow:after{
+            height: 230px !important;
+        }
+    
+        /* Yellow line YouGet */
+        
+        .row:nth-child(2) .ellips_blue:after{
+            height: 270px !important;
+        }
+    
+        .row:nth-child(4) .ellips_blue:after{
+            height: 240px !important;
+        }
+    
+        .row:nth-child(6) .ellips_blue:after{
+            height: 255px !important;
+        }
+    
+        /* Modal */
+
+        .modal p{
+            font-size: 16px !important;
+        }
+
+        .modal h5{
+            font-size: 22px !important;
+        }
+
+        .modal-footer button{
+            font-size: 16px !important;
+        }
+
+        .modal input{
+            font-size: 16px !important;
         }
 
 
@@ -441,6 +737,10 @@ html{
     .second__block, .fouty__block, .sixty__block{
         margin-right: 0% !important;
     }
+
+    .remove_small_display{
+        display: none;
+    }
  }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -635,14 +935,6 @@ html{
                     margin-bottom: 0px;
                     padding-bottom: 50px;
                 }
-               
-
-                /* FeedbackForm */
-/* 
-                .form-container{
-                    margin-bottom: 80px !important;
-                } */
-
 
                  /* Slider */
 
@@ -669,13 +961,17 @@ html{
 /* Sertificat */
 
 .sertificat__container img{
-    width: 150px !important;
+    width: 250px !important;
 }
                 
         /* feedbackform */
 
         .form-container{
             margin-bottom: 70px !important;
+        }
+
+        .form-container .text-block_content{
+            font-size: 14px !important;
         }
 }
 
@@ -686,6 +982,14 @@ html{
 
     .youCan__main .youCan__block {
         background-size: 70px !important;
+    }
+
+    .youCan__main{
+        padding-bottom: 20px !important;
+    }
+
+    .youCan__main h2{
+        padding-top: 20px !important;
     }
 
     
@@ -701,10 +1005,14 @@ html{
         font-size: 12px !important;
     }
 
+    .description__text {
+        font-size: 12px !important;
+    }
+
     /* Header */
 
     .container-fluid .main__text h1{
-        font-size: 22px !important;
+        font-size: 16px !important;
     }
 
     .social__icon a{
@@ -714,6 +1022,10 @@ html{
     .main__text a{
         padding: 10px 30px !important;
         font-size: 13px !important;
+    }
+
+    .main__text p {
+        font-size: 12px !important;
     }
 
     .phone__nav a{
@@ -762,7 +1074,7 @@ html{
     }
 
     .form-container .form-block .p{
-        font-size: 12px !important;
+        font-size: 10px !important;
         padding-bottom: 30px !important;
     }
 
@@ -804,6 +1116,11 @@ html{
         background-size: 30px 30px !important;
     }
 
+    .youGet__block article p{
+        font-size: 16px !important;
+    }
+    
+
 
     /* Slider */
     .slider__container{
@@ -828,6 +1145,7 @@ html{
     .text_block__content{
         margin-top: 50px !important;
         padding-left: 20px !important;
+        font-size: 14px !important;
     }
 
 
@@ -890,7 +1208,7 @@ html{
 
 
     .footer_container .contacts_block .desc{
-        font-size: 18px;
+        font-size: 12px;
         padding-bottom: 50px;
       
 
@@ -1176,3 +1494,6 @@ html{
         }
     }
 
+.container__wrapper{
+    max-width: 1300px;
+}

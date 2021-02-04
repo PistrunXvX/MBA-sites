@@ -5,11 +5,11 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal__header__label">Форма обратной свзяи</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
                 </button>
             </div>
-            <form action="post">
+            <form action="send_popup.php" method="POST">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col">
@@ -18,25 +18,25 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="text" name="name" placeholder="Ваше имя" required>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="text" placeholder="Ваша фамилия" required>
+                            <input type="text" name="secondName" placeholder="Ваша фамилия" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="tel" id="tel" placeholder="Ваш номер телефона" required>
+                            <input type="tel" name="phone" id="tel" placeholder="Ваш номер телефона" required>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="email" placeholder="Ваша электронная почта" required>
+                            <input type="email" name="email" placeholder="Ваша электронная почта" required>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <div class="row">
                         <div class="col-xl-12">
-                            <button type="submit">Отправить заявку</button>
+                            <button class="form_btn_popup" type="submit">Отправить заявку</button>
                         </div>
                     </div>
                 </div>
@@ -50,11 +50,11 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal__header__label">Форма обратной свзяи</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
                 </button>
             </div>
-            <form action="post">
+            <form action="send_popup.php" method="POST">
                 <div class="modal-body">
                     <div class="row">
                         <div class="col">
@@ -63,25 +63,25 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="text" name="name" placeholder="Ваше имя" required>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="text" placeholder="Ваша фамилия" required>
+                            <input type="text" name="secondName" placeholder="Ваша фамилия" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="tel" id="tel" placeholder="Ваш номер телефона" required>
+                            <input type="tel" name="phone" id="tel" placeholder="Ваш номер телефона" required>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <input type="email" placeholder="Ваша электронная почта" required>
+                            <input type="email" name="email" placeholder="Ваша электронная почта" required>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <div class="row">
                         <div class="col-xl-12">
-                            <button type="submit">Отправить заявку</button>
+                            <button class="form_btn_popup" type="submit">Отправить заявку</button>
                         </div>
                     </div>
                 </div>
@@ -192,6 +192,12 @@
         background-color: $colorWhite;
         outline: 0;
         outline-offset: 0;
+    }
+
+    .btn-close:hover{
+        box-shadow: none;
+        background-color: none;
+        // color: $colorWhite;
     }
 
         .modal-dialog{

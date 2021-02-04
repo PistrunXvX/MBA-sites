@@ -3,8 +3,8 @@
 </script>
 
 <div class="form-container form__footer" id="connect_form">
-    <div class="container-fluid">
-        <div class="row align-items-center">
+    <div class="container">
+        <div class="row">
             <div class="col-xl-7">
                 <div class="text-block">
                     <p class="text-block_content">
@@ -14,14 +14,14 @@
                 </div>
             </div>
             <div class="col-xl-5">
-                <form action="post" class="form__send">
+                <form action="send.php" method='POST' class="form__send">
                     <div class="form-block">
                         <div class="row align-items-center">
                             <div class="col-xl-6">
                                 <input type="text" name="name" class="form-control form__name" placeholder="Ваше имя" required>
                             </div>
                             <div class="col-xl-6">
-                                <input  value=""  name="phone" id="tel" class="form-control form__send__number"  placeholder="Ваш телефон"required>
+                                <input name="phone" id="tel" class="form-control form__send__number"  placeholder="Ваш телефон"required>
                             </div>
                         </div>
                         <input type="email" class="form-control form_send__email" name="email" placeholder="Ваш электронный адрес"
@@ -75,7 +75,7 @@
 
         .text-block_content {
             font-family: $fbck;
-            font-size: 39px;
+            font-size: 32px;
             color: $colorWhite;
         }
 
@@ -141,7 +141,7 @@
 
             .p {
                 color: $colorWhite;
-                font-size: $formInputSize;
+                font-size: 18px;
                 padding-left: 30px;
                 padding-bottom: 91px;
 
@@ -272,5 +272,54 @@
             margin: 0;
         }
 
+    }
+
+    .form-container{
+        margin-bottom: 0% !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .form-container .form-control{
+        padding: 10px 30px !important;
+        border-width: 1px !important;
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .form-container .fake{
+        width: 20px !important;
+        height: 20px !important;
+        border-width: 2px !important;
+    }
+
+    .form-container .link{
+        border-width: 1px !important;
+    }
+
+    .form-container .form-block .p{
+        padding-bottom: 20px !important;
+        font-size: 12px !important;
+    }
+
+    .form__btn {
+        font-size: 24px !important;
+    }
+
+    .form-container .form__btn{
+        padding: 10px 30px 10px 30px !important;
+        font-size: 16px !important;
+    }
+
+    .text_block__content{
+        font-size: 24px !important;
+    }
+
+    .form-container .text-block{
+        padding-right: 0px !important;
+    }
+
+    .form-container .text-block_content{
+        font-size: 24px;
     }
 </style>

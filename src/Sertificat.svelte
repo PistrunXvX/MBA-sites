@@ -1,24 +1,33 @@
 <div class="container-fluid sertificat__container" id="sertificats">
-    <!-- <div class="container"> -->
+    <div class="container">
         <h2>Лицензии и Сертификаты</h2>
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="first__sertificat">
+                <div class="first__sertificat sertificat">
                     <a href="https://uprav.ru/about/#lg=1&slide=15"><img src="img/sertificat_img_1.jpg" class="img-fluid mx-auto d-block" alt="Лицензия на право ведения образовательной деятельности"></a>
+                    <p>
+                        Лицензия на право ведения образовательной деятельности
+                    </p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="second__sertificat">
+                <div class="second__sertificat sertificat">
                     <a href="https://uprav.ru/about/#lg=1&slide=0"><img src="img/sertificat_img_2.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия"></a>
+                    <p>
+                        Сертификат соответсвия
+                    </p>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="first__sertificat">
+                <div class="first__sertificat sertificat">
                     <a href="https://uprav.ru/about/#lg=1&slide=1"><img src="img/sertificat_img_3.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия"></a>
+                    <p>
+                        Сертификат соответсвия
+                    </p>
                 </div>
             </div>
         </div>
-    <!-- </div> -->
+    </div>
 </div>
 
 <style lang="scss" >
@@ -43,15 +52,36 @@
         }
 
         img{
-            padding-top: 10%;
+            // padding-top: 10%;
             width: 300px;
 
             animation: 0.3s ease-out animation__img__back;
+
+            border-style: solid;
+            border-width: 20px 20px 20px 20px;
+            -moz-border-image: url(/img/border_sertificat.png) 15 15 15 15;
+            -webkit-border-image: url(/img/border_sertificat.png) 15 15 15 15;
+            -o-border-image: url(/img/border_sertificat.png) 15 15 15 15;
+            border-image: url(/img/border_sertificat.png) 15 15 15 15;
         }
         
         img:hover{
             animation: 0.3s ease-in animation__img__to;
             transform: scale(1.1, 1.1);
+        }
+
+        .sertificat{
+            padding-top: 10%;
+
+            p{
+                font-size: 18px;
+                color: $darkBlue;
+                font-family: $fbck;
+
+                text-align: center;
+
+                padding-top: 50px;
+            }
         }
     }
 
