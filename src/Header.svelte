@@ -60,11 +60,11 @@
                     </h1>
                     <div class="sub__text emergence">
                         <p class="first_margin">
-                            Система обучения персонала компании: планирование, обучение, контроль
+                           Доступ к системе обучения персонала компании: планирование, организация, контроль
                         </p>
                         <a type="button" class="emergence" data-toggle="modal" data-target="#first__modal__header">Подать заявку</a>
                         <p class="second_margin">
-                            Доступ к 30 направлениям и 5000 модулей
+                            Доступ к 30 бизнес-тематиками и 5000 вопросам
                         </p>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
         padding-left: 40%;
 
         h1{
-            font-size: 41px;
+            font-size: 33px;
             font-family: $fbck;
             color: $colorWhite;
             line-height: 127%;
@@ -192,6 +192,7 @@
 
         .first_margin{
             margin-bottom: 20px;
+            text-transform: uppercase;
         }
 
         .second_margin{
@@ -204,6 +205,7 @@
             color: $colorWhite;
 
             text-decoration: none;
+            text-transform: uppercase;
 
             background-color: $orange;
             filter: drop-shadow(0px 0px 10px $orange);
