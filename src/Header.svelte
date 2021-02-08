@@ -64,7 +64,7 @@
                         </p>
                         <a type="button" class="emergence" data-toggle="modal" data-target="#first__modal__header">Подать заявку</a>
                         <p class="second_margin">
-                            Доступ к 30 бизнес-тематиками и 5000 вопросам
+                            30 бизнес-тематик и 5000 вопросов
                         </p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
         }
 
         p{
-            font-size: $formInputSize;
+            font-size: 20px;
             font-family: $fbck;
             color: $colorWhite;
             line-height: 164%;
