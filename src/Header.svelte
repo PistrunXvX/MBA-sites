@@ -145,8 +145,8 @@
     .dekstop__nav{
         background-image: url(/img/Logo_RSHU.svg);
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 5% 0;
+        background-size: 5%;
+        background-position: 5% 50%;
     }
 
     .main__container{
