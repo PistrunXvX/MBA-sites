@@ -184,6 +184,7 @@
             font-family: $fbck;
             color: $colorWhite;
             line-height: 164%;
+            text-transform: uppercase;
 
             // padding-bottom: 5%;
 
@@ -192,7 +193,6 @@
 
         .first_margin{
             margin-bottom: 20px;
-            text-transform: uppercase;
         }
 
         .second_margin{
