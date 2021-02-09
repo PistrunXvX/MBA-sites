@@ -35,7 +35,7 @@
             </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Понятно</button>
+          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@
           </p>  
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Понятно</button>
+          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>
@@ -149,7 +149,7 @@
           </p>  
         </div>
         <div class="modal-footer">
-          <button type="button" class="button__good btn-modal-close" data-dismiss="modal">Понятно</button>
+          <button type="button" class="button__good btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>
