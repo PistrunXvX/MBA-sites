@@ -8,45 +8,16 @@
           </button>
         </div>
         <div class="modal-body">
-          <h2>
-              Mollit cupidatat laborum sunt aute ullamco est nostrud enim duis sint excepteur reprehenderit cillum.
-          </h2>
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p> 
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
+            <p>
+              Данный тариф предусматривает подключение одновременно до 5 участников компании на разные модули в течении рабочего дня. 
+              Участники должны быть зарегистрированы куратором в личном кабинете. Регламент обучения с 9.00 до 14.30 (2 кофе-паузы по 10 минут)
+            </p>
+            <p>
+              Мы рекомендуем данный тариф для тех компаний, кто планирует обучение от 3 сотрудников. 
+              В этом случае тариф «Базовый» позволит сэкономить на стоимости комплексных программ, выборе конкретного вопроса для изучения и организации выезда.
+              Корпоративный онлайн Университет от Русской Школы Управления – выгодная инвестиция в развитие вашей компании. 
+              Воспользуйтесь сервисом – и получите большее!
+            </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn" data-dismiss="modal">Понятно</button>
@@ -171,6 +142,12 @@
 
   <style lang="scss">
       @import 'style/theme.scss';
+
+      .modal-body{
+        p{
+          font-size: 20px;
+        }
+      }
 
         .style__popup{
 
