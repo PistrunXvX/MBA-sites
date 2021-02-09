@@ -1,3 +1,18 @@
+  <script>
+
+    window.addEventListener("DOMContentLoaded", function() {
+
+    let button = document.querySelector('.btn-modal-close');
+
+    button.addEventListener('click', function() {
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+      }, 500);
+    });
+
+    });
+  </script>
+  
   <div class="modal fade style__popup" id="first__vertical__popup"  tabindex="-1" aria-labelledby="first__vertical__popupLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content">
@@ -20,7 +35,7 @@
             </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn" data-dismiss="modal">Понятно</button>
+          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Понятно</button>
         </div>
       </div>
     </div>
@@ -77,7 +92,7 @@
           </p>  
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn" data-dismiss="modal">Понятно</button>
+          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Понятно</button>
         </div>
       </div>
     </div>
@@ -134,7 +149,7 @@
           </p>  
         </div>
         <div class="modal-footer">
-          <button type="button" class="button__good" data-dismiss="modal">Понятно</button>
+          <button type="button" class="button__good btn-modal-close" data-dismiss="modal">Понятно</button>
         </div>
       </div>
     </div>
