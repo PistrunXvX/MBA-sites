@@ -1,22 +1,10 @@
   <script>
 
-    // window.addEventListener("DOMContentLoaded", function() {
-
-    // let button = document.querySelector('.btn-modal-close');
-
-    // button.addEventListener('click', function() {
-    //   setTimeout(function () {
-    //     window.scrollTo(0, 0);
-    //   }, 500);
-    // });
-
     function popupClose() {
       setTimeout(function () {
         window.scrollTo(0, 0);
       }, 500);
     };
-
-    // });
   </script>
   
   <div class="modal fade style__popup" id="first__vertical__popup"  tabindex="-1" aria-labelledby="first__vertical__popupLabel" aria-hidden="true">

@@ -141,7 +141,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			console.log(request.response);
 		});
 
-		request.open('POST', '/send_popup.php');
+		request.open('POST', 'send_popup.php', true);
 		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 		request.send('name= ' + encodeURIComponent(formData.name) + 'secondName= ' + encodeURIComponent(formData.secondName) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
 	});
