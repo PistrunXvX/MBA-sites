@@ -123,31 +123,6 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 window.addEventListener('DOMContentLoaded', function() {
-	let formModule = document.querySelectorAll('.form__btn');
-
-	formModule.addEventListener('click', function(evt) {
-		evt.preventDefault();
-
-		let formData = {
-			name: document.querySelector('input[name="name"]').value,
-			phone: document.querySelector('input[name="phone"]').value,
-			email: document.querySelector('input[name="email"]').value,
-		}
-
-		let request = new XMLHttpRequest();
-
-		request.addEventListener('load', function() {
-			console.log(request.response);
-		});
-
-		request.open('POST', '/send.php');
-		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-		request.send('name= ' + encodeURIComponent(formData.name) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
-	});
-
-});
-
-window.addEventListener('DOMContentLoaded', function() {
 	let formModule = document.querySelectorAll('.form_btn_popup');
 
 	formModule.addEventListener('click', function(evt) {

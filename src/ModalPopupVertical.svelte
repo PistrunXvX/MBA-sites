@@ -1,16 +1,22 @@
   <script>
 
-    window.addEventListener("DOMContentLoaded", function() {
+    // window.addEventListener("DOMContentLoaded", function() {
 
-    let button = document.querySelector('.btn-modal-close');
+    // let button = document.querySelector('.btn-modal-close');
 
-    button.addEventListener('click', function() {
+    // button.addEventListener('click', function() {
+    //   setTimeout(function () {
+    //     window.scrollTo(0, 0);
+    //   }, 500);
+    // });
+
+    function popupClose() {
       setTimeout(function () {
         window.scrollTo(0, 0);
       }, 500);
-    });
+    };
 
-    });
+    // });
   </script>
   
   <div class="modal fade style__popup" id="first__vertical__popup"  tabindex="-1" aria-labelledby="first__vertical__popupLabel" aria-hidden="true">
@@ -35,7 +41,7 @@
             </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
+          <button type="button" on:click={popupClose} class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>
@@ -51,48 +57,17 @@
           </button>
         </div>
         <div class="modal-body">
-          <h4>
-              Mollit cupidatat laborum sunt aute ullamco est nostrud enim duis sint excepteur reprehenderit cillum.
-          </h4>
           <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
+            Данный тариф предусматривает подключение одновременно до 10 участников компании на разные модули в течении рабочего дня. Участники должны быть зарегистрированы куратором в личном кабинете. 
+            Регламент обучения с 9.00 до 14.30 (2 кофе-паузы по 10 минут)
           </p>
           <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p> 
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
+            Мы рекомендуем данный тариф для тех компаний, кто планирует обучение от 5 сотрудников компании. В этом случае тариф «Расширенный» будет хорошей альтернативой корпоративному университету offline-формата и станет вашим планировщиков для реализации стратегических задач по обучению на 6 месяцев.
+            Корпоративный онлайн Университет от Русской Школы Управления – выгодная инвестиция в развитие вашей компании. Воспользуйтесь сервисом – и получите большее!
+          </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
+          <button type="button" on:click={popupClose} class="btn btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>
@@ -108,48 +83,21 @@
           </button>
         </div>
         <div class="modal-body">
-          <h2>
-              Mollit cupidatat laborum sunt aute ullamco est nostrud enim duis sint excepteur reprehenderit cillum.
-          </h2>
           <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
+            Тариф, который позволит компании обучать неограниченное количество сотрудников в течении 1 года. 
+            Регламент обучения с 9.00 до 14.30 (2 кофе-паузы по 10 минут)
           </p>
           <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
+            Обучение будет доступно, не только управленческому составу компании, но и линейному персоналу. 
+            Тариф «Безлимитный» для тех компаний, которые заботятся о кадровом резерве, достигают стратегических целей и задач, готовы планировать 
+            бюджет и вкладывать в создание положительного имиджа на рынке. 
+          </p>
           <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p> 
-          <p>
-            Ullamco qui aliqua cupidatat commodo et veniam sunt quis qui magna. 
-            Cillum velit dolor ipsum sit Lorem eu. 
-            Laboris dolore do proident aute tempor tempor Lorem ullamco occaecat ipsum laborum fugiat commodo sunt. 
-            Tempor nulla esse incididunt do. In cupidatat id eu cupidatat ea magna excepteur proident elit duis pariatur.
-          </p>  
+            Корпоративный онлайн Университет от Русской Школы Управления – выгодная инвестиция в развитие вашей компании. Воспользуйтесь сервисом – и получите большее!
+          </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="button__good btn-modal-close" data-dismiss="modal">Выбираю</button>
+          <button type="button" on:click={popupClose} class="button__good btn-modal-close" data-dismiss="modal">Выбираю</button>
         </div>
       </div>
     </div>

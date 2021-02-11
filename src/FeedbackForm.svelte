@@ -1,5 +1,32 @@
 <script>
     let yes = false;
+
+    window.addEventListener('DOMContentLoaded', function() {
+	let formModule = document.querySelector('.form__send__module');
+
+	formModule.addEventListener('submit', function(evt) {
+		evt.preventDefault();
+
+		let formData = {
+			name: document.querySelector('input[name="name"]').value,
+			phone: document.querySelector('input[name="phone"]').value,
+			email: document.querySelector('input[name="email"]').value,
+		};
+
+		let request = new XMLHttpRequest();
+
+		request.addEventListener('load', function() {
+			console.log(request.response);
+			formModule.innerHTML = '<p> class="done_form">Спасибо! Мы обязательно свяжемся с вами!</p>';
+		});
+
+		request.open('POST', 'send.php', true);
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+		request.send('name= ' + encodeURIComponent(formData.name) + ' &phone= ' + encodeURIComponent(formData.phone) + ' &email= ' + encodeURIComponent(formData.email));
+	});
+
+});
+
 </script>
 
 <div class="form-container first__form">
@@ -14,7 +41,7 @@
                 </div>
             </div>
             <div class="col-xl-5">
-                <form action="send.php" method='POST' class="form__send__module">
+                <form action="send.php" method='POST' id="form_ajax_1" class="form__send__module">
                     <div class="form-block">
                         <div class="row align-items-center">
                             <div class="col-xl-6">
@@ -325,6 +352,12 @@
 
     .form-container .text-block_content{
         font-size: 24px;
+    }
+
+    .done_form{
+        font-family: $fbck;
+        color: $colorWhite;
+        font-size: 18px;
     }
 
 </style>
