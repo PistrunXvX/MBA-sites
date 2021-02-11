@@ -1,13 +1,4 @@
 <script>
-    // window.addEventListener('DOMContentLoaded', function() {
-    
-    //     function setName(){
-    //         buttonArray[0].textContent = 'Узнайте больше';
-    //         console.log('test');
-    //     };
-    // });
-
-    // let arrayButton = document.querySelectorAll('.month__price');
 
         function setName_1(){
             document.querySelector('.first__month').textContent = 'Подробнее';
@@ -79,8 +70,6 @@
                 <p class="text__price">
                     неограниченное количество
                     подключений в день
-                    <!-- к платформе онлайн-
-                    трансляции -->
                 </p>
                 <button type="button" data-toggle="modal" data-target="#third__vertical__popup" class="month__price third__month">
                     12 месяцев
@@ -91,7 +80,6 @@
             </article>
         </div>
         <p class="remark">
-            <!-- *Всего 5 подключений в день к платформе онлайн-трансляции -->
         </p>
     </div>
 </div>

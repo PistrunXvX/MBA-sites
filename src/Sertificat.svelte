@@ -67,7 +67,6 @@
         }
 
         img{
-            // padding-top: 10%;
             width: 300px;
 
             animation: 0.3s ease-out animation__img__back;

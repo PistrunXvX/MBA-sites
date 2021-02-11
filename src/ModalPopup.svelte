@@ -1,5 +1,4 @@
 
-
 <div class="modal fade" id="first__modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -197,7 +196,6 @@
     .btn-close:hover{
         box-shadow: none;
         background-color: none;
-        // color: $colorWhite;
     }
 
         .modal-dialog{
