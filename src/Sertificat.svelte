@@ -4,7 +4,12 @@
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="first__sertificat sertificat">
-                    <a href="https://uprav.ru/about/#lg=1&slide=15"><img src="img/sertificat_img_1.jpg" class="img-fluid mx-auto d-block" alt="Лицензия на право ведения образовательной деятельности"></a>
+                    <a href="https://uprav.ru/about/#lg=1&slide=15">
+                        <picture>
+                            <source srcset="img/sertificat_img_1.webp" type="image/webp">
+                            <img src="img/sertificat_img_1.jpg" class="img-fluid mx-auto d-block" alt="Лицензия на право ведения образовательной деятельности">
+                        </picture>
+                    </a>
                     <p>
                         Лицензия на право ведения образовательной деятельности
                     </p>
@@ -12,7 +17,12 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="second__sertificat sertificat">
-                    <a href="https://uprav.ru/about/#lg=1&slide=0"><img src="img/sertificat_img_2.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия"></a>
+                    <a href="https://uprav.ru/about/#lg=1&slide=0">
+                        <picture>
+                            <source srcset="img/sertificat_img_2.webp" type="image/webp">
+                            <img src="img/sertificat_img_2.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия">
+                        </picture>
+                    </a>
                     <p>
                         Сертификат соответсвия
                     </p>
@@ -20,7 +30,12 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="first__sertificat sertificat">
-                    <a href="https://uprav.ru/about/#lg=1&slide=1"><img src="img/sertificat_img_3.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия"></a>
+                    <a href="https://uprav.ru/about/#lg=1&slide=1">
+                        <picture>
+                            <source srcset="img/sertificat_img_3.webp" type="image/webp">
+                            <img src="img/sertificat_img_3.jpg" class="img-fluid mx-auto d-block" alt="Сертификат соответсвия">
+                        </picture>
+                    </a>
                     <p>
                         Сертификат соответсвия
                     </p>

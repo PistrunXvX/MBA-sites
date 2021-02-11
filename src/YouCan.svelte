@@ -34,7 +34,7 @@
 
         
 
-        background-image: url(/img/linear_img_youCan.jpg);
+        background-image: url(/img/linear_img_youCan.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

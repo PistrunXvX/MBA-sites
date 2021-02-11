@@ -129,7 +129,7 @@
 
 
     .advantage {
-        background-image: url("/img/main_img_advantage.jpg");
+        background-image: url("/img/main_img_advantage.webp");
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;

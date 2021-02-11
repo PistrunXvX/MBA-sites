@@ -1,11 +1,4 @@
 <script>
-import { draw } from 'svelte/transition';
-import { quintOut } from 'svelte/easing';
-
-
-let duration = 3000;
-let delay = 200;
-let visible = true;
 
 // Размещать в строгом порядке с воспроизведением анимаций
 let elemAnimation = [
@@ -67,8 +60,6 @@ function isVisible(elem) {
                         <div class="bg__color first__block_anim">
                             <h3>Единый стандарт обучения</h3>
                             <p>
-                                <!-- Ваши сотрудники формируют единый понятный аппарат, что позволяет сэкономить время
-                                на неэффективных коммуникациях -->
                                 Ваши сотрудники формируют единый понятийный аппарат, который позволяет экономить время на неэффективных коммуникациях. 
                                 Сотрудники, растущие в одной корпоративной среде, лучше понимают и принимают поставленные задачи. 
                                 Это один из немногих простых методов повышения управляемости вашей команды
@@ -83,18 +74,6 @@ function isVisible(elem) {
                         <circle cx="25" cy="25" r="23.5" stroke="#EA8E02" stroke-width="3"/>
                     </svg>
                 </div>
-                <!-- <div class="line">
-                    <svg width="4" height="368" viewBox="0 0 4 368" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="2" x2="2" y2="368" stroke="#2C467C" stroke-width="4"/>
-                    </svg>
-                </div> -->
-                <!-- <div class="line__to blue__line__1">
-                    {#if elemAnimation[0][1]}
-                    <svg viewBox="0 0 100 3" height="100" width="5" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 3 H 34 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
-                    </svg>
-                    {/if}
-                </div> -->
             </div>
             <div class="col-2 align-self-center remove_small_display svg_bg">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,8 +88,6 @@ function isVisible(elem) {
                         <div class="bg__color second__block_anim">
                             <h3>Широкая линейка программ</h3>
                             <p>
-                                <!-- Благодаря большому количеству программ вы можете «закрыть» потребности обучения на
-                                любом бизнес-направлении -->
                                 Благодаря широкому выбору модулей вы можете «закрыть» потребности обучения на любом бизнес-направлении. 
                                 Профессиональные и личные компетенции, «узкие» и нишевые специализации. 
                                 Все эти возможности создают комплексный подход для любого уровня исполнения и управления
@@ -142,13 +119,6 @@ function isVisible(elem) {
                 </svg>
             </div>
         </div>
-        <!-- <div class="line__to yellow__line__1">
-            {#if elemAnimation[1][1]}
-            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 3 H 32.5 Z" stroke="#EA8E02" transition:draw="{{duration, delay}}"/>
-            </svg>
-            {/if}
-        </div> -->
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <article class="thirty__block container__block">
@@ -156,7 +126,6 @@ function isVisible(elem) {
                         <div class="bg__color thirty__block_anim">
                             <h3>Эксперты-практики</h3>
                             <p>
-                                <!-- Более 300 опытных преподавателей, прошедших внутреннюю сертификацию -->
                                 Более 300 опытных преподавателей, прошедших внутреннюю сертификацию. 
                                 Только практикующие специалисты: топ-менеджеры, управляющие проектами, специалисты узкого профиля, бизнес-консультанты и коучи делятся накопленными знаниями 
                             </p>
@@ -185,13 +154,6 @@ function isVisible(elem) {
                 </svg>
             </div>
         </div>
-        <!-- <div class="line__to blue__line__2">
-            {#if elemAnimation[2][1]}
-            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 3 H 32 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
-            </svg>
-            {/if}
-        </div> -->
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <article class="fouty__block container__block">
@@ -199,9 +161,6 @@ function isVisible(elem) {
                         <div class="bg__color fouty__block_anim">
                             <h3>Гибкое расписание</h3>
                             <p>
-                                <!-- Частота программ позволит обучать разных сотрудников 
-                                по одной и той же тематике с регулярностью 
-                                один раз в два месяца -->
                                 Частота программ позволяет обучать персонал компании по одной и той же тематике с регулярностью один раз в два месяца. 
                                 Вы можете не только повышать уровень компетенций основного персонала, но и формировать кадровый резерв компании
                             </p>
@@ -229,13 +188,6 @@ function isVisible(elem) {
                 </svg>
             </div>
         </div>
-        <!-- <div class="line__to yellow__line__2">
-            {#if elemAnimation[3][1]}
-            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 3 H 32.6 Z" stroke="#EA8E02" transition:draw="{{duration, delay}}"/>
-            </svg>
-            {/if}
-        </div> -->
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <article class="fifty__block container__block">
@@ -243,7 +195,6 @@ function isVisible(elem) {
                         <div class="bg__color fifty__block_anim">
                             <h3>Экономия бюджета</h3>
                             <p>
-                                <!-- Свыше 50% вашего бюджета может остаться на развитие важных бизнес-целей -->
                                 Экономя на выездном обучении и корпоративном формате, вы можете направить до 50% бюджета - на другие бизнес-цели
                             </p>
                         </div>
@@ -271,24 +222,15 @@ function isVisible(elem) {
                 </svg>
             </div>
         </div>
-        <!-- <div class="line__to blue__line__3">
-            {#if elemAnimation[4][1]}
-            <svg viewBox="0 0 100 3" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 3 H 34.6 Z" stroke="#2C467C" transition:draw="{{duration, delay}}"/>
-            </svg>
-            {/if}
-        </div> -->
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <article class="sixty__block container__block">
                     <div class="icon__blue">
                         <div class="bg__color sixty__block_anim">
                             <h3>
-                                <!-- Багаж практических инструментов -->
                                 Среда обучения
                             </h3>
                             <p>
-                                <!-- Электронная версия презентаций и дополнительных материалов, с возможностью делиться и использовать в работе в постоянном режиме -->
                                 Электронная версия презентаций и дополнительных материалов отличный инструмент для использования в работе. 
                                 Дополнительные материалы, видео и презентации повышают продуктивность и скорость передачи информации коллегам
                             </p>
@@ -367,30 +309,6 @@ function isVisible(elem) {
 
             border-radius: 50px;
         }
-
-        // .icon__yellow:after{
-        //     display: block;
-        //     position: relative;
-        //     content: ' ';
-        //     background-image: url(/img/yellow_elips.svg);
-        //     background-size: 80px 80px;
-        //     height: 80px;
-        //     width: 80px;
-        //     left: 45%;
-        //     top: 40%;
-        // }
-
-        // .icon__blue:after{
-        //     display: block;
-        //     position: absolute;
-        //     content: ' ';
-        //     background-image: url(/img/blue_ellips.svg);
-        //     background-size: 80px 80px;
-        //     height: 80px;
-        //     width: 80px;
-        //     right: 45%;
-        //     top: 40%;
-        // }
                 
         h2{
             font-size: $blockTitleSize;
@@ -516,66 +434,5 @@ function isVisible(elem) {
             width: 5px;
             left: 30%;
         }
-
-        // .first__block{
-        //     background-image: url(/img/education_icon_youGet.svg);
-        // }
-
-        // .second__block{
-        //     background-image: url(/img/book_icon_youGet.svg);
-        // }
-        
-        // .thirty__block{
-        //     background-image: url(/img/atom_icon_youGet.svg);
-        // }
-
-        // .fouty__block{
-        //     background-image: url(/img/research_icon_youGet.svg);
-        // }
-
-        // .fifty__block{
-        //     background-image: url(/img/salary_icon_youGet.svg);
-        // }
-
-        // .sixty__block{
-        //     background-image: url(/img/bag_icon_youGet.svg);
-        // }
-
-        // .line__to{
-        //     position: absolute;
-        //     width: 98%;
-        //     transform: rotate(90deg);
-        // }
-
-        // .line__to svg{
-        //     margin-bottom: 1%;
-        // }
-
-        // .blue__line__1{
-        //     // position: fixed;
-        //     top: 32.3%;
-        // }
-
-        // .yellow__line__1{
-        //     top: 48.8%;
-        // }
-
-        // .blue__line__2{
-        //     top: 64.8%;
-        // }
-
-        // .yellow__line__2{
-        //     top: 80.5%;
-        // }
-
-        // .blue__line__3{
-        //     top: calc(100% - (100% - 96.5%));
-        // }
-
-    //  .test_vector path {
-	// 	fill: white;
-	// 	opacity: 1;
-	// }
-
     }
 </style>

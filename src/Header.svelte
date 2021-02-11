@@ -150,7 +150,7 @@
     }
 
     .main__container{
-        background-image: url(/img/header_img.jpg);
+        background-image: url(/img/header_img.webp);
         background-size: cover;
         background-repeat: no-repeat;
         // background-attachment: fixed;
