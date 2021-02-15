@@ -122,31 +122,31 @@ window.addEventListener('DOMContentLoaded', function() {
 	});
 });
 
-window.addEventListener('DOMContentLoaded', function() {
-	let formModule = document.querySelectorAll('.form_btn_popup');
+// window.addEventListener('DOMContentLoaded', function() {
+// 	let formModule = document.querySelectorAll('.form_btn_popup');
 
-	formModule.addEventListener('click', function(evt) {
-		evt.preventDefault();
+// 	formModule.addEventListener('submit', function(evt) {
+// 		evt.preventDefault();
 
-		let formData = {
-			name: document.querySelector('input[name="name"]').value,
-			secondName: document.querySelector('input[name="secondName"]').value,
-			phone: document.querySelector('input[name="phone"]').value,
-			email: document.querySelector('input[name="email"]').value,
-		}
+// 		let formData = {
+// 			name: document.querySelector('input[name="name"]').value,
+// 			secondName: document.querySelector('input[name="secondName"]').value,
+// 			phone: document.querySelector('input[name="phone"]').value,
+// 			email: document.querySelector('input[name="email"]').value,
+// 		}
 
-		let request = new XMLHttpRequest();
+// 		let request = new XMLHttpRequest();
 
-		request.addEventListener('load', function() {
-			console.log(request.response);
-		});
+// 		request.addEventListener('load', function() {
+// 			console.log(request.response);
+// 		});
 
-		request.open('POST', 'send_popup.php', true);
-		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-		request.send('name= ' + encodeURIComponent(formData.name) + 'secondName= ' + encodeURIComponent(formData.secondName) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
-	});
+// 		request.open('POST', 'send_popup.php', true);
+// 		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+// 		request.send('name= ' + encodeURIComponent(formData.name) + 'secondName= ' + encodeURIComponent(formData.secondName) + ' phone= ' + encodeURIComponent(formData.phone) + ' email= ' + encodeURIComponent(formData.email));
+// 	});
 
-});
+// });
 
 </script>
 

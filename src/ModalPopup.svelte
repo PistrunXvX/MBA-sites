@@ -1,3 +1,70 @@
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+	let formModule = document.querySelector('#first__modal__header');
+
+	formModule.addEventListener('submit', function(evt) {
+		evt.preventDefault();
+
+		let formData = {
+			name: document.querySelector('input[name="name"]').value,
+            phone: document.querySelector('input[name="phone"]').value,
+            secondName: document.querySelector('input[name="secondName"]').value,
+			email: document.querySelector('input[name="email"]').value,
+		};
+
+		let request = new XMLHttpRequest();
+
+		request.addEventListener('load', function() {
+            console.log(request.response);
+            let buttonClose = document.querySelector('.btn_popup_1');
+            let modalBody = formModule.querySelector('.modal-body');
+            modalBody.innerHTML = '<p style="font-size: 18px; color: #FFFFFF; text-align: center;">Спасибо! Мы обязательно свяжемся с вами!</p>'
+            buttonClose.dataset.dismiss = 'modal';
+            buttonClose.type = 'button';
+            buttonClose.innerHTML = 'Закрыть';
+		});
+
+		request.open('POST', 'send_popup.php', true);
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+		request.send('name= ' + encodeURIComponent(formData.name) + ' &secondName= ' + encodeURIComponent(formData.secondName) + ' &phone= ' + encodeURIComponent(formData.phone) + ' &email= ' + encodeURIComponent(formData.email));
+	});
+
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+	let formModule = document.querySelector('#second__modal__header');
+
+	formModule.addEventListener('submit', function(evt) {
+		evt.preventDefault();
+
+		let formData = {
+			name: document.querySelector('input[name="name"]').value,
+            phone: document.querySelector('input[name="phone"]').value,
+            secondName: document.querySelector('input[name="secondName"]').value,
+			email: document.querySelector('input[name="email"]').value,
+		};
+
+		let request = new XMLHttpRequest();
+
+		request.addEventListener('load', function() {
+			console.log(request.response);
+            let buttonClose = document.querySelector('.btn_popup_2');
+            let modalBody = formModule.querySelector('.modal-body');
+            modalBody.innerHTML = '<p style="font-size: 18px; color: #FFFFFF; text-align: center;">Спасибо! Мы обязательно свяжемся с вами!</p>'
+            buttonClose.dataset.dismiss = 'modal';
+            buttonClose.type = 'button';
+            buttonClose.innerHTML = 'Закрыть';
+            
+		});
+
+		request.open('POST', 'send_popup.php', true);
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+		request.send('name= ' + encodeURIComponent(formData.name) + ' &secondName= ' + encodeURIComponent(formData.secondName) + ' &phone= ' + encodeURIComponent(formData.phone) + ' &email= ' + encodeURIComponent(formData.email));
+	});
+
+});
+</script>
+
 
 <div class="modal fade" id="first__modal__header" tabindex="-1" aria-labelledby="modal__header__label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -35,7 +102,7 @@
                 <div class="modal-footer">
                     <div class="row">
                         <div class="col-xl-12">
-                            <button class="form_btn_popup" type="submit">Отправить заявку</button>
+                            <button class="form_btn_popup btn_popup_1" data-dismiss="none" type="submit">Отправить заявку</button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +147,7 @@
                 <div class="modal-footer">
                     <div class="row">
                         <div class="col-xl-12">
-                            <button class="form_btn_popup" type="submit">Отправить заявку</button>
+                            <button class="form_btn_popup btn_popup_2" data-dismiss="none" type="submit">Отправить заявку</button>
                         </div>
                     </div>
                 </div>

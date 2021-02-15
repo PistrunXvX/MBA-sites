@@ -17,7 +17,7 @@
 
 		request.addEventListener('load', function() {
 			console.log(request.response);
-			formModule.innerHTML = '<p> class="done_form">Спасибо! Мы обязательно свяжемся с вами!</p>';
+			formModule.innerHTML = '<p style="font-size: 18px; color: #FFFFFF">Спасибо! Мы обязательно свяжемся с вами!</p>';
 		});
 
 		request.open('POST', 'send.php', true);
