@@ -21,5 +21,18 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "sirv-cli": "^1.0.0"
-  }
+  },
+  "description": "",
+  "main": "rollup.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PistrunXvX/MBA-sites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PistrunXvX/MBA-sites/issues"
+  },
+  "homepage": "https://github.com/PistrunXvX/MBA-sites#readme"
 }

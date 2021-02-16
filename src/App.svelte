@@ -12,6 +12,7 @@
 	import Footer from './Footer.svelte';
 	import Modal from './ModalPopup.svelte';
 	import ModalVertical from './ModalPopupVertical.svelte';
+	import ThanksModal from './Thanks.svelte';
 
 	// Test
 	
@@ -166,6 +167,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	<Footer/>
 	<Modal/>
 	<ModalVertical/>
+	<ThanksModal/>
 </div>
 
 <style>

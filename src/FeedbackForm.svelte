@@ -1,4 +1,5 @@
 <script>
+
     let yes = false;
 
     window.addEventListener('DOMContentLoaded', function() {
@@ -16,8 +17,13 @@
 		let request = new XMLHttpRequest();
 
 		request.addEventListener('load', function() {
-			console.log(request.response);
-			formModule.innerHTML = '<p style="font-size: 18px; color: #FFFFFF">Спасибо! Мы обязательно свяжемся с вами!</p>';
+            let myModal = document.getElementById('thanksModal');
+            myModal.style.display = "block";
+            setTimeout(function () {
+                myModal.style.display = "none";
+            }, 2000);
+
+            formModule.reset();
 		});
 
 		request.open('POST', 'send.php', true);

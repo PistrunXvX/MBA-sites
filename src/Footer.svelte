@@ -1,3 +1,9 @@
+<script>
+
+    let date = new Date();
+    let dateYear = date.getFullYear();
+</script>
+
 <div class="footer_container" id="contacts">
     <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
@@ -29,7 +35,7 @@
                     <!-- <img src="/img/Logo_RSHU_footer.png" alt="Logo" class="img-fluid logo" /> -->
                     <div class="about_block__content">
                         <div class="first__stroke">
-                            <span class="first__stroke_text">© Русская Школа Управления, 2002-2020. Все права защищены и
+                            <span class="first__stroke_text">© Русская Школа Управления, 2002-{dateYear}. Все права защищены и
                                 охраняются законом.
                                 Все содержание курсов обучения, семинаров, тренингов, представленных на сайте
                                 www.uprav.ru, является уникальным и принадлежит РШУ.
