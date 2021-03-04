@@ -21,12 +21,12 @@
             myModal.style.display = "block";
             setTimeout(function () {
                 myModal.style.display = "none";
-            }, 2000);
+            }, 20000);
 
             formModule.reset();
 		});
 
-		request.open('POST', 'send.php', true);
+		request.open('POST', 'send_video.php', true);
 		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 		request.send('name= ' + encodeURIComponent(formData.name) + ' &phone= ' + encodeURIComponent(formData.phone) + ' &email= ' + encodeURIComponent(formData.email));
 	});
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-xl-5">
-                <form action="send.php" method='POST' id="form_ajax_1" class="form__send__module">
+                <form action="send_video.php" method='POST' id="form_ajax_1" class="form__send__module">
                     <div class="form-block">
                         <div class="row align-items-center">
                             <div class="col-xl-6">

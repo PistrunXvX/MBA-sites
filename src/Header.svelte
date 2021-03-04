@@ -150,7 +150,7 @@
     }
 
     .main__container{
-        background-image: url(/img/header_img.webp);
+        background-image: url(/img/header_img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         // background-attachment: fixed;
@@ -214,6 +214,8 @@
             animation: 0.3s ease-in 0s button_color_back;
             margin-top: 20px;
             margin-bottom: 20px;
+
+            -webkit-appearance: none;
         }
 
         a:hover{

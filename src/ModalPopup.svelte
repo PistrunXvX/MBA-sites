@@ -15,16 +15,35 @@ window.addEventListener('DOMContentLoaded', function() {
 		let request = new XMLHttpRequest();
 
 		request.addEventListener('load', function() {
+
             console.log(request.response);
             let buttonClose = document.querySelector('.btn_popup_1');
             let modalBody = formModule.querySelector('.modal-body');
-            modalBody.innerHTML = '<p style="font-size: 18px; color: #FFFFFF; text-align: center;">Спасибо! Мы обязательно свяжемся с вами!</p>'
+            modalBody.innerHTML = `<h4 style="color: #fff;">
+                                    Спасибо за уделенное время! <br>
+                                    Совсем скоро Вам позвонит менеджер проекта!
+                                </h4>
+                                <hr style="height: 3px;color: #fff;opacity: 1;">
+                                <div>
+                                    <h4 style="color: #fff;">Мы рады, что смогли быть полезны,
+                                    и подготовили для Вас дополнительные презенты</h4>
+                                    <hr style="height: 3px;color: #fff;opacity: 1; margin: 0 25%;">
+                                </div>
+                                <p style="color: #fff;"> Дарим Вам дополнительную <br>
+                                    скидку - <span style="color: #EA8E02;">10%</span> на программу <span style="color: #EA8E02;">Mini MBA. Классический</span>
+                                </p>
+                                <p style="color: #fff">Ваш специальный промокод: <span style="font-weight: bold;"> КУ10 </span></p>
+                                <p style="color: #fff; font-size: 12px;margin-top: 10px">
+                                    Вы можете воспользоваться скидкой сами или передарить ее коллегам, друзьям и партнерам <br>
+                                    На страницах наших социальных сетей, всегда есть актуальная и полезная игнформация для развития личных и бизнес компетенций <br>
+                                    Бизнес-лайфхаки, интересные статьи, рейтинги, аналитика и многое другое можно почитать на нашем <a href="https://uprav.ru/blog/">МЕДИАПОРТАЛЕ</a> 
+                                </p>`;
             buttonClose.dataset.dismiss = 'modal';
             buttonClose.type = 'button';
             buttonClose.innerHTML = 'Закрыть';
 		});
 
-		request.open('POST', 'send_popup.php', true);
+		request.open('POST', 'send_popup_in.php', true);
 		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 		request.send('name= ' + encodeURIComponent(formData.name) + ' &secondName= ' + encodeURIComponent(formData.secondName) + ' &phone= ' + encodeURIComponent(formData.phone) + ' &email= ' + encodeURIComponent(formData.email));
 	});
@@ -50,7 +69,25 @@ window.addEventListener('DOMContentLoaded', function() {
 			console.log(request.response);
             let buttonClose = document.querySelector('.btn_popup_2');
             let modalBody = formModule.querySelector('.modal-body');
-            modalBody.innerHTML = '<p style="font-size: 18px; color: #FFFFFF; text-align: center;">Спасибо! Мы обязательно свяжемся с вами!</p>'
+            modalBody.innerHTML = `<h4 style="color: #fff;">
+                                    Спасибо за уделенное время! <br>
+                                    Совсем скоро Вам позвонит менеджер проекта!
+                                </h4>
+                                <hr style="height: 3px;color: #fff;opacity: 1;">
+                                <div>
+                                    <h4 style="color: #fff;">Мы рады, что смогли быть полезны,
+                                    и подготовили для Вас дополнительные презенты</h4>
+                                    <hr style="height: 3px;color: #fff;opacity: 1; margin: 0 25%;">
+                                </div>
+                                <p style="color: #fff;"> Дарим Вам дополнительную <br>
+                                    скидку - <span style="color: #EA8E02;">10%</span> на программу <span style="color: #EA8E02;">Mini MBA. Классический</span>
+                                </p>
+                                <p style="color: #fff">Ваш специальный промокод: <span style="font-weight: bold;"> КУ10 </span></p>
+                                <p style="color: #fff; font-size: 12px;margin-top: 10px">
+                                    Вы можете воспользоваться скидкой сами или передарить ее коллегам, друзьям и партнерам <br>
+                                    На страницах наших социальных сетей, всегда есть актуальная и полезная игнформация для развития личных и бизнес компетенций <br>
+                                    Бизнес-лайфхаки, интересные статьи, рейтинги, аналитика и многое другое можно почитать на нашем <a href="https://uprav.ru/blog/">МЕДИАПОРТАЛЕ</a> 
+                                </p>`;
             buttonClose.dataset.dismiss = 'modal';
             buttonClose.type = 'button';
             buttonClose.innerHTML = 'Закрыть';
@@ -283,4 +320,6 @@ window.addEventListener('DOMContentLoaded', function() {
     #second__modal__header .modal-content{
         background-color: $darkBlue;
     }
+
+    
 </style>

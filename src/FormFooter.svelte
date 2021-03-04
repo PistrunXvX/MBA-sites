@@ -20,7 +20,7 @@
             myModal.style.display = "block";
             setTimeout(function () {
                 myModal.style.display = "none";
-            }, 2000);
+            }, 20000);
 
             formModule.reset();
 		});

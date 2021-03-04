@@ -36,7 +36,7 @@
             <article class="first__price price-card_animation" on:mouseover={setName_1} on:mouseout={returnName_1}>
                 <h3>Базовый</h3>
                 <p class="text__price">
-                    5 подключений* в день
+                    5 подключений в день
                     к платформе онлайн-
                     трансляции
                 </p>
@@ -52,7 +52,7 @@
             <article class="second__price price-card_animation" on:mouseover={setName_2} on:mouseout={returnName_2}>
                 <h3>Расширенный</h3>
                 <p class="text__price">
-                    10 подключений* в день
+                    10 подключений в день
                     к платформе онлайн-
                     трансляции
                 </p>
